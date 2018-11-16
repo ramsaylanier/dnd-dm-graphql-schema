@@ -1,12 +1,18 @@
 {
   "name": "dnd-dm-graphql-schema",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "GraphQL Schema for D&D DMs",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack --config ./webpack.config.js",
-    "start": "npm run build && node ./dist/bundle.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf ./lib && babel src -d lib --copy-files",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build"
+  },
+  "engines": {
+    "node": ">=8"
   },
   "repository": {
     "type": "git",
@@ -28,14 +34,12 @@
     "graphql-tools": "^4.0.3"
   },
   "devDependencies": {
+    "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.6",
     "@babel/node": "^7.0.0",
     "@babel/preset-env": "^7.1.6",
-    "babel-loader": "^8.0.4",
+    "babel-plugin-import-graphql": "^2.6.2",
     "cross-env": "^5.2.0",
-    "graphql-tag": "^2.10.0",
-    "webpack": "^4.25.1",
-    "webpack-cli": "^3.1.2",
-    "webpack-merge": "^4.1.4"
+    "graphql-tag": "^2.10.0"
   }
 }

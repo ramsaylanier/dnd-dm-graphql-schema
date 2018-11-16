@@ -1,5 +1,7 @@
 const generateMonsters = amount => {
-  Range(amount).map(i => {
+  console.log("generating monsters")
+  return [...Array(amount).keys()].map(i => {
+    console.log("HELLLO", i)
     const level = 1
     return generateMonster(level)
   })
@@ -20,7 +22,11 @@ const generateMonster = level => {
 const resolverMap = {
   Query: {
     battle(obj, {power}, context, info) {
-      return generateMonsters(power)
+      const monsters = generateMonsters(power)
+      console.log(monsters)
+      return monsters
     }
   }
 }
+
+export default resolverMap
