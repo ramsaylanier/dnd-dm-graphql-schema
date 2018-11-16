@@ -1,0 +1,18 @@
+type Monster {
+  type: String!,
+  level: Int!
+  initiative: Int!
+  weapon: String!
+  attack: Int!
+  hitpoints: Int!
+  armorclass: Int!
+}
+
+type Npc {
+  id: Int!
+  name: String!
+}
+
+type Query{
+  battle(power: Int!): [Monster]
+}

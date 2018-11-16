@@ -1,0 +1,41 @@
+{
+  "name": "dnd-dm-graphql-schema",
+  "version": "1.0.0",
+  "description": "GraphQL Schema for D&D DMs",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config ./webpack.config.js",
+    "start": "npm run build && node ./dist/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramsaylanier/dnd-dm-graphql-schema.git"
+  },
+  "keywords": [
+    "D&D",
+    "GraphQL",
+    "Schema"
+  ],
+  "author": "Ramsay Lanier & Jesse Florig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramsaylanier/dnd-dm-graphql-schema/issues"
+  },
+  "homepage": "https://github.com/ramsaylanier/dnd-dm-graphql-schema#readme",
+  "dependencies": {
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.4",
+    "cross-env": "^5.2.0",
+    "graphql-tag": "^2.10.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-merge": "^4.1.4"
+  }
+}
