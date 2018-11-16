@@ -1,6 +1,6 @@
 {
   "name": "dnd-dm-graphql-schema",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "GraphQL Schema for D&D DMs",
   "main": "./lib/index.js",
   "files": [
