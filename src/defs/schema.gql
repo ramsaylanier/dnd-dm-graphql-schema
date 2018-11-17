@@ -2,8 +2,9 @@ interface Character{
   name: String!
   level: Int!
   weapons: [Weapon]
-  attack: Int!
+  attacks: [Attack]
   armor: Armor
+  equipment: [Item]
   initiative: Int!
   hitpointDice: String!
   hitpoints: Int!
@@ -11,12 +12,22 @@ interface Character{
   speed: Int!
 }
 
+interface Item{
+  name: String!
+  type: itemType
+  cost: String!
+  weight: Int!
+  description: String!
+  tags: [String]
+}
+
 type Monster implements Character{
   name: String!
   level: Int!
   weapons: [Weapon]
-  attack: Int!
+  attacks: [Attack]
   armor: Armor
+  equipment: [Item]
   initiative: Int!
   hitpointDice: String!
   hitpoints: Int!
@@ -29,8 +40,9 @@ type Npc implements Character{
   name: String!
   level: Int!
   weapons: [Weapon]
-  attack: Int!
+  attacks: [Attack]
   armor: Armor
+  equipment: [Item]
   initiative: Int!
   hitpointDice: String!
   hitpoints: Int!
@@ -38,6 +50,13 @@ type Npc implements Character{
   speed: Int!
   occupation: String!
   hometown: String!
+}
+
+type Attack{
+  name: String!
+  item: Item
+  hitDice: String!
+  damageDice: String!
 }
 
 type Attributes{
@@ -51,25 +70,77 @@ type Attributes{
   hitpointDice: String!
 }
 
-type Weapon{
+type Weapon implements Item{
   name: String!
-  type: String!
-  damage: String!
+  type: itemType
+  cost: String!
+  description: String!
+  damageDice: String!
+  damageType: damageType
   weight: Int!
   range: String
   handedness: handedness
+  tags: [String]
 }
 
-type Armor{
+type Armor implements Item{
   name: String!
+  type: itemType
+  cost: String!
+  description: String!
+  weight: Int!
   armorClass: Int!
+  resistance: damageType
+  tags: [String]
 }
 
 type Encounter{
   xpThreshold: Int!
 }
 
-enum environments{
+type Conversion{
+  CP: Float!
+  SP: Float!
+  EC: Float!
+  GP: Float!
+  PP: Float!
+}
+
+enum itemType{
+  ADVENTURINGGEAR
+  AMMUNITION
+  AXE
+  HEAVYARMOR
+  LIGHTARMOR
+  MEDIUMARMOR
+  MELEEWEAPON
+  MUNDANE
+  RANGEDWEAPON
+  RING
+  SCROLL
+  SHIELD
+  SWORD
+  WAND
+  WONDROUS
+}
+
+enum damageType{
+  ACID
+  BLUDGEONING
+  COLD
+  FIRE
+  FORCE
+  LIGHTNING
+  NECTROTIC
+  PIERCING
+  POISONG
+  PSYCHIC
+  RADIANT
+  SLASHING
+  THUNDER
+}
+
+enum environment{
   ALL
   PLAINS
   FOREST
@@ -83,19 +154,28 @@ enum environments{
   ABYSS
 }
 
-enum handedness {
+enum handedness{
   ONEHANDED
   TWOHANDED
   VERSATILE
 }
 
-enum encounterDifficulties {
+enum encounterDifficulty{
   EASY
   MEDIUM
   HARD
   DEADLY
 }
 
+enum currency{
+  CP
+  SP
+  EC
+  GD
+  PP
+}
+
 type Query{
-  encounter(playerLevels: [Int!], difficulty: encounterDifficulties!): Encounter
+  encounter(playerLevels: [Int!], difficulty: encounterDifficulty!): Encounter
+  exchangeRate(amount: Int!, currency: currency!): Conversion
 }
