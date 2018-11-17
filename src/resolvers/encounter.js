@@ -10,7 +10,6 @@ const determineXpBudget = (playerLevels, difficulty) => {
 
 const generateEncounter = ({ playerLevels, difficulty }) => {
   const xpThreshold = determineXpBudget(playerLevels, difficulty)
-  console.log(xpThreshold)
   return {
     xpThreshold
   }

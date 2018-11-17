@@ -4,7 +4,6 @@ const resolverMap = {
   Query: {
     encounter(obj, args, context, info) {
       const encounter = generateEncounter(args)
-      console.log(encounter)
       return encounter
     }
   }
