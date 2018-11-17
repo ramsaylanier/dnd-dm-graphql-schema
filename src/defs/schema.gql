@@ -1,18 +1,101 @@
-type Monster {
-  type: String!,
+interface Character{
+  name: String!
   level: Int!
-  initiative: Int!
-  weapon: String!
+  weapons: [Weapon]
   attack: Int!
+  armor: Armor
+  initiative: Int!
+  hitpointDice: String!
   hitpoints: Int!
-  armorclass: Int!
+  attributes: Attributes
+  speed: Int!
 }
 
-type Npc {
-  id: Int!
+type Monster implements Character{
   name: String!
+  level: Int!
+  weapons: [Weapon]
+  attack: Int!
+  armor: Armor
+  initiative: Int!
+  hitpointDice: String!
+  hitpoints: Int!
+  attributes: Attributes
+  speed: Int!
+  locations: [String!]
+}
+
+type Npc implements Character{
+  name: String!
+  level: Int!
+  weapons: [Weapon]
+  attack: Int!
+  armor: Armor
+  initiative: Int!
+  hitpointDice: String!
+  hitpoints: Int!
+  attributes: Attributes
+  speed: Int!
+  occupation: String!
+  hometown: String!
+}
+
+type Attributes{
+  str: Int!
+  dex: Int!
+  con: Int!
+  int: Int!
+  wis: Int!
+  cha: Int!
+  hitpoints: Int!
+  hitpointDice: String!
+}
+
+type Weapon{
+  name: String!
+  type: String!
+  damage: String!
+  weight: Int!
+  range: String
+  handedness: handedness
+}
+
+type Armor{
+  name: String!
+  armorClass: Int!
+}
+
+type Encounter{
+  xpThreshold: Int!
+}
+
+enum environments{
+  ALL
+  PLAINS
+  FOREST
+  HILLS
+  MOUNTAINS
+  MARSH
+  DESERT
+  UNDERGROUND
+  AQUATIC
+  UNDERDARK
+  ABYSS
+}
+
+enum handedness {
+  ONEHANDED
+  TWOHANDED
+  VERSATILE
+}
+
+enum encounterDifficulties {
+  EASY
+  MEDIUM
+  HARD
+  DEADLY
 }
 
 type Query{
-  battle(power: Int!): [Monster]
+  encounter(playerLevels: [Int!], difficulty: encounterDifficulties!): Encounter
 }
