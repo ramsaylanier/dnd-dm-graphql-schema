@@ -30,7 +30,7 @@ export function createMonster(monsterProps) {
   })
 }
 
-export async function seedMonsters(monsters) {
+export function seedMonsters(monsters) {
   return Monster.insertMany(monsters)
 }
 
