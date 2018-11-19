@@ -9,6 +9,7 @@
   "scripts": {
     "build": "rm -rf ./lib && babel src -d lib --copy-files",
     "build:watch": "nodemon --exec npm run build --watch ./src",
+    "seed": "babel-node ./src/seed",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./src",
     "prepublish": "npm run build"
