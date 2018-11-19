@@ -96,6 +96,7 @@ type Armor implements Item{
 
 type Encounter{
   xpThreshold: Int!
+  monsters: [Monster]!
 }
 
 type Conversion{
@@ -176,6 +177,6 @@ enum currency{
 }
 
 type Query{
-  encounter(playerLevels: [Int!], difficulty: encounterDifficulty!): Encounter
+  encounter(playerLevels: [Int!], difficulty: encounterDifficulty!, environment: environment, maxMonsters: Int ): Encounter
   exchangeRate(amount: Int!, currency: currency!): Conversion
 }
