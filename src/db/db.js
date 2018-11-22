@@ -1,9 +1,16 @@
 import mongoose from "mongoose"
-mongoose.connect(
-  "mongodb://localhost/",
-  { dbName: "dnd-dm" }
-)
 
-const db = mongoose.connection
+export function connectDb({ host, dbName }) {
+  mongoose.connect(
+    host,
+    { dbName }
+  )
 
-export default db
+  const db = mongoose.connection
+
+  db.once("open", () => {
+    console.log(`connected database ${dbName} at ${host}`)
+  })
+  db.on("error", console.error.bind(console, "connection error:"))
+  return db
+}

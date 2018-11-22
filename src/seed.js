@@ -1,13 +1,11 @@
 import monsterData from "../data/monsters.json"
 import camelcaseKeys from "camelcase-keys"
-import db from "./db/db"
+import connectDatabase from "./db/db"
 import { seedMonsters } from "./db/models/Monster"
 
-db.on("error", console.error.bind(console, "connection error:"))
-db.once("open", () => {
-  console.log("mongodb connected!")
-})
+connectDatabase()
 
+const fractionStrToDecimal = str => str.split("/").reduce((p, c) => p / c)
 const monsters = camelcaseKeys(monsterData).map(monster => {
   const {
     name,
@@ -31,7 +29,6 @@ const monsters = camelcaseKeys(monsterData).map(monster => {
     skills,
     senses,
     languages,
-    challenge,
     traits,
     damageImmunities,
     actions
@@ -52,6 +49,12 @@ const monsters = camelcaseKeys(monsterData).map(monster => {
     chaMod
   }
 
+  // probably could do better than this to convert. example: 1/4 (50 XP) => 1/4 50
+  const challengeRe = /(\d\/?\d?)(\s)(\()(\S+)(.+)/g
+  let challengeMatch = challengeRe.exec(monster.challenge)
+  const challenge = fractionStrToDecimal(challengeMatch[1])
+  const challengeXp = parseInt(challengeMatch[4].replace(",", ""))
+
   return {
     name,
     meta,
@@ -66,7 +69,8 @@ const monsters = camelcaseKeys(monsterData).map(monster => {
     damageImmunities,
     senses,
     languages,
-    challenge: parseInt(challenge),
+    challenge,
+    challengeXp,
     traits,
     actions,
     locations: ["any"]
@@ -78,7 +82,8 @@ async function seedDatabase() {
   const seededMonsters = await seedMonsters(monsters)
   console.log(`${seededMonsters.length} monsters created`)
 
-  db.close()
+  await db.close()
+  console.log("mongodb connection closed")
 }
 
 seedDatabase()

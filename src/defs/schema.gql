@@ -36,6 +36,7 @@ type Monster{
   senses: String
   languages: String
   challenge: Int
+  challengeXp: Int
   traits: String
   actions: String
   locations: [String]
@@ -189,7 +190,13 @@ enum currency{
   PP
 }
 
+input filterType{
+  field: String!
+  value: String!
+}
+
 type Query{
+  searchMonsters(filters: [filterType], limit: Int, skip: Int): [Monster]
   encounter(playerLevels: [Int!], difficulty: encounterDifficulty!): Encounter
   exchangeRate(amount: Int!, currency: currency!): Conversion
 }

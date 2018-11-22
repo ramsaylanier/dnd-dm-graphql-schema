@@ -15,6 +15,7 @@ export const monsterSchema = new mongoose.Schema({
   senses: String,
   languages: String,
   challenge: Number,
+  challengeXp: Number,
   traits: String,
   actions: String,
   locations: [String]
