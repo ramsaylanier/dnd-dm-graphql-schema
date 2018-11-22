@@ -1,3 +1,5 @@
+scalar ObjectScalarType
+
 interface Character{
   name: String!
   level: Int!
@@ -35,7 +37,7 @@ type Monster{
   damageImmunities: String
   senses: String
   languages: String
-  challenge: Int
+  challenge: Float
   challengeXp: Int
   traits: String
   actions: String
@@ -190,13 +192,19 @@ enum currency{
   PP
 }
 
-input filterType{
-  field: String!
-  value: String!
+enum OperationType {
+  EQL
+  GT
+  GTE
+  IN
+  LT
+  LTE
+  NE
+  NIN
 }
 
 type Query{
-  searchMonsters(filters: [filterType], limit: Int, skip: Int): [Monster]
+  searchMonsters(filter: ObjectScalarType, sort: ObjectScalarType): [Monster]
   encounter(playerLevels: [Int!], difficulty: encounterDifficulty!): Encounter
   exchangeRate(amount: Int!, currency: currency!): Conversion
 }

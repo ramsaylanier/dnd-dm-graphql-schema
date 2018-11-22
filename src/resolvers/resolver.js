@@ -1,6 +1,7 @@
 import { generateEncounter } from "./encounter"
 import { convertCurrency } from "./exchangeRate"
 import { searchMonsters } from "./monsters"
+import { ObjectScalarType } from "./helpers"
 
 const resolverMap = {
   Query: {
@@ -12,9 +13,20 @@ const resolverMap = {
       const conversion = convertCurrency(args)
       return conversion
     },
-    searchMonsters(obj, { filters }, context, info) {
-      return searchMonsters({ filters })
+    searchMonsters(obj, { filter, sort }, context, info) {
+      return searchMonsters({ filter, sort })
     }
+  },
+  ObjectScalarType: ObjectScalarType,
+  OperationType: {
+    EQL: "$eq",
+    GT: "$gt",
+    GTE: "$gte",
+    IN: "$in",
+    LT: "$lt",
+    LTE: "$lt",
+    NE: "$ne",
+    NIN: "$ni"
   }
 }
 
