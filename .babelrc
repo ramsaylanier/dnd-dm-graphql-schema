@@ -1,6 +1,25 @@
 {
   "presets": [
-    "@babel/preset-env"
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "10.10",
+          "browsers": [
+            "last 2 versions",
+            "ios_saf >= 8",
+            "not IE <= 10",
+            "chrome >= 49",
+            "firefox >= 49",
+            "> 1%"
+          ]
+        },
+        "debug": false,
+        "loose": true,
+        "modules": "commonjs",
+        "useBuiltIns": "entry"
+      }
+    ]
   ],
   "plugins": [
     "import-graphql"

@@ -1,3 +1,5 @@
+scalar ObjectScalarType
+
 interface Character{
   name: String!
   level: Int!
@@ -21,19 +23,25 @@ interface Item{
   tags: [String]
 }
 
-type Monster implements Character{
+type Monster{
   name: String!
-  level: Int!
-  weapons: [Weapon]
-  attacks: [Attack]
+  meta: String
+  armorClass: Int
   armor: Armor
-  equipment: [Item]
-  initiative: Int!
   hitpointDice: String!
   hitpoints: Int!
-  attributes: Attributes
-  speed: Int!
-  locations: [String!]
+  speed: String!
+  stats: StatBlock!
+  savingThrows: String
+  skills: String
+  damageImmunities: String
+  senses: String
+  languages: String
+  challenge: Float
+  challengeXp: Int
+  traits: String
+  actions: String
+  environments: [String]
 }
 
 type Npc implements Character{
@@ -59,13 +67,22 @@ type Attack{
   damageDice: String!
 }
 
-type Attributes{
+type StatBlock{
   str: Int!
+  strMod: String!
   dex: Int!
+  dexMod: String!
   con: Int!
+  conMod: String!
   int: Int!
+  intMod: String!
   wis: Int!
+  wisMod: String!
   cha: Int!
+  chaMod: String!
+}
+
+type Attributes{
   hitpoints: Int!
   hitpointDice: String!
 }
@@ -153,6 +170,7 @@ enum environment{
   AQUATIC
   UNDERDARK
   ABYSS
+  COASTAL
 }
 
 enum handedness{
@@ -176,7 +194,23 @@ enum currency{
   PP
 }
 
+enum OperationType {
+  EQL
+  GT
+  GTE
+  IN
+  LT
+  LTE
+  NE
+  NIN
+}
+
 type Query{
+<<<<<<< HEAD
   encounter(playerLevels: [Int!], difficulty: encounterDifficulty!, environment: environment, maxMonsters: Int ): Encounter
+=======
+  searchMonsters(filter: ObjectScalarType, sort: ObjectScalarType): [Monster]
+  encounter(playerLevels: [Int!], difficulty: encounterDifficulty!): Encounter
+>>>>>>> update-monster-schema
   exchangeRate(amount: Int!, currency: currency!): Conversion
 }

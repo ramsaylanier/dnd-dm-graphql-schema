@@ -1,0 +1,7157 @@
+{
+  "Gray Render": {
+    "alignment": "CN",
+    "challenge": "12",
+    "size": "Large",
+    "name": "Gray Render",
+    "xp": "8400",
+    "type": "Monstrosity",
+    "page": "mtf 209",
+    "environment": { "Forest": "yes", "Hill": "yes" }
+  },
+  "Young Blue Dragon": {
+    "challenge": "9",
+    "alignment": "LE",
+    "name": "Young Blue Dragon",
+    "size": "Large",
+    "type": "Dragon",
+    "xp": "5000",
+    "page": "mm 91",
+    "environment": { "Desert": "yes", "Coastal": "yes" }
+  },
+  "Quaggoth Spore Servant": {
+    "page": "mm 230",
+    "environment": { "Underdark": "yes" },
+    "xp": "200",
+    "type": "Plant",
+    "name": "Quaggoth Spore Servant",
+    "size": "Medium",
+    "challenge": "1",
+    "alignment": "Unaligned"
+  },
+  "Young Black Dragon": {
+    "page": "mm 88",
+    "environment": { "Swamp": "yes" },
+    "type": "Dragon",
+    "xp": "2900",
+    "size": "Large",
+    "name": "Young Black Dragon",
+    "alignment": "CE",
+    "challenge": "7"
+  },
+  "Zombie": {
+    "size": "Medium",
+    "name": "Zombie",
+    "alignment": "NE",
+    "challenge": "1/4",
+    "environment": { "Urban": "yes" },
+    "page": "mm 316",
+    "xp": "50",
+    "type": "Undead"
+  },
+  "Warhorse Skeleton": {
+    "size": "Large",
+    "page": "mm 273",
+    "name": "Warhorse Skeleton",
+    "type": "Undead",
+    "xp": "100",
+    "alignment": "LE",
+    "challenge": "1/2"
+  },
+  "Winged Kobold": {
+    "type": "Humanoid",
+    "xp": "50",
+    "environment": {
+      "Hill": "yes",
+      "Arctic": "yes",
+      "Desert": "yes",
+      "Urban": "yes",
+      "Underdark": "yes",
+      "Coastal": "yes",
+      "Swamp": "yes",
+      "Mountain": "yes",
+      "Forest": "yes"
+    },
+    "page": "mm 195",
+    "tags": "kobold",
+    "challenge": "1/4",
+    "alignment": "LE",
+    "name": "Winged Kobold",
+    "size": "Small"
+  },
+  "Frost Giant Everlasting One": {
+    "page": "vgm 148",
+    "environment": { "Coastal": "yes", "Arctic": "yes" },
+    "xp": "8400",
+    "type": "Giant",
+    "name": "Frost Giant Everlasting One",
+    "size": "Huge",
+    "challenge": "12",
+    "tags": "frost giant",
+    "alignment": "CE"
+  },
+  "Ape": {
+    "page": "mm 317",
+    "environment": { "Forest": "yes" },
+    "type": "Beast",
+    "xp": "100",
+    "name": "Ape",
+    "size": "Medium",
+    "challenge": "1/2",
+    "alignment": "Unaligned"
+  },
+  "Bone Devil": {
+    "tags": "devil",
+    "challenge": "9",
+    "alignment": "LE",
+    "name": "Bone Devil",
+    "size": "Large",
+    "type": "Fiend",
+    "xp": "5000",
+    "page": "mm 71"
+  },
+  "Sibriex": {
+    "page": "mtf 137",
+    "environment": { "Underdark": "yes" },
+    "xp": "20000",
+    "type": "Fiend",
+    "size": "Huge",
+    "name": "Sibriex",
+    "alignment": "CE",
+    "challenge": "18",
+    "tags": "demon"
+  },
+  "Sahuagin Baron": {
+    "page": "mm 264",
+    "environment": { "Coastal": "yes", "Underwater": "yes" },
+    "xp": "1800",
+    "type": "Humanoid",
+    "name": "Sahuagin Baron",
+    "size": "Large",
+    "challenge": "5",
+    "tags": "sahuagin",
+    "alignment": "LE"
+  },
+  "Quasit": {
+    "xp": "200",
+    "type": "Fiend",
+    "page": "mm 63",
+    "tags": "demon, shapechanger",
+    "challenge": "1",
+    "alignment": "CE",
+    "name": "Quasit",
+    "size": "Tiny"
+  },
+  "Black Dragon Wyrmling": {
+    "xp": "450",
+    "type": "Dragon",
+    "alignment": "CE",
+    "challenge": "2",
+    "size": "Medium",
+    "page": "mm 88",
+    "name": "Black Dragon Wyrmling"
+  },
+  "Velociraptor": {
+    "environment": { "Grassland": "yes", "Forest": "yes" },
+    "page": "vgm 140",
+    "xp": "50",
+    "type": "Beast",
+    "name": "Velociraptor",
+    "size": "Tiny",
+    "challenge": "1/4",
+    "alignment": "Unaligned"
+  },
+  "Harpy": {
+    "size": "Medium",
+    "name": "Harpy",
+    "alignment": "CE",
+    "challenge": "1",
+    "page": "mm 181",
+    "environment": {
+      "Hill": "yes",
+      "Coastal": "yes",
+      "Mountain": "yes",
+      "Forest": "yes"
+    },
+    "xp": "200",
+    "type": "Monstrosity"
+  },
+  "Bronze Dragon Wyrmling": {
+    "challenge": "2",
+    "xp": "450",
+    "type": "Dragon",
+    "alignment": "LG",
+    "name": "Bronze Dragon Wyrmling",
+    "size": "Medium",
+    "page": "mm 109"
+  },
+  "Oinoloth": {
+    "type": "Fiend",
+    "xp": "8400",
+    "environment": { "Desert": "yes", "Underdark": "yes" },
+    "page": "mtf 251",
+    "tags": "yugoloth",
+    "challenge": "12",
+    "alignment": "NE",
+    "name": "Oinoloth",
+    "size": "Medium"
+  },
+  "Ogre Battering Ram": {
+    "page": "mtf 220",
+    "environment": { "Hill": "yes", "Mountain": "yes", "Grassland": "yes" },
+    "xp": "1100",
+    "type": "Giant",
+    "size": "Large",
+    "name": "Ogre Battering Ram",
+    "alignment": "CE",
+    "challenge": "4"
+  },
+  "Otyugh": {
+    "xp": "1800",
+    "type": "Aberration",
+    "page": "mm 248",
+    "environment": { "Underdark": "yes" },
+    "challenge": "5",
+    "alignment": "N",
+    "name": "Otyugh",
+    "size": "Large"
+  },
+  "Green Dragon Wyrmling": {
+    "page": "mm 95",
+    "size": "Medium",
+    "name": "Green Dragon Wyrmling",
+    "alignment": "LE",
+    "xp": "450",
+    "type": "Dragon",
+    "challenge": "2"
+  },
+  "Tridrone": {
+    "type": "Construct",
+    "xp": "100",
+    "alignment": "LN",
+    "challenge": "1/2",
+    "size": "Medium",
+    "page": "mm 225",
+    "name": "Tridrone"
+  },
+  "Babau": {
+    "type": "Fiend",
+    "xp": "1100",
+    "environment": { "Urban": "yes", "Underdark": "yes" },
+    "page": "vgm 136",
+    "tags": "demon",
+    "challenge": "4",
+    "alignment": "CE",
+    "name": "Babau",
+    "size": "Medium"
+  },
+  "Wastrilith": {
+    "alignment": "CE",
+    "challenge": "13",
+    "tags": "demon",
+    "size": "Large",
+    "name": "Wastrilith",
+    "type": "Fiend",
+    "xp": "10000",
+    "page": "mtf 139",
+    "environment": {
+      "Coastal": "yes",
+      "Underwater": "yes",
+      "Underdark": "yes",
+      "Swamp": "yes"
+    }
+  },
+  "Quetzalcoatlus": {
+    "xp": "450",
+    "type": "Beast",
+    "page": "vgm 140",
+    "environment": { "Coastal": "yes", "Hill": "yes", "Mountain": "yes" },
+    "alignment": "Unaligned",
+    "challenge": "2",
+    "size": "Huge",
+    "name": "Quetzalcoatlus"
+  },
+  "Gray Slaad": {
+    "alignment": "CN",
+    "challenge": "9",
+    "tags": "shapechanger",
+    "size": "Medium",
+    "name": "Gray Slaad",
+    "type": "Aberration",
+    "xp": "5000",
+    "page": "mm 277",
+    "environment": { "Urban": "yes" }
+  },
+  "Kuo-toa Archpriest": {
+    "size": "Medium",
+    "name": "Kuo-toa Archpriest",
+    "alignment": "NE",
+    "challenge": "6",
+    "tags": "kuo-toa",
+    "page": "mm 200",
+    "environment": { "Underdark": "yes" },
+    "xp": "2300",
+    "type": "Humanoid"
+  },
+  "Fire Giant Dreadnought": {
+    "xp": "11500",
+    "type": "Giant",
+    "environment": { "Mountain": "yes", "Underdark": "yes" },
+    "page": "vgm 147",
+    "alignment": "LE",
+    "tags": "fire giant",
+    "challenge": "14",
+    "size": "Huge",
+    "name": "Fire Giant Dreadnought"
+  },
+  "Hobgoblin Iron Shadow": {
+    "xp": "450",
+    "type": "Humanoid",
+    "environment": { "Forest": "yes", "Grassland": "yes", "Hill": "yes" },
+    "page": "vgm 162",
+    "tags": "goblinoid",
+    "challenge": "2",
+    "alignment": "LE",
+    "name": "Hobgoblin Iron Shadow",
+    "size": "Medium"
+  },
+  "Umber Hulk": {
+    "challenge": "5",
+    "alignment": "CE",
+    "name": "Umber Hulk",
+    "size": "Large",
+    "xp": "1800",
+    "type": "Monstrosity",
+    "page": "mm 292",
+    "environment": { "Underdark": "yes" }
+  },
+  "Giant Crocodile": {
+    "xp": "1800",
+    "type": "Beast",
+    "environment": { "Swamp": "yes" },
+    "page": "mm 324",
+    "challenge": "5",
+    "alignment": "Unaligned",
+    "name": "Giant Crocodile",
+    "size": "Huge"
+  },
+  "Vine Blight": {
+    "name": "Vine Blight",
+    "size": "Medium",
+    "challenge": "1/2",
+    "alignment": "NE",
+    "environment": { "Forest": "yes" },
+    "page": "mm 32",
+    "xp": "100",
+    "type": "Plant"
+  },
+  "Beholder Zombie": {
+    "size": "Large",
+    "name": "Beholder Zombie",
+    "alignment": "NE",
+    "challenge": "5",
+    "environment": { "Underdark": "yes" },
+    "page": "mm 316",
+    "xp": "1800",
+    "type": "Undead"
+  },
+  "Dretch": {
+    "page": "mm 57",
+    "type": "Fiend",
+    "xp": "50",
+    "name": "Dretch",
+    "size": "Small",
+    "challenge": "1/4",
+    "tags": "demon",
+    "alignment": "CE"
+  },
+  "Goblin Boss": {
+    "name": "Goblin Boss",
+    "size": "Small",
+    "tags": "goblinoid",
+    "challenge": "1",
+    "alignment": "NE",
+    "environment": {
+      "Hill": "yes",
+      "Grassland": "yes",
+      "Forest": "yes",
+      "Underdark": "yes"
+    },
+    "page": "mm 166",
+    "xp": "200",
+    "type": "Humanoid"
+  },
+  "Giant Spider": {
+    "page": "mm 328",
+    "environment": {
+      "Urban": "yes",
+      "Desert": "yes",
+      "Swamp": "yes",
+      "Forest": "yes",
+      "Underdark": "yes"
+    },
+    "type": "Beast",
+    "xp": "200",
+    "size": "Large",
+    "name": "Giant Spider",
+    "alignment": "Unaligned",
+    "challenge": "1"
+  },
+  "Nilbog": {
+    "xp": "200",
+    "type": "Humanoid",
+    "page": "vgm 182",
+    "environment": { "Hill": "yes", "Forest": "yes", "Underdark": "yes" },
+    "alignment": "CE",
+    "challenge": "1",
+    "tags": "goblinoid",
+    "size": "Small",
+    "name": "Nilbog"
+  },
+  "Orc Claw of Luthic": {
+    "type": "Humanoid",
+    "xp": "450",
+    "page": "vgm 183",
+    "environment": { "Mountain": "yes", "Underdark": "yes" },
+    "alignment": "CE",
+    "challenge": "2",
+    "tags": "orc",
+    "size": "Medium",
+    "name": "Orc Claw of Luthic"
+  },
+  "Howler": {
+    "challenge": "8",
+    "alignment": "CE",
+    "name": "Howler",
+    "size": "Large",
+    "xp": "3900",
+    "type": "Fiend",
+    "page": "mtf 210",
+    "environment": {
+      "Underdark": "yes",
+      "Grassland": "yes",
+      "Desert": "yes",
+      "Hill": "yes"
+    }
+  },
+  "Imp": {
+    "challenge": "1",
+    "tags": "devil, shapechanger",
+    "alignment": "LE",
+    "name": "Imp",
+    "size": "Tiny",
+    "type": "Fiend",
+    "xp": "200",
+    "page": "mm 76"
+  },
+  "Cyclops": {
+    "size": "Huge",
+    "name": "Cyclops",
+    "alignment": "CN",
+    "challenge": "6",
+    "environment": {
+      "Underdark": "yes",
+      "Mountain": "yes",
+      "Grassland": "yes",
+      "Desert": "yes",
+      "Coastal": "yes",
+      "Hill": "yes"
+    },
+    "page": "mm 45",
+    "xp": "2300",
+    "type": "Giant"
+  },
+  "Bulette": {
+    "environment": { "Hill": "yes", "Mountain": "yes", "Grassland": "yes" },
+    "page": "mm 34",
+    "xp": "1800",
+    "type": "Monstrosity",
+    "size": "Large",
+    "name": "Bulette",
+    "alignment": "Unaligned",
+    "challenge": "5"
+  },
+  "Fire Giant": {
+    "page": "mm 154",
+    "environment": { "Underdark": "yes", "Mountain": "yes" },
+    "xp": "5000",
+    "type": "Giant",
+    "name": "Fire Giant",
+    "size": "Huge",
+    "challenge": "9",
+    "alignment": "LE"
+  },
+  "Ultroloth": {
+    "page": "mm 314",
+    "xp": "10000",
+    "type": "Fiend",
+    "name": "Ultroloth",
+    "size": "Medium",
+    "challenge": "13",
+    "tags": "yugoloth",
+    "alignment": "NE"
+  },
+  "Drow Mage": {
+    "page": "mm 129",
+    "environment": { "Underdark": "yes" },
+    "xp": "2900",
+    "type": "Humanoid",
+    "name": "Drow Mage",
+    "size": "Medium",
+    "challenge": "7",
+    "tags": "elf",
+    "alignment": "NE"
+  },
+  "Banshee": {
+    "xp": "1100",
+    "type": "Undead",
+    "environment": { "Forest": "yes", "Coastal": "yes" },
+    "page": "mm 23",
+    "alignment": "CE",
+    "challenge": "4",
+    "size": "Medium",
+    "name": "Banshee"
+  },
+  "Quadrone": {
+    "challenge": "1",
+    "type": "Construct",
+    "xp": "200",
+    "alignment": "LN",
+    "name": "Quadrone",
+    "page": "mm 226",
+    "size": "Medium"
+  },
+  "Tarrasque": {
+    "tags": "titan",
+    "challenge": "30",
+    "alignment": "Unaligned",
+    "name": "Tarrasque",
+    "size": "Gargantuan",
+    "xp": "155000",
+    "type": "Monstrosity",
+    "environment": { "Urban": "yes" },
+    "page": "mm 286"
+  },
+  "Lizardfolk": {
+    "page": "mm 204",
+    "environment": { "Swamp": "yes", "Forest": "yes" },
+    "type": "Humanoid",
+    "xp": "100",
+    "name": "Lizardfolk",
+    "size": "Medium",
+    "challenge": "1/2",
+    "tags": "lizardfolk",
+    "alignment": "N"
+  },
+  "Panther": {
+    "size": "Medium",
+    "name": "Panther",
+    "alignment": "Unaligned",
+    "challenge": "1/4",
+    "page": "mm 333",
+    "environment": { "Hill": "yes", "Forest": "yes", "Grassland": "yes" },
+    "xp": "50",
+    "type": "Beast"
+  },
+  "Unicorn": {
+    "name": "Unicorn",
+    "size": "Large",
+    "challenge": "5",
+    "alignment": "LG",
+    "page": "mm 294",
+    "environment": { "Forest": "yes" },
+    "xp": "1800",
+    "type": "Celestial"
+  },
+  "Djinni": {
+    "alignment": "CG",
+    "challenge": "11",
+    "size": "Large",
+    "name": "Djinni",
+    "type": "Elemental",
+    "xp": "7200",
+    "environment": { "Coastal": "yes" },
+    "page": "mm 144"
+  },
+  "Marid": {
+    "alignment": "CN",
+    "challenge": "11",
+    "size": "Large",
+    "name": "Marid",
+    "xp": "7200",
+    "type": "Elemental",
+    "page": "mm 146",
+    "environment": { "Underwater": "yes", "Coastal": "yes" }
+  },
+  "Ghast": {
+    "environment": { "Urban": "yes", "Underdark": "yes", "Swamp": "yes" },
+    "page": "mm 148",
+    "xp": "450",
+    "type": "Undead",
+    "size": "Medium",
+    "name": "Ghast",
+    "alignment": "CE",
+    "challenge": "2"
+  },
+  "Gnoll Flesh Gnawer": {
+    "size": "Medium",
+    "name": "Gnoll Flesh Gnawer",
+    "alignment": "CE",
+    "tags": "gnoll",
+    "challenge": "1",
+    "environment": {
+      "Grassland": "yes",
+      "Forest": "yes",
+      "Hill": "yes",
+      "Arctic": "yes"
+    },
+    "page": "vgm 154",
+    "xp": "200",
+    "type": "Humanoid"
+  },
+  "Satyr": {
+    "type": "Fey",
+    "xp": "100",
+    "page": "mm 267",
+    "environment": { "Forest": "yes" },
+    "challenge": "1/2",
+    "alignment": "CN",
+    "name": "Satyr",
+    "size": "Medium"
+  },
+  "Drider": {
+    "name": "Drider",
+    "size": "Large",
+    "challenge": "6",
+    "alignment": "CE",
+    "page": "mm 120",
+    "environment": { "Underdark": "yes" },
+    "xp": "2300",
+    "type": "Monstrosity"
+  },
+  "Ogre Bolt Launcher": {
+    "name": "Ogre Bolt Launcher",
+    "size": "Large",
+    "challenge": "2",
+    "alignment": "CE",
+    "page": "mtf 220",
+    "environment": { "Mountain": "yes", "Grassland": "yes", "Hill": "yes" },
+    "xp": "450",
+    "type": "Giant"
+  },
+  "Giant Octopus": {
+    "size": "Large",
+    "name": "Giant Octopus",
+    "alignment": "Unaligned",
+    "challenge": "1",
+    "environment": { "Underwater": "yes" },
+    "page": "mm 326",
+    "type": "Beast",
+    "xp": "200"
+  },
+  "Ettin": {
+    "size": "Large",
+    "name": "Ettin",
+    "alignment": "CE",
+    "challenge": "4",
+    "page": "mm 132",
+    "environment": { "Underdark": "yes", "Mountain": "yes", "Hill": "yes" },
+    "xp": "1100",
+    "type": "Giant"
+  },
+  "Hezrou": {
+    "name": "Hezrou",
+    "size": "Large",
+    "tags": "demon",
+    "challenge": "8",
+    "alignment": "CE",
+    "page": "mm 60",
+    "xp": "3900",
+    "type": "Fiend"
+  },
+  "Lich (in lair)": {
+    "page": "mm 202",
+    "size": "Medium",
+    "name": "Lich",
+    "xp": "41000",
+    "alignment": "Any evil",
+    "type": "Undead",
+    "challenge": "22"
+  },
+  "Beholder (in lair)": {
+    "challenge": "14",
+    "xp": "11500",
+    "type": "Aberration",
+    "alignment": "LE",
+    "name": "Beholder",
+    "page": "mm 28",
+    "size": "Large"
+  },
+  "Oni": {
+    "xp": "2900",
+    "type": "Giant",
+    "page": "mm 239",
+    "environment": { "Urban": "yes", "Forest": "yes" },
+    "alignment": "LE",
+    "challenge": "7",
+    "size": "Large",
+    "name": "Oni"
+  },
+  "Bearded Devil": {
+    "size": "Medium",
+    "name": "Bearded Devil",
+    "alignment": "LE",
+    "challenge": "3",
+    "tags": "devil",
+    "page": "mm 70",
+    "xp": "700",
+    "type": "Fiend"
+  },
+  "Swarm of Poisonous Snakes": {
+    "alignment": "Unaligned",
+    "challenge": "2",
+    "size": "Medium",
+    "name": "Swarm of Poisonous Snakes",
+    "xp": "450",
+    "type": "Beast",
+    "page": "mm 338",
+    "environment": { "Forest": "yes", "Swamp": "yes" }
+  },
+  "Yuan-ti Anathema": {
+    "size": "Huge",
+    "name": "Yuan-ti Anathema",
+    "alignment": "NE",
+    "tags": "shapechanger, yuan-ti",
+    "challenge": "12",
+    "environment": { "Forest": "yes", "Underdark": "yes", "Desert": "yes" },
+    "page": "vgm 202",
+    "xp": "8400",
+    "type": "Monstrosity"
+  },
+  "Astral Dreadnought": {
+    "type": "Monstrosity",
+    "xp": "33000",
+    "environment": {},
+    "page": "mtf 117",
+    "tags": "titan",
+    "challenge": "21",
+    "alignment": "Unaligned",
+    "name": "Astral Dreadnought",
+    "size": "Gargantuan"
+  },
+  "Dryad": {
+    "alignment": "N",
+    "challenge": "1",
+    "size": "Medium",
+    "name": "Dryad",
+    "xp": "200",
+    "type": "Fey",
+    "environment": { "Forest": "yes" },
+    "page": "mm 121"
+  },
+  "Myconid Sprout": {
+    "xp": "10",
+    "type": "Plant",
+    "environment": { "Underdark": "yes" },
+    "page": "mm 230",
+    "challenge": 0,
+    "alignment": "LN",
+    "name": "Myconid Sprout",
+    "size": "Small"
+  },
+  "Abominable Yeti": {
+    "size": "Huge",
+    "name": "Abominable Yeti",
+    "alignment": "CE",
+    "challenge": "9",
+    "environment": { "Arctic": "yes" },
+    "page": "mm 306",
+    "xp": "5000",
+    "type": "Monstrosity"
+  },
+  "Adult Black Dragon": {
+    "size": "Huge",
+    "name": "Adult Black Dragon",
+    "alignment": "CE",
+    "challenge": "14",
+    "page": "mm 88",
+    "environment": { "Swamp": "yes" },
+    "type": "Dragon",
+    "xp": "11500"
+  },
+  "Poisonous Snake": {
+    "xp": "25",
+    "type": "Beast",
+    "environment": {
+      "Hill": "yes",
+      "Coastal": "yes",
+      "Desert": "yes",
+      "Swamp": "yes",
+      "Grassland": "yes",
+      "Forest": "yes"
+    },
+    "page": "mm 334",
+    "alignment": "Unaligned",
+    "challenge": "1/8",
+    "size": "Tiny",
+    "name": "Poisonous Snake"
+  },
+  "Pony": {
+    "name": "Pony",
+    "size": "Medium",
+    "challenge": "1/8",
+    "alignment": "Unaligned",
+    "environment": { "Urban": "yes" },
+    "page": "mm 335",
+    "type": "Beast",
+    "xp": "25"
+  },
+  "Drow House Captain": {
+    "name": "Drow House Captain",
+    "size": "Medium",
+    "tags": "elf",
+    "challenge": "9",
+    "alignment": "NE",
+    "environment": { "Underdark": "yes" },
+    "page": "mtf 184",
+    "type": "Humanoid",
+    "xp": "5000"
+  },
+  "Shadow Demon": {
+    "page": "mm 64",
+    "xp": "1100",
+    "type": "Fiend",
+    "name": "Shadow Demon",
+    "size": "Medium",
+    "tags": "demon",
+    "challenge": "4",
+    "alignment": "CE"
+  },
+  "Gargoyle": {
+    "name": "Gargoyle",
+    "size": "Medium",
+    "challenge": "2",
+    "alignment": "CE",
+    "page": "mm 140",
+    "environment": { "Underdark": "yes", "Urban": "yes" },
+    "xp": "450",
+    "type": "Elemental"
+  },
+  "Worg": {
+    "xp": "100",
+    "type": "Monstrosity",
+    "page": "mm 341",
+    "environment": { "Forest": "yes", "Grassland": "yes", "Hill": "yes" },
+    "alignment": "NE",
+    "challenge": "1/2",
+    "size": "Large",
+    "name": "Worg"
+  },
+  "Xorn": {
+    "alignment": "N",
+    "challenge": "5",
+    "size": "Medium",
+    "name": "Xorn",
+    "xp": "1800",
+    "type": "Elemental",
+    "page": "mm 304",
+    "environment": { "Underdark": "yes" }
+  },
+  "Hobgoblin Captain": {
+    "page": "mm 186",
+    "environment": {
+      "Desert": "yes",
+      "Hill": "yes",
+      "Underdark": "yes",
+      "Grassland": "yes",
+      "Forest": "yes"
+    },
+    "xp": "700",
+    "type": "Humanoid",
+    "name": "Hobgoblin Captain",
+    "size": "Medium",
+    "challenge": "3",
+    "tags": "goblinoid",
+    "alignment": "LE"
+  },
+  "Flying Sword": {
+    "challenge": "1/4",
+    "type": "Construct",
+    "xp": "50",
+    "alignment": "Unaligned",
+    "name": "Flying Sword",
+    "page": "mm 20",
+    "size": "Small"
+  },
+  "Dire Troll": {
+    "size": "Huge",
+    "name": "Dire Troll",
+    "alignment": "CE",
+    "challenge": "13",
+    "environment": {
+      "Underdark": "yes",
+      "Mountain": "yes",
+      "Forest": "yes",
+      "Hill": "yes",
+      "Arctic": "yes"
+    },
+    "page": "mtf 243",
+    "type": "Giant",
+    "xp": "10000"
+  },
+  "Reef Shark": {
+    "environment": { "Underwater": "yes" },
+    "page": "mm 336",
+    "type": "Beast",
+    "xp": "100",
+    "name": "Reef Shark",
+    "size": "Medium",
+    "challenge": "1/2",
+    "alignment": "Unaligned"
+  },
+  "Oaken Bolter": {
+    "size": "Medium",
+    "name": "Oaken Bolter",
+    "alignment": "Unaligned",
+    "challenge": "5",
+    "page": "mtf 126",
+    "environment": {
+      "Grassland": "yes",
+      "Mountain": "yes",
+      "Forest": "yes",
+      "Hill": "yes"
+    },
+    "xp": "1800",
+    "type": "Construct"
+  },
+  "Couatl": {
+    "type": "Celestial",
+    "xp": "1100",
+    "environment": {
+      "Grassland": "yes",
+      "Forest": "yes",
+      "Urban": "yes",
+      "Desert": "yes"
+    },
+    "page": "mm 43",
+    "alignment": "LG",
+    "challenge": "4",
+    "size": "Medium",
+    "name": "Couatl"
+  },
+  "Derro Savant": {
+    "page": "mtf 159",
+    "environment": { "Underdark": "yes" },
+    "type": "Humanoid",
+    "xp": "700",
+    "name": "Derro Savant",
+    "size": "Small",
+    "challenge": "3",
+    "tags": "derro",
+    "alignment": "CE"
+  },
+  "Storm Giant Quintessent": {
+    "type": "Giant",
+    "xp": "15000",
+    "environment": {
+      "Coastal": "yes",
+      "Arctic": "yes",
+      "Desert": "yes",
+      "Mountain": "yes",
+      "Underwater": "yes"
+    },
+    "page": "vgm 151",
+    "alignment": "CG",
+    "tags": "storm giant",
+    "challenge": "16",
+    "size": "Huge",
+    "name": "Storm Giant Quintessent"
+  },
+  "Young White Dragon": {
+    "alignment": "CE",
+    "challenge": "6",
+    "size": "Large",
+    "name": "Young White Dragon",
+    "xp": "2300",
+    "type": "Dragon",
+    "page": "mm 101",
+    "environment": { "Arctic": "yes" }
+  },
+  "Red Slaad": {
+    "name": "Red Slaad",
+    "size": "Large",
+    "page": "mm 276",
+    "challenge": "5",
+    "xp": "1800",
+    "alignment": "CN",
+    "type": "Aberration"
+  },
+  "Axe Beak": {
+    "name": "Axe Beak",
+    "size": "Large",
+    "challenge": "1/4",
+    "alignment": "Unaligned",
+    "page": "mm 317",
+    "environment": { "Hill": "yes", "Grassland": "yes" },
+    "xp": "50",
+    "type": "Beast"
+  },
+  "Choldrith": {
+    "type": "Monstrosity",
+    "xp": "700",
+    "environment": { "Underdark": "yes" },
+    "page": "vgm 132",
+    "alignment": "CE",
+    "challenge": "3",
+    "size": "Medium",
+    "name": "Choldrith"
+  },
+  "Ancient Bronze Dragon": {
+    "challenge": "22",
+    "alignment": "LG",
+    "name": "Ancient Bronze Dragon",
+    "size": "Gargantuan",
+    "xp": "41000",
+    "type": "Dragon",
+    "page": "mm 107",
+    "environment": { "Coastal": "yes" }
+  },
+  "Chuul": {
+    "xp": "1100",
+    "type": "Aberration",
+    "environment": { "Underdark": "yes" },
+    "page": "mm 40",
+    "alignment": "CE",
+    "challenge": "4",
+    "size": "Large",
+    "name": "Chuul"
+  },
+  "Drow Priestess of Lolth": {
+    "page": "mm 129",
+    "type": "Humanoid",
+    "xp": "3900",
+    "size": "Medium",
+    "name": "Drow Priestess of Lolth",
+    "alignment": "NE",
+    "challenge": "8",
+    "tags": "elf"
+  },
+  "Kuo-toa": {
+    "name": "Kuo-toa",
+    "size": "Medium",
+    "challenge": "1/4",
+    "tags": "kuo-toa",
+    "alignment": "NE",
+    "page": "mm 199",
+    "environment": { "Underdark": "yes" },
+    "type": "Humanoid",
+    "xp": "50"
+  },
+  "Flameskull": {
+    "page": "mm 134",
+    "environment": { "Underdark": "yes" },
+    "type": "Undead",
+    "xp": "1100",
+    "size": "Tiny",
+    "name": "Flameskull",
+    "alignment": "NE",
+    "challenge": "4"
+  },
+  "Tyrannosaurus Rex": {
+    "xp": "3900",
+    "type": "Beast",
+    "environment": { "Grassland": "yes" },
+    "page": "mm 80",
+    "alignment": "Unaligned",
+    "challenge": "8",
+    "size": "Huge",
+    "name": "Tyrannosaurus Rex"
+  },
+  "Planetar": {
+    "size": "Large",
+    "page": "mm 17",
+    "name": "Planetar",
+    "type": "Celestial",
+    "xp": "15000",
+    "alignment": "LG",
+    "challenge": "16"
+  },
+  "Drow Elite Warrior": {
+    "environment": { "Underdark": "yes" },
+    "page": "mm 128",
+    "type": "Humanoid",
+    "xp": "1800",
+    "name": "Drow Elite Warrior",
+    "size": "Medium",
+    "tags": "elf",
+    "challenge": "5",
+    "alignment": "NE"
+  },
+  "Centaur": {
+    "challenge": "2",
+    "alignment": "NG",
+    "name": "Centaur",
+    "size": "Large",
+    "xp": "450",
+    "type": "Monstrosity",
+    "environment": { "Forest": "yes", "Grassland": "yes" },
+    "page": "mm 38"
+  },
+  "Steel Predator": {
+    "name": "Steel Predator",
+    "size": "Large",
+    "challenge": "16",
+    "alignment": "LE",
+    "environment": { "Urban": "yes" },
+    "page": "mtf 239",
+    "xp": "15000",
+    "type": "Construct"
+  },
+  "Giant Scorpion": {
+    "page": "mm 327",
+    "environment": { "Desert": "yes" },
+    "xp": "700",
+    "type": "Beast",
+    "size": "Large",
+    "name": "Giant Scorpion",
+    "alignment": "Unaligned",
+    "challenge": "3"
+  },
+  "Vampire (warrior)": {
+    "name": "Vampire (warrior)",
+    "size": "Medium",
+    "challenge": "15",
+    "tags": "shapechanger",
+    "alignment": "LE",
+    "page": "mm 297",
+    "environment": { "Urban": "yes" },
+    "xp": "13000",
+    "type": "Undead"
+  },
+  "Gnoll Fang of Yeenoghu": {
+    "challenge": "4",
+    "tags": "gnoll",
+    "alignment": "CE",
+    "name": "Gnoll Fang of Yeenoghu",
+    "size": "Medium",
+    "xp": "1100",
+    "type": "Fiend",
+    "page": "mm 163",
+    "environment": {
+      "Grassland": "yes",
+      "Forest": "yes",
+      "Desert": "yes",
+      "Hill": "yes"
+    }
+  },
+  "Flind": {
+    "xp": "5000",
+    "type": "Humanoid",
+    "page": "vgm 153",
+    "environment": {
+      "Grassland": "yes",
+      "Forest": "yes",
+      "Hill": "yes",
+      "Arctic": "yes"
+    },
+    "alignment": "CE",
+    "challenge": "9",
+    "tags": "gnoll",
+    "size": "Medium",
+    "name": "Flind"
+  },
+  "Abyssal Wretch": {
+    "xp": "50",
+    "type": "Fiend",
+    "page": "mtf 136",
+    "environment": {},
+    "alignment": "CE",
+    "challenge": "1/4",
+    "tags": "demon",
+    "size": "Medium",
+    "name": "Abyssal Wretch"
+  },
+  "Deer": {
+    "size": "Medium",
+    "name": "Deer",
+    "alignment": "Unaligned",
+    "challenge": 0,
+    "page": "mm 321",
+    "environment": { "Forest": "yes", "Grassland": "yes" },
+    "xp": "10",
+    "type": "Beast"
+  },
+  "Minotaur Skeleton": {
+    "alignment": "LE",
+    "challenge": "2",
+    "size": "Large",
+    "name": "Minotaur Skeleton",
+    "xp": "450",
+    "type": "Undead",
+    "environment": { "Underdark": "yes" },
+    "page": "mm 273"
+  },
+  "Cockatrice": {
+    "name": "Cockatrice",
+    "size": "Small",
+    "challenge": "1/2",
+    "alignment": "Unaligned",
+    "page": "mm 42",
+    "environment": { "Grassland": "yes" },
+    "type": "Monstrosity",
+    "xp": "100"
+  },
+  "Firenewt Warrior": {
+    "xp": "100",
+    "type": "Humanoid",
+    "environment": {
+      "Desert": "yes",
+      "Hill": "yes",
+      "Underdark": "yes",
+      "Mountain": "yes"
+    },
+    "page": "vgm 142",
+    "alignment": "NE",
+    "tags": "firenewt",
+    "challenge": "1/2",
+    "size": "Medium",
+    "name": "Firenewt Warrior"
+  },
+  "Winter Eladrin": {
+    "page": "mtf 197",
+    "environment": { "Forest": "yes", "Arctic": "yes" },
+    "type": "Fey",
+    "xp": "5900",
+    "name": "Winter Eladrin",
+    "size": "Medium",
+    "challenge": "10",
+    "tags": "elf",
+    "alignment": "CN"
+  },
+  "Kobold Dragonshield": {
+    "type": "Humanoid",
+    "xp": "200",
+    "environment": {
+      "Underdark": "yes",
+      "Mountain": "yes",
+      "Forest": "yes",
+      "Hill": "yes"
+    },
+    "page": "vgm 165",
+    "tags": "kobold",
+    "challenge": "1",
+    "alignment": "LE",
+    "name": "Kobold Dragonshield",
+    "size": "Small"
+  },
+  "Kuo-toa Whip": {
+    "type": "Humanoid",
+    "xp": "200",
+    "environment": { "Underdark": "yes" },
+    "page": "mm 200",
+    "alignment": "NE",
+    "tags": "kuo-toa",
+    "challenge": "1",
+    "size": "Medium",
+    "name": "Kuo-toa Whip"
+  },
+  "Mouth of Grolantor": {
+    "tags": "hill giant",
+    "challenge": "6",
+    "alignment": "CE",
+    "name": "Mouth of Grolantor",
+    "size": "Huge",
+    "xp": "2300",
+    "type": "Giant",
+    "environment": { "Grassland": "yes", "Hill": "yes" },
+    "page": "vgm 149"
+  },
+  "Githyanki Knight": {
+    "name": "Githyanki Knight",
+    "size": "Medium",
+    "challenge": "8",
+    "tags": "gith",
+    "alignment": "LE",
+    "page": "mm 160",
+    "xp": "3900",
+    "type": "Humanoid"
+  },
+  "Flail Snail": {
+    "page": "vgm 144",
+    "environment": { "Forest": "yes", "Swamp": "yes", "Underdark": "yes" },
+    "xp": "700",
+    "type": "Elemental",
+    "size": "Large",
+    "name": "Flail Snail",
+    "alignment": "Unaligned",
+    "challenge": "3"
+  },
+  "Lonely Sorrowsworn": {
+    "name": "Lonely Sorrowsworn",
+    "size": "Medium",
+    "challenge": "9",
+    "alignment": "NE",
+    "environment": {
+      "Coastal": "yes",
+      "Urban": "yes",
+      "Desert": "yes",
+      "Mountain": "yes",
+      "Underdark": "yes"
+    },
+    "page": "mtf 232",
+    "type": "Monstrosity",
+    "xp": "5000"
+  },
+  "Earth Elemental Myrmidon": {
+    "challenge": "7",
+    "alignment": "N",
+    "name": "Earth Elemental Myrmidon",
+    "size": "Medium",
+    "type": "Elemental",
+    "xp": "2900",
+    "environment": {},
+    "page": "mtf 202"
+  },
+  "Warhorse": {
+    "page": "mm 340",
+    "environment": { "Urban": "yes" },
+    "xp": "100",
+    "type": "Beast",
+    "name": "Warhorse",
+    "size": "Large",
+    "challenge": "1/2",
+    "alignment": "Unaligned"
+  },
+  "Blink Dog": {
+    "page": "mm 318",
+    "environment": { "Forest": "yes" },
+    "xp": "50",
+    "type": "Fey",
+    "name": "Blink Dog",
+    "size": "Medium",
+    "challenge": "1/4",
+    "alignment": "LG"
+  },
+  "Vegepygmy": {
+    "challenge": "1/4",
+    "alignment": "N",
+    "name": "Vegepygmy",
+    "size": "Small",
+    "xp": "50",
+    "type": "Plant",
+    "environment": { "Swamp": "yes", "Forest": "yes" },
+    "page": "vgm 196"
+  },
+  "Adult Oblex": {
+    "size": "Medium",
+    "name": "Adult Oblex",
+    "alignment": "LE",
+    "challenge": "5",
+    "page": "mtf 218",
+    "environment": { "Swamp": "yes", "Underdark": "yes", "Urban": "yes" },
+    "xp": "1800",
+    "type": "Ooze"
+  },
+  "Orc War Chief": {
+    "challenge": "4",
+    "tags": "orc",
+    "alignment": "CE",
+    "name": "Orc War Chief",
+    "size": "Medium",
+    "type": "Humanoid",
+    "xp": "1100",
+    "page": "mm 246"
+  },
+  "Ancient Silver Dragon": {
+    "page": "mm 116",
+    "environment": { "Urban": "yes", "Mountain": "yes" },
+    "xp": "50000",
+    "type": "Dragon",
+    "name": "Ancient Silver Dragon",
+    "size": "Gargantuan",
+    "challenge": "23",
+    "alignment": "LG"
+  },
+  "Meazel": {
+    "page": "mtf 214",
+    "environment": {
+      "Mountain": "yes",
+      "Swamp": "yes",
+      "Grassland": "yes",
+      "Forest": "yes",
+      "Underdark": "yes",
+      "Desert": "yes",
+      "Urban": "yes",
+      "Hill": "yes"
+    },
+    "xp": "200",
+    "type": "Humanoid",
+    "size": "Medium",
+    "name": "Meazel",
+    "alignment": "NE",
+    "challenge": "1",
+    "tags": "meazel"
+  },
+  "Stone Giant Dreamwalker": {
+    "xp": "5900",
+    "type": "Giant",
+    "environment": { "Mountain": "yes", "Coastal": "yes", "Hill": "yes" },
+    "page": "vgm 150",
+    "alignment": "CN",
+    "tags": "stone giant",
+    "challenge": "10",
+    "size": "Huge",
+    "name": "Stone Giant Dreamwalker"
+  },
+  "Troll": {
+    "name": "Troll",
+    "size": "Large",
+    "challenge": "5",
+    "alignment": "CE",
+    "page": "mm 291",
+    "environment": {
+      "Hill": "yes",
+      "Arctic": "yes",
+      "Underdark": "yes",
+      "Swamp": "yes",
+      "Mountain": "yes",
+      "Forest": "yes"
+    },
+    "xp": "1800",
+    "type": "Giant"
+  },
+  "Hydra": {
+    "name": "Hydra",
+    "size": "Huge",
+    "challenge": "8",
+    "alignment": "Unaligned",
+    "page": "mm 190",
+    "environment": { "Swamp": "yes" },
+    "xp": "3900",
+    "type": "Monstrosity"
+  },
+  "Hunter Shark": {
+    "page": "mm 330",
+    "environment": { "Underwater": "yes" },
+    "xp": "450",
+    "type": "Beast",
+    "name": "Hunter Shark",
+    "size": "Large",
+    "challenge": "2",
+    "alignment": "Unaligned"
+  },
+  "Demilich": {
+    "name": "Demilich",
+    "page": "mm 48",
+    "size": "Tiny",
+    "challenge": "18",
+    "alignment": "NE",
+    "xp": "20000",
+    "type": "Undead"
+  },
+  "Bone Naga": {
+    "size": "Large",
+    "name": "Bone Naga",
+    "alignment": "LE",
+    "challenge": "4",
+    "page": "mm 233",
+    "environment": { "Underdark": "yes" },
+    "xp": "1100",
+    "type": "Undead"
+  },
+  "Adult Faerie Dragon": {
+    "xp": "450",
+    "type": "Dragon",
+    "environment": { "Forest": "yes" },
+    "page": "mm 133",
+    "challenge": "2",
+    "alignment": "CG",
+    "name": "Adult Faerie Dragon",
+    "size": "Tiny"
+  },
+  "Giant Boar": {
+    "name": "Giant Boar",
+    "size": "Large",
+    "challenge": "2",
+    "alignment": "Unaligned",
+    "environment": { "Hill": "yes", "Grassland": "yes", "Forest": "yes" },
+    "page": "mm 323",
+    "xp": "450",
+    "type": "Beast"
+  },
+  "Copper Dragon Wyrmling": {
+    "page": "mm 112",
+    "size": "Medium",
+    "name": "Copper Dragon Wyrmling",
+    "alignment": "CG",
+    "xp": "200",
+    "type": "Dragon",
+    "challenge": "1"
+  },
+  "Lemure": {
+    "page": "mm 76",
+    "xp": "10",
+    "type": "Fiend",
+    "size": "Medium",
+    "name": "Lemure",
+    "alignment": "LE",
+    "challenge": 0,
+    "tags": "devil"
+  },
+  "Yagnoloth": {
+    "environment": { "Urban": "yes" },
+    "page": "mtf 252",
+    "xp": "7200",
+    "type": "Fiend",
+    "name": "Yagnoloth",
+    "size": "Large",
+    "tags": "yugoloth",
+    "challenge": "11",
+    "alignment": "NE"
+  },
+  "Annis Hag": {
+    "xp": "2300",
+    "type": "Fey",
+    "page": "vgm 159",
+    "environment": { "Hill": "yes", "Mountain": "yes" },
+    "challenge": "6",
+    "alignment": "CE",
+    "name": "Annis Hag",
+    "size": "Large"
+  },
+  "Armanite": {
+    "challenge": "7",
+    "tags": "demon",
+    "alignment": "CE",
+    "name": "Armanite",
+    "size": "Large",
+    "xp": "2900",
+    "type": "Fiend",
+    "page": "mtf 131",
+    "environment": { "Underdark": "yes" }
+  },
+  "Eagle": {
+    "alignment": "Unaligned",
+    "challenge": 0,
+    "size": "Small",
+    "name": "Eagle",
+    "xp": "10",
+    "type": "Beast",
+    "environment": {
+      "Hill": "yes",
+      "Coastal": "yes",
+      "Mountain": "yes",
+      "Grassland": "yes"
+    },
+    "page": "mm 322"
+  },
+  "Incubus": {
+    "challenge": "4",
+    "tags": "shapechanger",
+    "alignment": "NE",
+    "name": "Incubus",
+    "size": "Medium",
+    "type": "Fiend",
+    "xp": "1100",
+    "page": "mm 285",
+    "environment": { "Urban": "yes" }
+  },
+  "Bulezau": {
+    "name": "Bulezau",
+    "size": "Medium",
+    "tags": "demon",
+    "challenge": "3",
+    "alignment": "CE",
+    "environment": {},
+    "page": "mtf 131",
+    "type": "Fiend",
+    "xp": "700"
+  },
+  "Orc": {
+    "xp": "100",
+    "type": "Humanoid",
+    "page": "mm 246",
+    "environment": {
+      "Hill": "yes",
+      "Arctic": "yes",
+      "Underdark": "yes",
+      "Grassland": "yes",
+      "Swamp": "yes",
+      "Mountain": "yes",
+      "Forest": "yes"
+    },
+    "alignment": "CE",
+    "challenge": "1/2",
+    "tags": "orc",
+    "size": "Medium",
+    "name": "Orc"
+  },
+  "Drow Shadowblade": {
+    "xp": "7200",
+    "type": "Humanoid",
+    "page": "mtf 187",
+    "environment": { "Underdark": "yes" },
+    "challenge": "11",
+    "tags": "elf",
+    "alignment": "NE",
+    "name": "Drow Shadowblade",
+    "size": "Medium"
+  },
+  "Pteranodon": {
+    "name": "Pteranodon",
+    "size": "Medium",
+    "challenge": "1/4",
+    "alignment": "Unaligned",
+    "environment": { "Grassland": "yes", "Mountain": "yes", "Coastal": "yes" },
+    "page": "mm 80",
+    "xp": "50",
+    "type": "Beast"
+  },
+  "Efreeti": {
+    "type": "Elemental",
+    "xp": "7200",
+    "environment": { "Desert": "yes" },
+    "page": "mm 145",
+    "challenge": "11",
+    "alignment": "LE",
+    "name": "Efreeti",
+    "size": "Large"
+  },
+  "Fomorian": {
+    "environment": { "Underdark": "yes" },
+    "page": "mm 136",
+    "xp": "3900",
+    "type": "Giant",
+    "name": "Fomorian",
+    "size": "Huge",
+    "challenge": "8",
+    "alignment": "CE"
+  },
+  "Orc Blade of Ilneval": {
+    "page": "vgm 183",
+    "environment": {
+      "Grassland": "yes",
+      "Mountain": "yes",
+      "Forest": "yes",
+      "Underdark": "yes",
+      "Hill": "yes"
+    },
+    "type": "Humanoid",
+    "xp": "1100",
+    "size": "Medium",
+    "name": "Orc Blade of Ilneval",
+    "alignment": "CE",
+    "challenge": "4",
+    "tags": "orc"
+  },
+  "Empyrean": {
+    "page": "mm 130",
+    "xp": "50000",
+    "type": "Celestial",
+    "name": "Empyrean",
+    "size": "Huge",
+    "challenge": "23",
+    "tags": "titan",
+    "alignment": "CG or NE"
+  },
+  "Lich": {
+    "challenge": "21",
+    "xp": "33000",
+    "type": "Undead",
+    "alignment": "Any evil",
+    "name": "Lich",
+    "size": "Medium",
+    "page": "mm 202"
+  },
+  "Balhannoth": {
+    "xp": "7200",
+    "type": "Aberration",
+    "environment": { "Mountain": "yes", "Underdark": "yes", "Coastal": "yes" },
+    "page": "mtf 118",
+    "alignment": "CE",
+    "challenge": "11",
+    "size": "Large",
+    "name": "Balhannoth"
+  },
+  "Devourer": {
+    "alignment": "CE",
+    "challenge": "13",
+    "size": "Large",
+    "name": "Devourer",
+    "type": "Fiend",
+    "xp": "10000",
+    "page": "vgm 138",
+    "environment": { "Underdark": "yes" }
+  },
+  "Kobold Scale Sorcerer": {
+    "page": "vgm 167",
+    "environment": {
+      "Underdark": "yes",
+      "Forest": "yes",
+      "Mountain": "yes",
+      "Urban": "yes",
+      "Hill": "yes"
+    },
+    "type": "Humanoid",
+    "xp": "200",
+    "size": "Small",
+    "name": "Kobold Scale Sorcerer",
+    "alignment": "LE",
+    "challenge": "1",
+    "tags": "kobold"
+  },
+  "Ancient Green Dragon": {
+    "xp": "41000",
+    "type": "Dragon",
+    "page": "mm 93",
+    "environment": { "Forest": "yes" },
+    "alignment": "LE",
+    "challenge": "22",
+    "size": "Gargantuan",
+    "name": "Ancient Green Dragon"
+  },
+  "Froghemoth": {
+    "page": "vgm 145",
+    "environment": { "Swamp": "yes", "Underdark": "yes" },
+    "type": "Monstrosity",
+    "xp": "5900",
+    "size": "Huge",
+    "name": "Froghemoth",
+    "alignment": "Unaligned",
+    "challenge": "10"
+  },
+  "Ogre Chain Brute": {
+    "size": "Large",
+    "name": "Ogre Chain Brute",
+    "alignment": "CE",
+    "challenge": "3",
+    "page": "mtf 221",
+    "environment": { "Hill": "yes", "Grassland": "yes", "Mountain": "yes" },
+    "xp": "700",
+    "type": "Giant"
+  },
+  "Mind Flayer Arcanist": {
+    "xp": "3900",
+    "type": "Aberration",
+    "page": "mm 222",
+    "environment": { "Underdark": "yes" },
+    "challenge": "8",
+    "alignment": "LE",
+    "name": "Mind Flayer Arcanist",
+    "size": "Medium"
+  },
+  "Bullywug": {
+    "page": "mm 35",
+    "environment": { "Swamp": "yes" },
+    "type": "Humanoid",
+    "xp": "50",
+    "name": "Bullywug",
+    "size": "Medium",
+    "challenge": "1/4",
+    "tags": "bullywug",
+    "alignment": "NE"
+  },
+  "Bronze Scout": {
+    "xp": "200",
+    "type": "Construct",
+    "page": "mtf 125",
+    "environment": {
+      "Grassland": "yes",
+      "Mountain": "yes",
+      "Forest": "yes",
+      "Hill": "yes"
+    },
+    "alignment": "Unaligned",
+    "challenge": "1",
+    "size": "Medium",
+    "name": "Bronze Scout"
+  },
+  "Adult Blue Dragon": {
+    "alignment": "LE",
+    "challenge": "16",
+    "size": "Huge",
+    "name": "Adult Blue Dragon",
+    "type": "Dragon",
+    "xp": "15000",
+    "page": "mm 91",
+    "environment": { "Desert": "yes", "Coastal": "yes" }
+  },
+  "Doppelganger": {
+    "size": "Medium",
+    "name": "Doppelganger",
+    "alignment": "N",
+    "tags": "shapechanger",
+    "challenge": "3",
+    "environment": { "Underdark": "yes", "Urban": "yes" },
+    "page": "mm 82",
+    "xp": "700",
+    "type": "Monstrosity"
+  },
+  "Scorpion": {
+    "page": "mm 337",
+    "environment": { "Desert": "yes" },
+    "type": "Beast",
+    "xp": "10",
+    "size": "Tiny",
+    "name": "Scorpion",
+    "alignment": "Unaligned",
+    "challenge": 0
+  },
+  "Steam Mephit": {
+    "name": "Steam Mephit",
+    "size": "Small",
+    "challenge": "1/4",
+    "alignment": "NE",
+    "environment": { "Underwater": "yes" },
+    "page": "mm 217",
+    "xp": "50",
+    "type": "Elemental"
+  },
+  "Deep Rothe": {
+    "page": "vgm 207",
+    "environment": { "Underdark": "yes" },
+    "xp": "50",
+    "type": "Beast",
+    "size": "Medium",
+    "name": "Deep Rothe",
+    "alignment": "Unaligned",
+    "challenge": "1/4"
+  },
+  "Smoke Mephit": {
+    "page": "mm 217",
+    "environment": { "Urban": "yes" },
+    "xp": "50",
+    "type": "Elemental",
+    "size": "Small",
+    "name": "Smoke Mephit",
+    "alignment": "NE",
+    "challenge": "1/4"
+  },
+  "Ettercap": {
+    "alignment": "NE",
+    "challenge": "2",
+    "size": "Medium",
+    "name": "Ettercap",
+    "xp": "450",
+    "type": "Monstrosity",
+    "page": "mm 131",
+    "environment": { "Forest": "yes" }
+  },
+  "Death Tyrant (in lair)": {
+    "alignment": "LE",
+    "xp": "13000",
+    "type": "Undead",
+    "challenge": "15",
+    "size": "Large",
+    "page": "mm 29",
+    "name": "Death Tyrant"
+  },
+  "Ox": {
+    "xp": "50",
+    "type": "Beast",
+    "environment": { "Urban": "yes" },
+    "page": "vgm 207",
+    "alignment": "Unaligned",
+    "challenge": "1/4",
+    "size": "Large",
+    "name": "Ox"
+  },
+  "Derro": {
+    "xp": "50",
+    "type": "Humanoid",
+    "environment": { "Mountain": "yes", "Underdark": "yes" },
+    "page": "mtf 158",
+    "alignment": "CE",
+    "tags": "derro",
+    "challenge": "1/4",
+    "size": "Small",
+    "name": "Derro"
+  },
+  "Tanarukk": {
+    "xp": "1800",
+    "type": "Fiend",
+    "environment": { "Mountain": "yes", "Underdark": "yes", "Hill": "yes" },
+    "page": "vgm 186",
+    "alignment": "CE",
+    "tags": "demon, orc",
+    "challenge": "5",
+    "size": "Medium",
+    "name": "Tanarukk"
+  },
+  "Githyanki Gish": {
+    "environment": { "Urban": "yes", "Desert": "yes", "Mountain": "yes" },
+    "page": "mtf 205",
+    "type": "Humanoid",
+    "xp": "5900",
+    "name": "Githyanki Gish",
+    "size": "Medium",
+    "tags": "gith",
+    "challenge": "10",
+    "alignment": "LE"
+  },
+  "Duergar Kavalrachni": {
+    "size": "Medium",
+    "name": "Duergar Kavalrachni",
+    "alignment": "LE",
+    "challenge": "2",
+    "tags": "dwarf",
+    "page": "mtf 189",
+    "environment": { "Underdark": "yes", "Mountain": "yes" },
+    "xp": "450",
+    "type": "Humanoid"
+  },
+  "Gnoll Witherling": {
+    "alignment": "CE",
+    "challenge": "1/4",
+    "size": "Medium",
+    "name": "Gnoll Witherling",
+    "xp": "50",
+    "type": "Undead",
+    "page": "vgm 155",
+    "environment": {
+      "Hill": "yes",
+      "Arctic": "yes",
+      "Grassland": "yes",
+      "Forest": "yes"
+    }
+  },
+  "Hell Hound": {
+    "challenge": "3",
+    "alignment": "LE",
+    "name": "Hell Hound",
+    "size": "Medium",
+    "xp": "700",
+    "type": "Fiend",
+    "environment": { "Underdark": "yes", "Mountain": "yes" },
+    "page": "mm 182"
+  },
+  "Marut": {
+    "xp": "75000",
+    "type": "Construct",
+    "page": "mtf 213",
+    "environment": {},
+    "challenge": "25",
+    "tags": "inevitable",
+    "alignment": "LN",
+    "name": "Marut",
+    "size": "Large"
+  },
+  "Vargouille": {
+    "alignment": "CE",
+    "challenge": "1",
+    "size": "Tiny",
+    "name": "Vargouille",
+    "xp": "200",
+    "type": "Fiend",
+    "page": "vgm 195",
+    "environment": { "Desert": "yes", "Swamp": "yes", "Underdark": "yes" }
+  },
+  "Shoosuva": {
+    "type": "Fiend",
+    "xp": "3900",
+    "page": "vgm 137",
+    "environment": {
+      "Hill": "yes",
+      "Arctic": "yes",
+      "Grassland": "yes",
+      "Forest": "yes"
+    },
+    "challenge": "8",
+    "tags": "demon",
+    "alignment": "CE",
+    "name": "Shoosuva",
+    "size": "Large"
+  },
+  "Duergar Stone Guard": {
+    "size": "Medium",
+    "name": "Duergar Stone Guard",
+    "alignment": "LE",
+    "tags": "dwarf",
+    "challenge": "2",
+    "environment": { "Mountain": "yes", "Underdark": "yes" },
+    "page": "mtf 191",
+    "type": "Humanoid",
+    "xp": "450"
+  },
+  "Hydroloth": {
+    "type": "Fiend",
+    "xp": "5000",
+    "environment": {},
+    "page": "mtf 249",
+    "alignment": "NE",
+    "tags": "yugoloth",
+    "challenge": "9",
+    "size": "Medium",
+    "name": "Hydroloth"
+  },
+  "Young Brass Dragon": {
+    "name": "Young Brass Dragon",
+    "size": "Large",
+    "challenge": "6",
+    "alignment": "CG",
+    "page": "mm 105",
+    "environment": { "Desert": "yes" },
+    "xp": "2300",
+    "type": "Dragon"
+  },
+  "Adult Copper Dragon": {
+    "environment": { "Hill": "yes" },
+    "page": "mm 111",
+    "xp": "11500",
+    "type": "Dragon",
+    "name": "Adult Copper Dragon",
+    "size": "Huge",
+    "challenge": "14",
+    "alignment": "CG"
+  },
+  "Drow Inquisitor": {
+    "alignment": "NE",
+    "challenge": "14",
+    "tags": "elf",
+    "size": "Medium",
+    "name": "Drow Inquisitor",
+    "xp": "11500",
+    "type": "Humanoid",
+    "page": "mtf 184",
+    "environment": { "Underdark": "yes" }
+  },
+  "Narzugon": {
+    "tags": "devil",
+    "challenge": "13",
+    "alignment": "LE",
+    "name": "Narzugon",
+    "size": "Medium",
+    "xp": "10000",
+    "type": "Fiend",
+    "environment": {},
+    "page": "mtf 167"
+  },
+  "Crocodile": {
+    "challenge": "1/2",
+    "alignment": "Unaligned",
+    "name": "Crocodile",
+    "size": "Large",
+    "xp": "100",
+    "type": "Beast",
+    "page": "mm 320",
+    "environment": { "Urban": "yes", "Swamp": "yes" }
+  },
+  "Girallon": {
+    "xp": "1100",
+    "type": "Monstrosity",
+    "page": "vgm 152",
+    "environment": { "Forest": "yes" },
+    "alignment": "Unaligned",
+    "challenge": "4",
+    "size": "Large",
+    "name": "Girallon"
+  },
+  "Fire Elemental": {
+    "alignment": "N",
+    "challenge": "5",
+    "size": "Large",
+    "name": "Fire Elemental",
+    "xp": "1800",
+    "type": "Elemental",
+    "page": "mm 125",
+    "environment": { "Desert": "yes" }
+  },
+  "Wight": {
+    "size": "Medium",
+    "name": "Wight",
+    "alignment": "NE",
+    "challenge": "3",
+    "page": "mm 300",
+    "environment": {
+      "Desert": "yes",
+      "Urban": "yes",
+      "Swamp": "yes",
+      "Underdark": "yes"
+    },
+    "type": "Undead",
+    "xp": "700"
+  },
+  "Galeb Duhr": {
+    "alignment": "N",
+    "challenge": "6",
+    "size": "Medium",
+    "name": "Galeb Duhr",
+    "xp": "2300",
+    "type": "Elemental",
+    "environment": { "Mountain": "yes", "Hill": "yes" },
+    "page": "mm 139"
+  },
+  "Guard Drake": {
+    "xp": "450",
+    "type": "Dragon",
+    "environment": {
+      "Urban": "yes",
+      "Desert": "yes",
+      "Arctic": "yes",
+      "Underdark": "yes",
+      "Mountain": "yes",
+      "Swamp": "yes",
+      "Forest": "yes"
+    },
+    "page": "vgm 158",
+    "alignment": "Unaligned",
+    "challenge": "2",
+    "size": "Medium",
+    "name": "Guard Drake"
+  },
+  "Vegepygmy Chief": {
+    "challenge": "2",
+    "alignment": "N",
+    "name": "Vegepygmy Chief",
+    "size": "Small",
+    "xp": "450",
+    "type": "Plant",
+    "environment": { "Swamp": "yes", "Forest": "yes" },
+    "page": "vgm 197"
+  },
+  "Green Hag": {
+    "size": "Medium",
+    "name": "Green Hag",
+    "alignment": "NE",
+    "challenge": "3",
+    "environment": { "Hill": "yes", "Swamp": "yes", "Forest": "yes" },
+    "page": "mm 177",
+    "type": "Fey",
+    "xp": "700"
+  },
+  "Fire Snake": {
+    "name": "Fire Snake",
+    "size": "Medium",
+    "challenge": "1",
+    "alignment": "NE",
+    "environment": { "Underdark": "yes" },
+    "page": "mm 265",
+    "xp": "200",
+    "type": "Elemental"
+  },
+  "Drow Favored Consort": {
+    "page": "mtf 183",
+    "environment": { "Underdark": "yes" },
+    "type": "Humanoid",
+    "xp": "20000",
+    "size": "Medium",
+    "name": "Drow Favored Consort",
+    "alignment": "NE",
+    "challenge": "18",
+    "tags": "elf"
+  },
+  "Chitine": {
+    "size": "Small",
+    "name": "Chitine",
+    "alignment": "CE",
+    "challenge": "1/2",
+    "page": "vgm 131",
+    "environment": { "Underdark": "yes" },
+    "xp": "100",
+    "type": "Monstrosity"
+  },
+  "Black Bear": {
+    "environment": { "Forest": "yes" },
+    "page": "mm 318",
+    "xp": "100",
+    "type": "Beast",
+    "name": "Black Bear",
+    "size": "Medium",
+    "challenge": "1/2",
+    "alignment": "Unaligned"
+  },
+  "Giff": {
+    "alignment": "LN",
+    "challenge": "3",
+    "size": "Medium",
+    "name": "Giff",
+    "type": "Humanoid",
+    "xp": "700",
+    "environment": { "Urban": "yes" },
+    "page": "mtf 204"
+  },
+  "Wyvern": {
+    "type": "Dragon",
+    "xp": "2300",
+    "environment": { "Mountain": "yes", "Hill": "yes" },
+    "page": "mm 303",
+    "alignment": "Unaligned",
+    "challenge": "6",
+    "size": "Large",
+    "name": "Wyvern"
+  },
+  "Mind Flayer": {
+    "challenge": "7",
+    "alignment": "LE",
+    "name": "Mind Flayer",
+    "size": "Medium",
+    "type": "Aberration",
+    "xp": "2900",
+    "environment": { "Underdark": "yes" },
+    "page": "mm 222"
+  },
+  "Flumph": {
+    "size": "Small",
+    "name": "Flumph",
+    "alignment": "LG",
+    "challenge": "1/8",
+    "environment": { "Underdark": "yes" },
+    "page": "mm 135",
+    "xp": "25",
+    "type": "Aberration"
+  },
+  "Spider": {
+    "size": "Tiny",
+    "page": "mm 337",
+    "name": "Spider",
+    "xp": "10",
+    "alignment": "Unaligned",
+    "type": "Beast",
+    "challenge": 0
+  },
+  "Frost Giant": {
+    "xp": "3900",
+    "type": "Giant",
+    "page": "mm 155",
+    "environment": { "Mountain": "yes", "Arctic": "yes" },
+    "challenge": "8",
+    "alignment": "NE",
+    "name": "Frost Giant",
+    "size": "Huge"
+  },
+  "Neogi": {
+    "challenge": "3",
+    "alignment": "LE",
+    "name": "Neogi",
+    "size": "Small",
+    "xp": "700",
+    "type": "Aberration",
+    "page": "vgm 180",
+    "environment": { "Hill": "yes", "Underdark": "yes" }
+  },
+  "Stone Cursed": {
+    "xp": "200",
+    "type": "Construct",
+    "environment": { "Mountain": "yes", "Urban": "yes", "Desert": "yes" },
+    "page": "mtf 240",
+    "challenge": "1",
+    "alignment": "LE",
+    "name": "Stone Cursed",
+    "size": "Medium"
+  },
+  "Nothic": {
+    "name": "Nothic",
+    "size": "Medium",
+    "challenge": "2",
+    "alignment": "NE",
+    "page": "mm 236",
+    "environment": { "Underdark": "yes" },
+    "type": "Aberration",
+    "xp": "450"
+  },
+  "Shambling Mound": {
+    "environment": { "Forest": "yes", "Swamp": "yes" },
+    "page": "mm 270",
+    "xp": "1800",
+    "type": "Plant",
+    "size": "Large",
+    "name": "Shambling Mound",
+    "alignment": "Unaligned",
+    "challenge": "5"
+  },
+  "Boneclaw": {
+    "xp": "8400",
+    "type": "Undead",
+    "environment": { "Desert": "yes", "Urban": "yes", "Arctic": "yes" },
+    "page": "mtf 121",
+    "challenge": "12",
+    "alignment": "CE",
+    "name": "Boneclaw",
+    "size": "Large"
+  },
+  "Jackalwere": {
+    "page": "mm 193",
+    "environment": { "Desert": "yes", "Grassland": "yes" },
+    "xp": "100",
+    "type": "Humanoid",
+    "name": "Jackalwere",
+    "size": "Medium",
+    "challenge": "1/2",
+    "tags": "shapechanger",
+    "alignment": "CE"
+  },
+  "Owl": {
+    "xp": "10",
+    "type": "Beast",
+    "page": "mm 333",
+    "environment": { "Arctic": "yes", "Forest": "yes" },
+    "challenge": 0,
+    "alignment": "Unaligned",
+    "name": "Owl",
+    "size": "Tiny"
+  },
+  "Troglodyte": {
+    "page": "mm 290",
+    "environment": { "Underdark": "yes" },
+    "type": "Humanoid",
+    "xp": "50",
+    "size": "Medium",
+    "name": "Troglodyte",
+    "alignment": "CE",
+    "challenge": "1/4",
+    "tags": "troglodyte"
+  },
+  "Giant Weasel": {
+    "environment": { "Hill": "yes", "Grassland": "yes", "Forest": "yes" },
+    "page": "mm 329",
+    "xp": "25",
+    "type": "Beast",
+    "name": "Giant Weasel",
+    "size": "Medium",
+    "challenge": "1/8",
+    "alignment": "Unaligned"
+  },
+  "Adult Green Dragon": {
+    "xp": "13000",
+    "type": "Dragon",
+    "page": "mm 94",
+    "environment": { "Forest": "yes" },
+    "challenge": "15",
+    "alignment": "LE",
+    "name": "Adult Green Dragon",
+    "size": "Huge"
+  },
+  "Ogre": {
+    "environment": {
+      "Coastal": "yes",
+      "Forest": "yes",
+      "Grassland": "yes",
+      "Swamp": "yes",
+      "Mountain": "yes",
+      "Desert": "yes",
+      "Arctic": "yes",
+      "Hill": "yes",
+      "Underdark": "yes"
+    },
+    "page": "mm 237",
+    "xp": "450",
+    "type": "Giant",
+    "size": "Large",
+    "name": "Ogre",
+    "alignment": "CE",
+    "challenge": "2"
+  },
+  "Spectator": {
+    "size": "Medium",
+    "name": "Spectator",
+    "alignment": "LN",
+    "challenge": "3",
+    "page": "mm 30",
+    "environment": { "Underdark": "yes" },
+    "xp": "700",
+    "type": "Aberration"
+  },
+  "Adult Brass Dragon": {
+    "size": "Huge",
+    "name": "Adult Brass Dragon",
+    "alignment": "CG",
+    "challenge": "13",
+    "environment": { "Desert": "yes" },
+    "page": "mm 105",
+    "xp": "10000",
+    "type": "Dragon"
+  },
+  "Orc Red Fang of Shargaas": {
+    "name": "Orc Red Fang of Shargaas",
+    "size": "Medium",
+    "tags": "orc",
+    "challenge": "3",
+    "alignment": "CE",
+    "environment": {
+      "Underdark": "yes",
+      "Mountain": "yes",
+      "Forest": "yes",
+      "Urban": "yes",
+      "Hill": "yes"
+    },
+    "page": "vgm 185",
+    "type": "Humanoid",
+    "xp": "700"
+  },
+  "Adult Blue Dracolich": {
+    "size": "Huge",
+    "name": "Adult Blue Dracolich",
+    "alignment": "LE",
+    "challenge": "17",
+    "page": "mm 84",
+    "environment": { "Desert": "yes" },
+    "xp": "18000",
+    "type": "Undead"
+  },
+  "Young Red Dragon": {
+    "xp": "5900",
+    "type": "Dragon",
+    "environment": { "Mountain": "yes", "Hill": "yes" },
+    "page": "mm 98",
+    "challenge": "10",
+    "alignment": "CE",
+    "name": "Young Red Dragon",
+    "size": "Large"
+  },
+  "Adult Gold Dragon": {
+    "alignment": "LG",
+    "challenge": "17",
+    "size": "Huge",
+    "name": "Adult Gold Dragon",
+    "xp": "18000",
+    "type": "Dragon",
+    "page": "mm 114",
+    "environment": { "Grassland": "yes", "Forest": "yes" }
+  },
+  "Grung Wildling": {
+    "challenge": "1",
+    "tags": "grung",
+    "alignment": "LE",
+    "name": "Grung Wildling",
+    "size": "Small",
+    "type": "Humanoid",
+    "xp": "200",
+    "page": "vgm 157",
+    "environment": { "Forest": "yes" }
+  },
+  "Blood Hawk": {
+    "xp": "25",
+    "type": "Beast",
+    "environment": {
+      "Arctic": "yes",
+      "Coastal": "yes",
+      "Hill": "yes",
+      "Forest": "yes",
+      "Grassland": "yes",
+      "Mountain": "yes"
+    },
+    "page": "mm 319",
+    "alignment": "Unaligned",
+    "challenge": "1/8",
+    "size": "Small",
+    "name": "Blood Hawk"
+  },
+  "Gelatinous Cube": {
+    "challenge": "2",
+    "alignment": "Unaligned",
+    "name": "Gelatinous Cube",
+    "size": "Large",
+    "type": "Ooze",
+    "xp": "450",
+    "page": "mm 242",
+    "environment": { "Underdark": "yes" }
+  },
+  "Duergar Screamer": {
+    "type": "Construct",
+    "xp": "700",
+    "environment": { "Mountain": "yes", "Underdark": "yes" },
+    "page": "mtf 190",
+    "alignment": "LE",
+    "challenge": "3",
+    "size": "Medium",
+    "name": "Duergar Screamer"
+  },
+  "Violet Fungus": {
+    "xp": "50",
+    "type": "Plant",
+    "page": "mm 138",
+    "environment": { "Underdark": "yes" },
+    "challenge": "1/4",
+    "alignment": "Unaligned",
+    "name": "Violet Fungus",
+    "size": "Medium"
+  },
+  "Pseudodragon": {
+    "xp": "50",
+    "type": "Dragon",
+    "page": "mm 254",
+    "environment": {
+      "Mountain": "yes",
+      "Forest": "yes",
+      "Hill": "yes",
+      "Coastal": "yes",
+      "Urban": "yes",
+      "Desert": "yes"
+    },
+    "alignment": "NG",
+    "challenge": "1/4",
+    "size": "Tiny",
+    "name": "Pseudodragon"
+  },
+  "Gas Spore": {
+    "xp": "100",
+    "type": "Plant",
+    "page": "mm 138",
+    "environment": { "Underdark": "yes" },
+    "challenge": "1/2",
+    "alignment": "Unaligned",
+    "name": "Gas Spore",
+    "size": "Large"
+  },
+  "Phase Spider": {
+    "alignment": "Unaligned",
+    "challenge": "3",
+    "size": "Large",
+    "name": "Phase Spider",
+    "type": "Monstrosity",
+    "xp": "700",
+    "page": "mm 334",
+    "environment": {
+      "Desert": "yes",
+      "Urban": "yes",
+      "Hill": "yes",
+      "Underdark": "yes",
+      "Forest": "yes",
+      "Grassland": "yes"
+    }
+  },
+  "Medusa": {
+    "environment": { "Desert": "yes" },
+    "page": "mm 214",
+    "xp": "2300",
+    "type": "Monstrosity",
+    "size": "Medium",
+    "name": "Medusa",
+    "alignment": "LE",
+    "challenge": "6"
+  },
+  "Orog": {
+    "page": "mm 247",
+    "environment": {
+      "Grassland": "yes",
+      "Mountain": "yes",
+      "Forest": "yes",
+      "Underdark": "yes",
+      "Hill": "yes",
+      "Arctic": "yes"
+    },
+    "xp": "450",
+    "type": "Humanoid",
+    "size": "Medium",
+    "name": "Orog",
+    "alignment": "CE",
+    "challenge": "2",
+    "tags": "orc"
+  },
+  "Elder Tempest": {
+    "size": "Gargantuan",
+    "name": "Elder Tempest",
+    "alignment": "N",
+    "challenge": "23",
+    "environment": {
+      "Hill": "yes",
+      "Arctic": "yes",
+      "Coastal": "yes",
+      "Mountain": "yes",
+      "Grassland": "yes"
+    },
+    "page": "mtf 200",
+    "type": "Elemental",
+    "xp": "50000"
+  },
+  "Xvart": {
+    "challenge": "1/8",
+    "tags": "xvart",
+    "alignment": "CE",
+    "name": "Xvart",
+    "size": "Small",
+    "xp": "25",
+    "type": "Humanoid",
+    "page": "vgm 200",
+    "environment": { "Underdark": "yes", "Hill": "yes" }
+  },
+  "Flesh Golem": {
+    "alignment": "N",
+    "xp": "1800",
+    "type": "Construct",
+    "challenge": "5",
+    "page": "mm 169",
+    "size": "Medium",
+    "name": "Flesh Golem"
+  },
+  "Brontosaurus": {
+    "size": "Gargantuan",
+    "name": "Brontosaurus",
+    "alignment": "Unaligned",
+    "challenge": "5",
+    "page": "vgm 139",
+    "environment": { "Forest": "yes", "Grassland": "yes" },
+    "xp": "1800",
+    "type": "Beast"
+  },
+  "Kobold Inventor": {
+    "alignment": "LE",
+    "challenge": "1/4",
+    "tags": "kobold",
+    "size": "Small",
+    "name": "Kobold Inventor",
+    "xp": "50",
+    "type": "Humanoid",
+    "page": "vgm 166",
+    "environment": {
+      "Mountain": "yes",
+      "Forest": "yes",
+      "Underdark": "yes",
+      "Hill": "yes",
+      "Urban": "yes"
+    }
+  },
+  "Stirge": {
+    "challenge": "1/8",
+    "alignment": "Unaligned",
+    "name": "Stirge",
+    "size": "Tiny",
+    "xp": "25",
+    "type": "Beast",
+    "environment": {
+      "Underdark": "yes",
+      "Hill": "yes",
+      "Desert": "yes",
+      "Urban": "yes",
+      "Forest": "yes",
+      "Mountain": "yes",
+      "Swamp": "yes",
+      "Grassland": "yes",
+      "Coastal": "yes"
+    },
+    "page": "mm 284"
+  },
+  "Young Copper Dragon": {
+    "name": "Young Copper Dragon",
+    "size": "Large",
+    "challenge": "7",
+    "alignment": "CG",
+    "page": "mm 111",
+    "environment": { "Hill": "yes" },
+    "xp": "2900",
+    "type": "Dragon"
+  },
+  "Bodak": {
+    "xp": "2300",
+    "type": "Undead",
+    "environment": { "Underdark": "yes", "Swamp": "yes", "Urban": "yes" },
+    "page": "vgm 127",
+    "alignment": "CE",
+    "challenge": "6",
+    "size": "Medium",
+    "name": "Bodak"
+  },
+  "Githzerai Monk": {
+    "page": "mm 161",
+    "xp": "450",
+    "type": "Humanoid",
+    "size": "Medium",
+    "name": "Githzerai Monk",
+    "alignment": "LN",
+    "tags": "gith",
+    "challenge": "2"
+  },
+  "Yuan-ti Pureblood": {
+    "page": "mm 310",
+    "environment": {
+      "Swamp": "yes",
+      "Forest": "yes",
+      "Desert": "yes",
+      "Urban": "yes"
+    },
+    "xp": "200",
+    "type": "Humanoid",
+    "name": "Yuan-ti Pureblood",
+    "size": "Medium",
+    "challenge": "1",
+    "tags": "yuan-ti",
+    "alignment": "NE"
+  },
+  "Giant Constrictor Snake": {
+    "name": "Giant Constrictor Snake",
+    "size": "Huge",
+    "challenge": "2",
+    "alignment": "Unaligned",
+    "environment": {
+      "Swamp": "yes",
+      "Forest": "yes",
+      "Underdark": "yes",
+      "Underwater": "yes",
+      "Desert": "yes"
+    },
+    "page": "mm 324",
+    "xp": "450",
+    "type": "Beast"
+  },
+  "Hill Giant": {
+    "type": "Giant",
+    "xp": "1800",
+    "environment": { "Hill": "yes" },
+    "page": "mm 155",
+    "challenge": "5",
+    "alignment": "CE",
+    "name": "Hill Giant",
+    "size": "Huge"
+  },
+  "Yeti": {
+    "alignment": "CE",
+    "challenge": "3",
+    "size": "Large",
+    "name": "Yeti",
+    "xp": "700",
+    "type": "Monstrosity",
+    "environment": { "Arctic": "yes" },
+    "page": "mm 305"
+  },
+  "Orc Nurtured One of Yurtrus": {
+    "xp": "100",
+    "type": "Humanoid",
+    "page": "vgm 184",
+    "environment": {
+      "Grassland": "yes",
+      "Mountain": "yes",
+      "Forest": "yes",
+      "Underdark": "yes",
+      "Hill": "yes"
+    },
+    "challenge": "1/2",
+    "tags": "orc",
+    "alignment": "CE",
+    "name": "Orc Nurtured One of Yurtrus",
+    "size": "Medium"
+  },
+  "Rhinoceros": {
+    "xp": "450",
+    "type": "Beast",
+    "page": "mm 336",
+    "environment": { "Grassland": "yes" },
+    "alignment": "Unaligned",
+    "challenge": "2",
+    "size": "Large",
+    "name": "Rhinoceros"
+  },
+  "Elder Brain": {
+    "environment": { "Underdark": "yes" },
+    "page": "vgm 174",
+    "xp": "11500",
+    "type": "Aberration",
+    "size": "Large",
+    "name": "Elder Brain",
+    "alignment": "LE",
+    "challenge": "14"
+  },
+  "Deathlock Wight": {
+    "xp": "700",
+    "type": "Undead",
+    "page": "mtf 129",
+    "environment": {},
+    "challenge": "3",
+    "alignment": "NE",
+    "name": "Deathlock Wight",
+    "size": "Medium"
+  },
+  "Wererat": {
+    "name": "Wererat",
+    "size": "Medium",
+    "challenge": "2",
+    "tags": "human, shapechanger",
+    "alignment": "LE",
+    "page": "mm 209",
+    "environment": { "Forest": "yes", "Urban": "yes" },
+    "type": "Humanoid",
+    "xp": "450"
+  },
+  "Ghoul": {
+    "xp": "200",
+    "type": "Undead",
+    "page": "mm 148",
+    "environment": { "Urban": "yes", "Swamp": "yes", "Underdark": "yes" },
+    "challenge": "1",
+    "alignment": "CE",
+    "name": "Ghoul",
+    "size": "Medium"
+  },
+  "Giant Rat": {
+    "alignment": "Unaligned",
+    "challenge": "1/8",
+    "size": "Small",
+    "name": "Giant Rat",
+    "type": "Beast",
+    "xp": "25",
+    "environment": {
+      "Forest": "yes",
+      "Swamp": "yes",
+      "Underdark": "yes",
+      "Urban": "yes"
+    },
+    "page": "mm 327"
+  },
+  "Shrieker": {
+    "xp": "10",
+    "type": "Plant",
+    "page": "mm 138",
+    "environment": { "Underdark": "yes" },
+    "alignment": "Unaligned",
+    "challenge": 0,
+    "size": "Medium",
+    "name": "Shrieker"
+  },
+  "Grung": {
+    "type": "Humanoid",
+    "xp": "50",
+    "page": "vgm 156",
+    "environment": { "Forest": "yes" },
+    "challenge": "1/4",
+    "tags": "grung",
+    "alignment": "LE",
+    "name": "Grung",
+    "size": "Small"
+  },
+  "Tortle": {
+    "type": "Humanoid",
+    "xp": "50",
+    "page": "mtf 242",
+    "environment": { "Coastal": "yes" },
+    "alignment": "LG",
+    "challenge": "1/4",
+    "tags": "tortle",
+    "size": "Medium",
+    "name": "Tortle"
+  },
+  "Polar Bear": {
+    "xp": "450",
+    "type": "Beast",
+    "environment": { "Underdark": "yes", "Arctic": "yes" },
+    "page": "mm 334",
+    "alignment": "Unaligned",
+    "challenge": "2",
+    "size": "Large",
+    "name": "Polar Bear"
+  },
+  "Dire Wolf": {
+    "alignment": "Unaligned",
+    "challenge": "1",
+    "size": "Large",
+    "name": "Dire Wolf",
+    "xp": "200",
+    "type": "Beast",
+    "environment": { "Forest": "yes", "Hill": "yes" },
+    "page": "mm 321"
+  },
+  "Clay Golem": {
+    "challenge": "9",
+    "alignment": "Unaligned",
+    "xp": "5000",
+    "type": "Construct",
+    "name": "Clay Golem",
+    "page": "mm 168",
+    "size": "Large"
+  },
+  "Magmin": {
+    "page": "mm 212",
+    "size": "Small",
+    "name": "Magmin",
+    "xp": "100",
+    "type": "Elemental",
+    "alignment": "CN",
+    "challenge": "1/2"
+  },
+  "Skull Lord": {
+    "size": "Medium",
+    "name": "Skull Lord",
+    "alignment": "LE",
+    "challenge": "15",
+    "page": "mtf 230",
+    "environment": { "Desert": "yes", "Swamp": "yes", "Underdark": "yes" },
+    "xp": "13000",
+    "type": "Undead"
+  },
+  "Swarm of Ravens": {
+    "name": "Swarm of Ravens",
+    "size": "Medium",
+    "challenge": "1/4",
+    "alignment": "Unaligned",
+    "environment": {
+      "Urban": "yes",
+      "Hill": "yes",
+      "Forest": "yes",
+      "Swamp": "yes"
+    },
+    "page": "mm 339",
+    "type": "Beast",
+    "xp": "50"
+  },
+  "Triceratops": {
+    "page": "mm 80",
+    "environment": { "Grassland": "yes" },
+    "xp": "1800",
+    "type": "Beast",
+    "name": "Triceratops",
+    "size": "Huge",
+    "challenge": "5",
+    "alignment": "Unaligned"
+  },
+  "Githyanki Kith'rak": {
+    "xp": "8400",
+    "type": "Humanoid",
+    "environment": { "Mountain": "yes", "Desert": "yes", "Urban": "yes" },
+    "page": "mtf 205",
+    "tags": "gith",
+    "challenge": "12",
+    "alignment": "LE",
+    "name": "Githyanki Kith'rak",
+    "size": "Medium"
+  },
+  "Demilich (in lair)": {
+    "challenge": "20",
+    "alignment": "NE",
+    "xp": "24500",
+    "type": "Undead",
+    "name": "Demilich",
+    "size": "Tiny",
+    "page": "mm 48"
+  },
+  "Cat": {
+    "alignment": "Unaligned",
+    "challenge": 0,
+    "size": "Tiny",
+    "name": "Cat",
+    "xp": "10",
+    "type": "Beast",
+    "environment": {
+      "Urban": "yes",
+      "Desert": "yes",
+      "Forest": "yes",
+      "Grassland": "yes"
+    },
+    "page": "mm 320"
+  },
+  "Hyena": {
+    "xp": "10",
+    "type": "Beast",
+    "environment": {
+      "Hill": "yes",
+      "Desert": "yes",
+      "Grassland": "yes",
+      "Forest": "yes"
+    },
+    "page": "mm 331",
+    "alignment": "Unaligned",
+    "challenge": 0,
+    "size": "Medium",
+    "name": "Hyena"
+  },
+  "Androsphinx": {
+    "challenge": "17",
+    "alignment": "LN",
+    "name": "Androsphinx",
+    "size": "Large",
+    "xp": "18000",
+    "type": "Monstrosity",
+    "environment": { "Desert": "yes" },
+    "page": "mm 281"
+  },
+  "Lost Sorrowsworn": {
+    "name": "Lost Sorrowsworn",
+    "size": "Medium",
+    "challenge": "7",
+    "alignment": "NE",
+    "page": "mtf 233",
+    "environment": {
+      "Forest": "yes",
+      "Swamp": "yes",
+      "Mountain": "yes",
+      "Underdark": "yes",
+      "Arctic": "yes",
+      "Urban": "yes",
+      "Desert": "yes"
+    },
+    "type": "Monstrosity",
+    "xp": "2900"
+  },
+  "Manes": {
+    "xp": "25",
+    "type": "Fiend",
+    "page": "mm 60",
+    "challenge": "1/8",
+    "tags": "demon",
+    "alignment": "CE",
+    "name": "Manes",
+    "size": "Small"
+  },
+  "Neothelid": {
+    "size": "Gargantuan",
+    "name": "Neothelid",
+    "alignment": "CE",
+    "challenge": "13",
+    "environment": { "Underdark": "yes" },
+    "page": "vgm 181",
+    "xp": "10000",
+    "type": "Aberration"
+  },
+  "Duergar Xarrorn": {
+    "type": "Humanoid",
+    "xp": "450",
+    "page": "mtf 193",
+    "environment": { "Underdark": "yes", "Mountain": "yes" },
+    "challenge": "2",
+    "tags": "dwarf",
+    "alignment": "LE",
+    "name": "Duergar Xarrorn",
+    "size": "Medium"
+  },
+  "Behir": {
+    "page": "mm 25",
+    "environment": { "Underdark": "yes" },
+    "xp": "7200",
+    "type": "Monstrosity",
+    "name": "Behir",
+    "size": "Huge",
+    "challenge": "11",
+    "alignment": "NE"
+  },
+  "Hawk": {
+    "type": "Beast",
+    "xp": "10",
+    "alignment": "Unaligned",
+    "challenge": 0,
+    "size": "Tiny",
+    "page": "mm 330",
+    "name": "Hawk"
+  },
+  "Mezzoloth": {
+    "name": "Mezzoloth",
+    "size": "Medium",
+    "challenge": "5",
+    "tags": "yugoloth",
+    "alignment": "NE",
+    "page": "mm 313",
+    "type": "Fiend",
+    "xp": "1800"
+  },
+  "Yuan-ti Abomination": {
+    "environment": { "Desert": "yes", "Swamp": "yes", "Forest": "yes" },
+    "page": "mm 308",
+    "type": "Monstrosity",
+    "xp": "2900",
+    "size": "Large",
+    "name": "Yuan-ti Abomination",
+    "alignment": "NE",
+    "tags": "shapechanger, yuan-ti",
+    "challenge": "7"
+  },
+  "Thri-kreen": {
+    "alignment": "CN",
+    "challenge": "1",
+    "tags": "thri-kreen",
+    "size": "Medium",
+    "name": "Thri-kreen",
+    "xp": "200",
+    "type": "Humanoid",
+    "page": "mm 288",
+    "environment": { "Grassland": "yes", "Desert": "yes" }
+  },
+  "Bat": {
+    "type": "Beast",
+    "xp": "10",
+    "alignment": "Unaligned",
+    "challenge": 0,
+    "page": "mm 318",
+    "size": "Tiny",
+    "name": "Bat"
+  },
+  "Catoblepas": {
+    "name": "Catoblepas",
+    "size": "Large",
+    "challenge": "5",
+    "alignment": "Unaligned",
+    "page": "vgm 129",
+    "environment": { "Swamp": "yes" },
+    "xp": "1800",
+    "type": "Monstrosity"
+  },
+  "Giant Poisonous Snake": {
+    "challenge": "1/4",
+    "alignment": "Unaligned",
+    "name": "Giant Poisonous Snake",
+    "size": "Medium",
+    "xp": "50",
+    "type": "Beast",
+    "page": "mm 327",
+    "environment": {
+      "Desert": "yes",
+      "Urban": "yes",
+      "Swamp": "yes",
+      "Grassland": "yes",
+      "Forest": "yes",
+      "Underdark": "yes"
+    }
+  },
+  "Canoloth": {
+    "page": "mtf 247",
+    "environment": { "Coastal": "yes", "Urban": "yes", "Underdark": "yes" },
+    "xp": "3900",
+    "type": "Fiend",
+    "name": "Canoloth",
+    "size": "Medium",
+    "challenge": "8",
+    "tags": "yugoloth",
+    "alignment": "NE"
+  },
+  "Iron Golem": {
+    "size": "Large",
+    "page": "mm 170",
+    "name": "Iron Golem",
+    "alignment": "Unaligned",
+    "xp": "15000",
+    "type": "Construct",
+    "challenge": "16"
+  },
+  "Giant Owl": {
+    "xp": "50",
+    "type": "Beast",
+    "page": "mm 327",
+    "environment": { "Forest": "yes", "Hill": "yes", "Arctic": "yes" },
+    "alignment": "N",
+    "challenge": "1/4",
+    "size": "Large",
+    "name": "Giant Owl"
+  },
+  "Constrictor Snake": {
+    "environment": {
+      "Swamp": "yes",
+      "Forest": "yes",
+      "Underwater": "yes",
+      "Desert": "yes"
+    },
+    "page": "mm 320",
+    "xp": "50",
+    "type": "Beast",
+    "name": "Constrictor Snake",
+    "size": "Large",
+    "challenge": "1/4",
+    "alignment": "Unaligned"
+  },
+  "Orc Hand of Yurtrus": {
+    "tags": "orc",
+    "challenge": "2",
+    "alignment": "CE",
+    "name": "Orc Hand of Yurtrus",
+    "size": "Medium",
+    "type": "Humanoid",
+    "xp": "450",
+    "environment": {
+      "Underdark": "yes",
+      "Grassland": "yes",
+      "Mountain": "yes",
+      "Forest": "yes",
+      "Hill": "yes"
+    },
+    "page": "vgm 184"
+  },
+  "Barlgura": {
+    "type": "Fiend",
+    "xp": "1800",
+    "page": "mm 56",
+    "tags": "demon",
+    "challenge": "5",
+    "alignment": "CE",
+    "name": "Barlgura",
+    "size": "Large"
+  },
+  "Plesiosaurus": {
+    "xp": "450",
+    "type": "Beast",
+    "page": "mm 80",
+    "environment": { "Coastal": "yes", "Underwater": "yes" },
+    "challenge": "2",
+    "alignment": "Unaligned",
+    "name": "Plesiosaurus",
+    "size": "Large"
+  },
+  "Molydeus": {
+    "name": "Molydeus",
+    "size": "Huge",
+    "challenge": "21",
+    "tags": "demon",
+    "alignment": "CE",
+    "page": "mtf 134",
+    "environment": {},
+    "xp": "33000",
+    "type": "Fiend"
+  },
+  "Skeleton": {
+    "xp": "50",
+    "type": "Undead",
+    "page": "mm 272",
+    "environment": { "Urban": "yes" },
+    "alignment": "LE",
+    "challenge": "1/4",
+    "size": "Medium",
+    "name": "Skeleton"
+  },
+  "Vrock": {
+    "page": "mm 64",
+    "xp": "2300",
+    "type": "Fiend",
+    "size": "Large",
+    "name": "Vrock",
+    "alignment": "CE",
+    "challenge": "6",
+    "tags": "demon"
+  },
+  "Salamander": {
+    "size": "Large",
+    "name": "Salamander",
+    "alignment": "NE",
+    "challenge": "5",
+    "environment": { "Underdark": "yes" },
+    "page": "mm 266",
+    "xp": "1800",
+    "type": "Elemental"
+  },
+  "Lizard King/Queen": {
+    "size": "Medium",
+    "name": "Lizard King/Queen",
+    "alignment": "CE",
+    "challenge": "4",
+    "tags": "lizardfolk",
+    "page": "mm 205",
+    "type": "Humanoid",
+    "xp": "1100"
+  },
+  "Barghest": {
+    "page": "vgm 123",
+    "environment": {
+      "Hill": "yes",
+      "Underdark": "yes",
+      "Forest": "yes",
+      "Mountain": "yes",
+      "Grassland": "yes"
+    },
+    "xp": "1100",
+    "type": "Fiend",
+    "size": "Large",
+    "name": "Barghest",
+    "alignment": "NE",
+    "challenge": "4",
+    "tags": "shapechanger"
+  },
+  "Young Green Dragon": {
+    "environment": { "Forest": "yes" },
+    "page": "mm 94",
+    "xp": "3900",
+    "type": "Dragon",
+    "size": "Large",
+    "name": "Young Green Dragon",
+    "alignment": "LE",
+    "challenge": "8"
+  },
+  "Half-ogre": {
+    "xp": "200",
+    "type": "Giant",
+    "environment": {
+      "Desert": "yes",
+      "Urban": "yes",
+      "Hill": "yes",
+      "Arctic": "yes",
+      "Underdark": "yes",
+      "Mountain": "yes",
+      "Forest": "yes"
+    },
+    "page": "mm 238",
+    "challenge": "1",
+    "alignment": "Any chaotic",
+    "name": "Half-ogre",
+    "size": "Large"
+  },
+  "Wolf": {
+    "xp": "50",
+    "type": "Beast",
+    "page": "mm 341",
+    "environment": { "Grassland": "yes", "Forest": "yes", "Hill": "yes" },
+    "alignment": "Unaligned",
+    "challenge": "1/4",
+    "size": "Medium",
+    "name": "Wolf"
+  },
+  "Young Bronze Dragon": {
+    "challenge": "8",
+    "alignment": "LG",
+    "name": "Young Bronze Dragon",
+    "size": "Large",
+    "xp": "3900",
+    "type": "Dragon",
+    "page": "mm 108",
+    "environment": { "Coastal": "yes" }
+  },
+  "Githzerai Enlightened": {
+    "xp": "5900",
+    "type": "Humanoid",
+    "page": "mtf 208",
+    "environment": { "Mountain": "yes", "Desert": "yes", "Urban": "yes" },
+    "alignment": "LN",
+    "challenge": "10",
+    "tags": "gith",
+    "size": "Medium",
+    "name": "Githzerai Enlightened"
+  },
+  "Baboon": {
+    "name": "Baboon",
+    "size": "Small",
+    "challenge": 0,
+    "alignment": "Unaligned",
+    "environment": { "Hill": "yes", "Forest": "yes" },
+    "page": "mm 318",
+    "type": "Beast",
+    "xp": "10"
+  },
+  "Bugbear Chief": {
+    "page": "mm 33",
+    "xp": "700",
+    "type": "Humanoid",
+    "size": "Medium",
+    "name": "Bugbear Chief",
+    "alignment": "CE",
+    "challenge": "3",
+    "tags": "goblinoid"
+  },
+  "Will-o-wisp": {
+    "environment": { "Forest": "yes", "Swamp": "yes", "Urban": "yes" },
+    "page": "mm 301",
+    "type": "Undead",
+    "xp": "450",
+    "name": "Will-o-wisp",
+    "size": "Tiny",
+    "challenge": "2",
+    "alignment": "CE"
+  },
+  "Nightwalker": {
+    "environment": {
+      "Underdark": "yes",
+      "Swamp": "yes",
+      "Desert": "yes",
+      "Arctic": "yes"
+    },
+    "page": "mtf 216",
+    "xp": "25000",
+    "type": "Undead",
+    "name": "Nightwalker",
+    "size": "Huge",
+    "challenge": "20",
+    "alignment": "CE"
+  },
+  "Quaggoth Thonot": {
+    "tags": "quaggoth",
+    "challenge": "3",
+    "alignment": "CN",
+    "name": "Quaggoth Thonot",
+    "size": "Medium",
+    "xp": "700",
+    "type": "Humanoid",
+    "environment": { "Underdark": "yes" },
+    "page": "mm 256"
+  },
+  "Rot Troll": {
+    "name": "Rot Troll",
+    "size": "Large",
+    "challenge": "9",
+    "alignment": "CE",
+    "page": "mtf 244",
+    "environment": {
+      "Underdark": "yes",
+      "Forest": "yes",
+      "Swamp": "yes",
+      "Desert": "yes"
+    },
+    "xp": "5000",
+    "type": "Giant"
+  },
+  "Morkoth (in lair)": {
+    "name": "Morkoth (in lair)",
+    "size": "Medium",
+    "challenge": "12",
+    "alignment": "CE",
+    "page": "vgm 178",
+    "environment": { "Coastal": "yes", "Underwater": "yes" },
+    "xp": "8400",
+    "type": "Aberration"
+  },
+  "Giant Shark": {
+    "page": "mm 328",
+    "environment": { "Underwater": "yes" },
+    "type": "Beast",
+    "xp": "1800",
+    "name": "Giant Shark",
+    "size": "Huge",
+    "challenge": "5",
+    "alignment": "Unaligned"
+  },
+  "Dimetrodon": {
+    "alignment": "Unaligned",
+    "challenge": "1/4",
+    "size": "Medium",
+    "name": "Dimetrodon",
+    "type": "Beast",
+    "xp": "50",
+    "environment": { "Coastal": "yes", "Swamp": "yes" },
+    "page": "vgm 139"
+  },
+  "Deinonychus": {
+    "environment": { "Hill": "yes", "Grassland": "yes", "Forest": "yes" },
+    "page": "vgm 139",
+    "xp": "200",
+    "type": "Beast",
+    "name": "Deinonychus",
+    "size": "Medium",
+    "challenge": "1",
+    "alignment": "Unaligned"
+  },
+  "Draft Horse": {
+    "alignment": "Unaligned",
+    "challenge": "1/4",
+    "size": "Large",
+    "name": "Draft Horse",
+    "xp": "50",
+    "type": "Beast",
+    "page": "mm 321",
+    "environment": { "Urban": "yes" }
+  },
+  "Banderhobb": {
+    "name": "Banderhobb",
+    "size": "Large",
+    "challenge": "5",
+    "alignment": "NE",
+    "environment": { "Urban": "yes" },
+    "page": "vgm 122",
+    "xp": "1800",
+    "type": "Monstrosity"
+  },
+  "Duergar Warlord": {
+    "name": "Duergar Warlord",
+    "size": "Medium",
+    "tags": "dwarf",
+    "challenge": "6",
+    "alignment": "LE",
+    "environment": { "Mountain": "yes", "Underdark": "yes" },
+    "page": "mtf 192",
+    "xp": "2300",
+    "type": "Humanoid"
+  },
+  "Hobgoblin": {
+    "name": "Hobgoblin",
+    "size": "Medium",
+    "challenge": "1/2",
+    "tags": "goblinoid",
+    "alignment": "LE",
+    "page": "mm 186",
+    "environment": {
+      "Underdark": "yes",
+      "Forest": "yes",
+      "Grassland": "yes",
+      "Desert": "yes",
+      "Hill": "yes"
+    },
+    "xp": "100",
+    "type": "Humanoid"
+  },
+  "Maw Demon": {
+    "xp": "200",
+    "type": "Fiend",
+    "environment": { "Underdark": "yes" },
+    "page": "vgm 137",
+    "alignment": "CE",
+    "tags": "demon",
+    "challenge": "1",
+    "size": "Medium",
+    "name": "Maw Demon"
+  },
+  "Ancient Red Dragon": {
+    "xp": "62000",
+    "type": "Dragon",
+    "page": "mm 97",
+    "environment": { "Mountain": "yes", "Hill": "yes" },
+    "challenge": "24",
+    "alignment": "CE",
+    "name": "Ancient Red Dragon",
+    "size": "Gargantuan"
+  },
+  "Treant": {
+    "xp": "5000",
+    "type": "Plant",
+    "environment": { "Forest": "yes" },
+    "page": "mm 289",
+    "alignment": "CG",
+    "challenge": "9",
+    "size": "Huge",
+    "name": "Treant"
+  },
+  "Flying Snake": {
+    "xp": "25",
+    "type": "Beast",
+    "environment": {
+      "Urban": "yes",
+      "Desert": "yes",
+      "Forest": "yes",
+      "Grassland": "yes"
+    },
+    "page": "mm 322",
+    "alignment": "Unaligned",
+    "challenge": "1/8",
+    "size": "Tiny",
+    "name": "Flying Snake"
+  },
+  "Star Spawn Seer": {
+    "type": "Aberration",
+    "xp": "10000",
+    "page": "mtf 236",
+    "environment": { "Urban": "yes", "Mountain": "yes", "Swamp": "yes" },
+    "alignment": "NE",
+    "challenge": "13",
+    "size": "Medium",
+    "name": "Star Spawn Seer"
+  },
+  "Sword Wraith Warrior": {
+    "size": "Medium",
+    "name": "Sword Wraith Warrior",
+    "alignment": "LE",
+    "challenge": "3",
+    "environment": { "Grassland": "yes", "Swamp": "yes" },
+    "page": "mtf 241",
+    "type": "Undead",
+    "xp": "700"
+  },
+  "Rat": {
+    "challenge": 0,
+    "alignment": "Unaligned",
+    "name": "Rat",
+    "size": "Tiny",
+    "type": "Beast",
+    "xp": "10",
+    "page": "mm 335",
+    "environment": { "Urban": "yes", "Swamp": "yes" }
+  },
+  "Half-Red Dragon Veteran": {
+    "name": "Half-Red Dragon Veteran",
+    "size": "Medium",
+    "challenge": "5",
+    "tags": "human",
+    "alignment": "Any",
+    "page": "mm 180",
+    "type": "Humanoid",
+    "xp": "1800"
+  },
+  "Blue Dragon Wyrmling": {
+    "xp": "700",
+    "type": "Dragon",
+    "alignment": "LE",
+    "challenge": "3",
+    "page": "mm 91",
+    "size": "Medium",
+    "name": "Blue Dragon Wyrmling"
+  },
+  "Owlbear": {
+    "name": "Owlbear",
+    "size": "Large",
+    "challenge": "3",
+    "alignment": "Unaligned",
+    "environment": { "Forest": "yes" },
+    "page": "mm 249",
+    "xp": "700",
+    "type": "Monstrosity"
+  },
+  "Deva": {
+    "challenge": "10",
+    "xp": "5900",
+    "alignment": "LG",
+    "type": "Celestial",
+    "name": "Deva",
+    "page": "mm 16",
+    "size": "Medium"
+  },
+  "Adult Bronze Dragon": {
+    "environment": { "Coastal": "yes" },
+    "page": "mm 108",
+    "xp": "13000",
+    "type": "Dragon",
+    "name": "Adult Bronze Dragon",
+    "size": "Huge",
+    "challenge": "15",
+    "alignment": "LG"
+  },
+  "Star Spawn Mangler": {
+    "alignment": "CE",
+    "challenge": "5",
+    "size": "Medium",
+    "name": "Star Spawn Mangler",
+    "xp": "1800",
+    "type": "Aberration",
+    "page": "mtf 236",
+    "environment": {}
+  },
+  "Death Tyrant": {
+    "page": "mm 29",
+    "environment": { "Underdark": "yes" },
+    "type": "Undead",
+    "xp": "11500",
+    "size": "Large",
+    "name": "Death Tyrant",
+    "alignment": "LE",
+    "challenge": "14"
+  },
+  "Retriever": {
+    "type": "Construct",
+    "xp": "11500",
+    "environment": { "Desert": "yes", "Forest": "yes", "Underdark": "yes" },
+    "page": "mtf 222",
+    "challenge": "14",
+    "alignment": "LE",
+    "name": "Retriever",
+    "size": "Large"
+  },
+  "Magma Mephit": {
+    "alignment": "NE",
+    "challenge": "1/2",
+    "size": "Small",
+    "name": "Magma Mephit",
+    "xp": "100",
+    "type": "Elemental",
+    "environment": { "Underdark": "yes" },
+    "page": "mm 216"
+  },
+  "Giant Frog": {
+    "alignment": "Unaligned",
+    "challenge": "1/4",
+    "size": "Medium",
+    "name": "Giant Frog",
+    "xp": "50",
+    "type": "Beast",
+    "page": "mm 325",
+    "environment": { "Forest": "yes", "Swamp": "yes" }
+  },
+  "Xvart Warlock of Raxivort": {
+    "page": "vgm 200",
+    "environment": { "Hill": "yes", "Underdark": "yes" },
+    "xp": "200",
+    "type": "Humanoid",
+    "size": "Small",
+    "name": "Xvart Warlock of Raxivort",
+    "alignment": "CE",
+    "challenge": "1",
+    "tags": "xvart"
+  },
+  "Gynosphinx": {
+    "xp": "7200",
+    "type": "Monstrosity",
+    "environment": { "Desert": "yes" },
+    "page": "mm 282",
+    "challenge": "11",
+    "alignment": "LN",
+    "name": "Gynosphinx",
+    "size": "Large"
+  },
+  "Mastiff": {
+    "alignment": "Unaligned",
+    "challenge": "1/8",
+    "size": "Medium",
+    "name": "Mastiff",
+    "xp": "25",
+    "type": "Beast",
+    "environment": { "Forest": "yes", "Urban": "yes", "Hill": "yes" },
+    "page": "mm 332"
+  },
+  "Saber-toothed Tiger": {
+    "xp": "450",
+    "type": "Beast",
+    "environment": { "Mountain": "yes", "Arctic": "yes" },
+    "page": "mm 336",
+    "alignment": "Unaligned",
+    "challenge": "2",
+    "size": "Large",
+    "name": "Saber-toothed Tiger"
+  },
+  "Deathlock Mastermind": {
+    "name": "Deathlock Mastermind",
+    "size": "Medium",
+    "challenge": "8",
+    "alignment": "NE",
+    "page": "mtf 129",
+    "environment": { "Urban": "yes" },
+    "xp": "3900",
+    "type": "Undead"
+  },
+  "Kraken": {
+    "alignment": "CE",
+    "tags": "titan",
+    "challenge": "23",
+    "size": "Gargantuan",
+    "name": "Kraken",
+    "type": "Monstrosity",
+    "xp": "50000",
+    "environment": { "Underwater": "yes" },
+    "page": "mm 197"
+  },
+  "Gnoll": {
+    "size": "Medium",
+    "name": "Gnoll",
+    "alignment": "CE",
+    "challenge": "1/2",
+    "tags": "gnoll",
+    "page": "mm 163",
+    "environment": {
+      "Desert": "yes",
+      "Hill": "yes",
+      "Forest": "yes",
+      "Grassland": "yes"
+    },
+    "type": "Humanoid",
+    "xp": "100"
+  },
+  "Wraith": {
+    "xp": "1800",
+    "type": "Undead",
+    "page": "mm 302",
+    "environment": { "Underdark": "yes" },
+    "alignment": "NE",
+    "challenge": "5",
+    "size": "Medium",
+    "name": "Wraith"
+  },
+  "Blue Slaad": {
+    "type": "Aberration",
+    "xp": "2900",
+    "alignment": "CN",
+    "challenge": "7",
+    "page": "mm 276",
+    "size": "Large",
+    "name": "Blue Slaad"
+  },
+  "Brown Bear": {
+    "xp": "200",
+    "type": "Beast",
+    "environment": { "Arctic": "yes", "Hill": "yes", "Forest": "yes" },
+    "page": "mm 319",
+    "challenge": "1",
+    "alignment": "Unaligned",
+    "name": "Brown Bear",
+    "size": "Large"
+  },
+  "Chain Devil": {
+    "alignment": "LE",
+    "tags": "devil",
+    "challenge": "8",
+    "size": "Medium",
+    "name": "Chain Devil",
+    "type": "Fiend",
+    "xp": "3900",
+    "page": "mm 72"
+  },
+  "Young Kruthik": {
+    "environment": { "Desert": "yes", "Mountain": "yes", "Underdark": "yes" },
+    "page": "mtf 211",
+    "xp": "25",
+    "type": "Monstrosity",
+    "size": "Small",
+    "name": "Young Kruthik",
+    "alignment": "Unaligned",
+    "challenge": "1/8"
+  },
+  "Young Faerie Dragon": {
+    "challenge": "1",
+    "alignment": "CG",
+    "name": "Young Faerie Dragon",
+    "size": "Tiny",
+    "xp": "200",
+    "type": "Dragon",
+    "page": "mm 133",
+    "environment": { "Forest": "yes" }
+  },
+  "Stegosaurus": {
+    "size": "Huge",
+    "name": "Stegosaurus",
+    "alignment": "Unaligned",
+    "challenge": "4",
+    "environment": { "Grassland": "yes", "Forest": "yes" },
+    "page": "vgm 140",
+    "type": "Beast",
+    "xp": "1100"
+  },
+  "Young Remorhaz": {
+    "environment": { "Arctic": "yes" },
+    "page": "mm 258",
+    "xp": "1800",
+    "type": "Monstrosity",
+    "name": "Young Remorhaz",
+    "size": "Large",
+    "challenge": "5",
+    "alignment": "Unaligned"
+  },
+  "Swarm of Bats": {
+    "xp": "50",
+    "type": "Beast",
+    "page": "mm 337",
+    "environment": {
+      "Underdark": "yes",
+      "Mountain": "yes",
+      "Urban": "yes",
+      "Hill": "yes"
+    },
+    "challenge": "1/4",
+    "alignment": "Unaligned",
+    "name": "Swarm of Bats",
+    "size": "Medium"
+  },
+  "Young Red Shadow Dragon": {
+    "xp": "10000",
+    "type": "Dragon",
+    "page": "mm 85",
+    "environment": { "Underdark": "yes" },
+    "challenge": "13",
+    "alignment": "CE",
+    "name": "Young Red Shadow Dragon",
+    "size": "Large"
+  },
+  "Alkilith": {
+    "environment": { "Underdark": "yes", "Urban": "yes" },
+    "page": "mtf 130",
+    "xp": "7200",
+    "type": "Fiend",
+    "name": "Alkilith",
+    "size": "Medium",
+    "tags": "demon",
+    "challenge": "11",
+    "alignment": "CE"
+  },
+  "Spined Devil": {
+    "challenge": "2",
+    "tags": "devil",
+    "alignment": "LE",
+    "name": "Spined Devil",
+    "size": "Small",
+    "xp": "450",
+    "type": "Fiend",
+    "page": "mm 78"
+  },
+  "Gauth": {
+    "page": "vgm 125",
+    "environment": { "Underdark": "yes" },
+    "xp": "2300",
+    "type": "Aberration",
+    "name": "Gauth",
+    "size": "Medium",
+    "challenge": "6",
+    "alignment": "LE"
+  },
+  "Merrenoloth": {
+    "type": "Fiend",
+    "xp": "700",
+    "page": "mtf 250",
+    "environment": { "Coastal": "yes" },
+    "alignment": "NE",
+    "challenge": "3",
+    "tags": "yugoloth",
+    "size": "Medium",
+    "name": "Merrenoloth"
+  },
+  "Venom Troll": {
+    "alignment": "CE",
+    "challenge": "7",
+    "size": "Large",
+    "name": "Venom Troll",
+    "type": "Giant",
+    "xp": "2900",
+    "page": "mtf 245",
+    "environment": { "Forest": "yes", "Swamp": "yes", "Underdark": "yes" }
+  },
+  "Quipper": {
+    "environment": { "Underwater": "yes" },
+    "page": "mm 335",
+    "xp": "10",
+    "type": "Beast",
+    "size": "Tiny",
+    "name": "Quipper",
+    "alignment": "Unaligned",
+    "challenge": 0
+  },
+  "Vampire": {
+    "size": "Medium",
+    "name": "Vampire",
+    "alignment": "LE",
+    "challenge": "13",
+    "tags": "shapechanger",
+    "page": "mm 297",
+    "environment": { "Urban": "yes" },
+    "type": "Undead",
+    "xp": "10000"
+  },
+  "Awakened Tree": {
+    "size": "Huge",
+    "name": "Awakened Tree",
+    "alignment": "Unaligned",
+    "challenge": "2",
+    "page": "mm 317",
+    "environment": { "Forest": "yes" },
+    "xp": "450",
+    "type": "Plant"
+  },
+  "Intellect Devourer": {
+    "page": "mm 191",
+    "environment": { "Underdark": "yes" },
+    "xp": "450",
+    "type": "Aberration",
+    "name": "Intellect Devourer",
+    "size": "Tiny",
+    "challenge": "2",
+    "alignment": "LE"
+  },
+  "Mule": {
+    "size": "Medium",
+    "name": "Mule",
+    "alignment": "Unaligned",
+    "challenge": "1/8",
+    "page": "mm 333",
+    "environment": { "Desert": "yes", "Urban": "yes", "Hill": "yes" },
+    "xp": "25",
+    "type": "Beast"
+  },
+  "Ancient Black Dragon": {
+    "xp": "33000",
+    "type": "Dragon",
+    "page": "mm 87",
+    "environment": { "Swamp": "yes" },
+    "alignment": "CE",
+    "challenge": "21",
+    "size": "Gargantuan",
+    "name": "Ancient Black Dragon"
+  },
+  "Young Silver Dragon": {
+    "type": "Dragon",
+    "xp": "5000",
+    "environment": { "Urban": "yes", "Mountain": "yes" },
+    "page": "mm 118",
+    "challenge": "9",
+    "alignment": "LG",
+    "name": "Young Silver Dragon",
+    "size": "Large"
+  },
+  "Leucrotta": {
+    "name": "Leucrotta",
+    "size": "Large",
+    "challenge": "3",
+    "alignment": "CE",
+    "environment": { "Grassland": "yes", "Desert": "yes" },
+    "page": "vgm 169",
+    "xp": "700",
+    "type": "Monstrosity"
+  },
+  "Kruthik Hive Lord": {
+    "xp": "1800",
+    "type": "Monstrosity",
+    "page": "mtf 212",
+    "environment": { "Mountain": "yes", "Underdark": "yes", "Desert": "yes" },
+    "alignment": "Unaligned",
+    "challenge": "5",
+    "size": "Large",
+    "name": "Kruthik Hive Lord"
+  },
+  "Lizard": {
+    "name": "Lizard",
+    "size": "Tiny",
+    "page": "mm 332",
+    "challenge": 0,
+    "xp": "10",
+    "alignment": "Unaligned",
+    "type": "Beast"
+  },
+  "Grell": {
+    "challenge": "3",
+    "alignment": "NE",
+    "name": "Grell",
+    "size": "Medium",
+    "xp": "700",
+    "type": "Aberration",
+    "page": "mm 172",
+    "environment": { "Underdark": "yes" }
+  },
+  "Spring Eladrin": {
+    "type": "Fey",
+    "xp": "5900",
+    "environment": { "Forest": "yes", "Grassland": "yes" },
+    "page": "mtf 196",
+    "alignment": "CN",
+    "tags": "elf",
+    "challenge": "10",
+    "size": "Medium",
+    "name": "Spring Eladrin"
+  },
+  "Morkoth": {
+    "environment": { "Underwater": "yes", "Coastal": "yes" },
+    "page": "vgm 178",
+    "xp": "7200",
+    "type": "Aberration",
+    "size": "Medium",
+    "name": "Morkoth",
+    "alignment": "CE",
+    "challenge": "11"
+  },
+  "Male Steeder": {
+    "challenge": "1/4",
+    "alignment": "Unaligned",
+    "name": "Male Steeder",
+    "size": "Medium",
+    "xp": "50",
+    "type": "Monstrosity",
+    "environment": { "Underdark": "yes" },
+    "page": "mtf 238"
+  },
+  "Gnoll Hunter": {
+    "page": "vgm 154",
+    "environment": {
+      "Hill": "yes",
+      "Arctic": "yes",
+      "Grassland": "yes",
+      "Forest": "yes"
+    },
+    "type": "Humanoid",
+    "xp": "100",
+    "size": "Medium",
+    "name": "Gnoll Hunter",
+    "alignment": "CE",
+    "challenge": "1/2",
+    "tags": "gnoll"
+  },
+  "Air Elemental": {
+    "xp": "1800",
+    "type": "Elemental",
+    "page": "mm 124",
+    "environment": { "Mountain": "yes", "Desert": "yes" },
+    "alignment": "N",
+    "challenge": "5",
+    "size": "Large",
+    "name": "Air Elemental"
+  },
+  "Giant Vulture": {
+    "environment": { "Desert": "yes", "Grassland": "yes" },
+    "page": "mm 329",
+    "xp": "200",
+    "type": "Beast",
+    "size": "Large",
+    "name": "Giant Vulture",
+    "alignment": "NE",
+    "challenge": "1"
+  },
+  "Tlincalli": {
+    "environment": { "Desert": "yes" },
+    "page": "vgm 193",
+    "type": "Monstrosity",
+    "xp": "1800",
+    "size": "Large",
+    "name": "Tlincalli",
+    "alignment": "NE",
+    "challenge": "5"
+  },
+  "Displacer Beast": {
+    "xp": "700",
+    "type": "Monstrosity",
+    "environment": { "Forest": "yes" },
+    "page": "mm 81",
+    "alignment": "LE",
+    "challenge": "3",
+    "size": "Large",
+    "name": "Displacer Beast"
+  },
+  "Alhoon": {
+    "size": "Medium",
+    "name": "Alhoon",
+    "alignment": "Any evil",
+    "challenge": "10",
+    "page": "vgm 172",
+    "environment": { "Underdark": "yes" },
+    "xp": "5900",
+    "type": "Undead"
+  },
+  "Piercer": {
+    "xp": "100",
+    "type": "Monstrosity",
+    "environment": { "Underdark": "yes" },
+    "page": "mm 252",
+    "challenge": "1/2",
+    "alignment": "Unaligned",
+    "name": "Piercer",
+    "size": "Medium"
+  },
+  "Horned Devil": {
+    "page": "mm 74",
+    "type": "Fiend",
+    "xp": "7200",
+    "size": "Large",
+    "name": "Horned Devil",
+    "alignment": "LE",
+    "challenge": "11",
+    "tags": "devil"
+  },
+  "Summer Eladrin": {
+    "xp": "5900",
+    "type": "Fey",
+    "environment": { "Desert": "yes", "Forest": "yes" },
+    "page": "mtf 196",
+    "tags": "elf",
+    "challenge": "10",
+    "alignment": "CN",
+    "name": "Summer Eladrin",
+    "size": "Medium"
+  },
+  "Jackal": {
+    "environment": { "Grassland": "yes", "Desert": "yes" },
+    "page": "mm 331",
+    "xp": "10",
+    "type": "Beast",
+    "size": "Small",
+    "name": "Jackal",
+    "alignment": "Unaligned",
+    "challenge": 0
+  },
+  "Swarm of Quippers": {
+    "name": "Swarm of Quippers",
+    "size": "Medium",
+    "challenge": "1",
+    "alignment": "Unaligned",
+    "page": "mm 338",
+    "environment": { "Underwater": "yes" },
+    "xp": "200",
+    "type": "Beast"
+  },
+  "Angry Sorrowsworn": {
+    "environment": { "Urban": "yes", "Underdark": "yes" },
+    "page": "mtf 231",
+    "xp": "10000",
+    "type": "Monstrosity",
+    "size": "Medium",
+    "name": "Angry Sorrowsworn",
+    "alignment": "NE",
+    "challenge": "13"
+  },
+  "Female Steeder": {
+    "page": "mtf 238",
+    "environment": { "Underdark": "yes" },
+    "xp": "200",
+    "type": "Monstrosity",
+    "size": "Large",
+    "name": "Female Steeder",
+    "alignment": "Unaligned",
+    "challenge": "1"
+  },
+  "Deep Scion": {
+    "name": "Deep Scion",
+    "size": "Medium",
+    "tags": "shapechanger",
+    "challenge": "3",
+    "alignment": "NE",
+    "environment": { "Underwater": "yes", "Coastal": "yes" },
+    "page": "vgm 135",
+    "type": "Humanoid",
+    "xp": "700"
+  },
+  "Yuan-ti Broodguard": {
+    "environment": { "Forest": "yes", "Underdark": "yes", "Desert": "yes" },
+    "page": "vgm 203",
+    "type": "Humanoid",
+    "xp": "450",
+    "size": "Medium",
+    "name": "Yuan-ti Broodguard",
+    "alignment": "NE",
+    "tags": "yuan-ti",
+    "challenge": "2"
+  },
+  "Mud Mephit": {
+    "size": "Small",
+    "name": "Mud Mephit",
+    "alignment": "NE",
+    "challenge": "1/4",
+    "page": "mm 216",
+    "environment": { "Swamp": "yes" },
+    "type": "Elemental",
+    "xp": "50"
+  },
+  "Neogi Hatchling": {
+    "alignment": "LE",
+    "challenge": "1/8",
+    "size": "Tiny",
+    "name": "Neogi Hatchling",
+    "type": "Aberration",
+    "xp": "25",
+    "environment": { "Underdark": "yes", "Hill": "yes" },
+    "page": "vgm 179"
+  },
+  "Spirit Troll": {
+    "xp": "7200",
+    "type": "Giant",
+    "environment": {
+      "Coastal": "yes",
+      "Underdark": "yes",
+      "Forest": "yes",
+      "Swamp": "yes"
+    },
+    "page": "mtf 244",
+    "challenge": "11",
+    "alignment": "CE",
+    "name": "Spirit Troll",
+    "size": "Large"
+  },
+  "Hadrosaurus": {
+    "name": "Hadrosaurus",
+    "size": "Large",
+    "challenge": "1/4",
+    "alignment": "Unaligned",
+    "environment": { "Swamp": "yes", "Grassland": "yes" },
+    "page": "vgm 140",
+    "xp": "50",
+    "type": "Beast"
+  },
+  "Yuan-ti Malison": {
+    "name": "Yuan-ti Malison",
+    "size": "Medium",
+    "tags": "shapechanger, yuan-ti",
+    "challenge": "3",
+    "alignment": "NE",
+    "environment": { "Desert": "yes", "Forest": "yes", "Swamp": "yes" },
+    "page": "mm 309",
+    "type": "Monstrosity",
+    "xp": "700"
+  },
+  "Specter (poltergeist)": {
+    "name": "Specter (poltergeist)",
+    "page": "mm 279",
+    "size": "Medium",
+    "challenge": "2",
+    "type": "Undead",
+    "xp": "450",
+    "alignment": "CE"
+  },
+  "Star Spawn Hulk": {
+    "alignment": "CE",
+    "challenge": "10",
+    "size": "Large",
+    "name": "Star Spawn Hulk",
+    "xp": "5900",
+    "type": "Aberration",
+    "environment": {},
+    "page": "mtf 234"
+  },
+  "Green Slaad": {
+    "challenge": "8",
+    "tags": "shapechanger",
+    "alignment": "CN",
+    "name": "Green Slaad",
+    "size": "Large",
+    "xp": "3900",
+    "type": "Aberration",
+    "page": "mm 277"
+  },
+  "Ancient White Dragon": {
+    "size": "Gargantuan",
+    "name": "Ancient White Dragon",
+    "alignment": "CE",
+    "challenge": "20",
+    "page": "mm 100",
+    "environment": { "Arctic": "yes" },
+    "xp": "25000",
+    "type": "Dragon"
+  },
+  "Weretiger": {
+    "type": "Humanoid",
+    "xp": "1100",
+    "environment": { "Forest": "yes", "Grassland": "yes", "Desert": "yes" },
+    "page": "mm 210",
+    "alignment": "N",
+    "tags": "human, shapechanger",
+    "challenge": "4",
+    "size": "Medium",
+    "name": "Weretiger"
+  },
+  "Vampire Spawn": {
+    "xp": "1800",
+    "type": "Undead",
+    "page": "mm 298",
+    "environment": { "Underdark": "yes", "Urban": "yes" },
+    "challenge": "5",
+    "alignment": "NE",
+    "name": "Vampire Spawn",
+    "size": "Medium"
+  },
+  "Rakshasa": {
+    "size": "Medium",
+    "name": "Rakshasa",
+    "alignment": "LE",
+    "challenge": "13",
+    "page": "mm 257",
+    "environment": { "Urban": "yes" },
+    "xp": "10000",
+    "type": "Fiend"
+  },
+  "Nupperibo": {
+    "tags": "devil",
+    "challenge": "1/2",
+    "alignment": "LE",
+    "name": "Nupperibo",
+    "size": "Medium",
+    "xp": "100",
+    "type": "Fiend",
+    "environment": {},
+    "page": "mtf 168"
+  },
+  "Lamia": {
+    "page": "mm 201",
+    "environment": { "Desert": "yes" },
+    "xp": "1100",
+    "type": "Monstrosity",
+    "name": "Lamia",
+    "size": "Large",
+    "challenge": "4",
+    "alignment": "CE"
+  },
+  "Erinyes": {
+    "xp": "8400",
+    "type": "Fiend",
+    "page": "mm 73",
+    "alignment": "LE",
+    "challenge": "12",
+    "tags": "devil",
+    "size": "Medium",
+    "name": "Erinyes"
+  },
+  "Raven": {
+    "size": "Tiny",
+    "name": "Raven",
+    "alignment": "Unaligned",
+    "challenge": 0,
+    "environment": { "Swamp": "yes", "Hill": "yes", "Urban": "yes" },
+    "page": "mm 335",
+    "type": "Beast",
+    "xp": "10"
+  },
+  "Werewolf": {
+    "xp": "700",
+    "type": "Humanoid",
+    "page": "mm 211",
+    "environment": { "Hill": "yes", "Forest": "yes" },
+    "challenge": "3",
+    "tags": "human, shapechanger",
+    "alignment": "CE",
+    "name": "Werewolf",
+    "size": "Medium"
+  },
+  "Merfolk": {
+    "tags": "merfolk",
+    "challenge": "1/8",
+    "alignment": "N",
+    "name": "Merfolk",
+    "size": "Medium",
+    "type": "Humanoid",
+    "xp": "25",
+    "environment": { "Underwater": "yes", "Coastal": "yes" },
+    "page": "mm 218"
+  },
+  "Bheur Hag": {
+    "xp": "2900",
+    "type": "Fey",
+    "page": "vgm 160",
+    "environment": { "Arctic": "yes" },
+    "challenge": "7",
+    "alignment": "CE",
+    "name": "Bheur Hag",
+    "size": "Medium"
+  },
+  "Awakened Shrub": {
+    "xp": "10",
+    "type": "Plant",
+    "environment": { "Forest": "yes" },
+    "page": "mm 317",
+    "alignment": "Unaligned",
+    "challenge": 0,
+    "size": "Small",
+    "name": "Awakened Shrub"
+  },
+  "Shield Guardian": {
+    "type": "Construct",
+    "xp": "2900",
+    "environment": { "Urban": "yes" },
+    "page": "mm 271",
+    "alignment": "Unaligned",
+    "challenge": "7",
+    "size": "Large",
+    "name": "Shield Guardian"
+  },
+  "Lion": {
+    "name": "Lion",
+    "size": "Large",
+    "challenge": "1",
+    "alignment": "Unaligned",
+    "page": "mm 331",
+    "environment": {
+      "Hill": "yes",
+      "Desert": "yes",
+      "Mountain": "yes",
+      "Grassland": "yes"
+    },
+    "xp": "200",
+    "type": "Beast"
+  },
+  "Dybbuk": {
+    "environment": { "Urban": "yes", "Desert": "yes" },
+    "page": "mtf 132",
+    "type": "Fiend",
+    "xp": "1100",
+    "name": "Dybbuk",
+    "size": "Medium",
+    "tags": "demon",
+    "challenge": "4",
+    "alignment": "CE"
+  },
+  "Corpse Flower": {
+    "xp": "3900",
+    "type": "Plant",
+    "environment": { "Urban": "yes", "Forest": "yes", "Swamp": "yes" },
+    "page": "mtf 127",
+    "alignment": "CE",
+    "challenge": "8",
+    "size": "Large",
+    "name": "Corpse Flower"
+  },
+  "Goat": {
+    "alignment": "Unaligned",
+    "challenge": 0,
+    "size": "Medium",
+    "name": "Goat",
+    "xp": "10",
+    "type": "Beast",
+    "environment": {
+      "Grassland": "yes",
+      "Mountain": "yes",
+      "Urban": "yes",
+      "Hill": "yes"
+    },
+    "page": "mm 330"
+  },
+  "Twig Blight": {
+    "environment": { "Forest": "yes" },
+    "page": "mm 32",
+    "xp": "25",
+    "type": "Plant",
+    "size": "Small",
+    "name": "Twig Blight",
+    "alignment": "NE",
+    "challenge": "1/8"
+  },
+  "Ankylosaurus": {
+    "environment": { "Grassland": "yes" },
+    "page": "mm 79",
+    "xp": "700",
+    "type": "Beast",
+    "name": "Ankylosaurus",
+    "size": "Huge",
+    "challenge": "3",
+    "alignment": "Unaligned"
+  },
+  "Nycaloth": {
+    "page": "mm 314",
+    "xp": "5000",
+    "type": "Fiend",
+    "size": "Large",
+    "name": "Nycaloth",
+    "alignment": "NE",
+    "tags": "yugoloth",
+    "challenge": "9"
+  },
+  "Gibbering Mouther": {
+    "xp": "450",
+    "type": "Aberration",
+    "page": "mm 157",
+    "environment": { "Underdark": "yes" },
+    "challenge": "2",
+    "alignment": "N",
+    "name": "Gibbering Mouther",
+    "size": "Medium"
+  },
+  "Frost Salamander": {
+    "xp": "5000",
+    "type": "Elemental",
+    "page": "mtf 223",
+    "environment": { "Arctic": "yes" },
+    "alignment": "Unaligned",
+    "challenge": "9",
+    "size": "Huge",
+    "name": "Frost Salamander"
+  },
+  "Hungry Sorrowsworn": {
+    "xp": "7200",
+    "type": "Monstrosity",
+    "environment": { "Forest": "yes", "Underdark": "yes", "Urban": "yes" },
+    "page": "mtf 232",
+    "challenge": "11",
+    "alignment": "NE",
+    "name": "Hungry Sorrowsworn",
+    "size": "Medium"
+  },
+  "Fire Elemental Myrmidon": {
+    "challenge": "7",
+    "alignment": "N",
+    "name": "Fire Elemental Myrmidon",
+    "size": "Medium",
+    "type": "Elemental",
+    "xp": "2900",
+    "page": "mtf 203",
+    "environment": {}
+  },
+  "Merregon": {
+    "size": "Medium",
+    "name": "Merregon",
+    "alignment": "LE",
+    "challenge": "4",
+    "tags": "devil",
+    "page": "mtf 166",
+    "environment": {},
+    "type": "Fiend",
+    "xp": "1100"
+  },
+  "Elder Oblex": {
+    "page": "mtf 219",
+    "environment": { "Underdark": "yes", "Swamp": "yes", "Urban": "yes" },
+    "type": "Ooze",
+    "xp": "5900",
+    "name": "Elder Oblex",
+    "size": "Huge",
+    "challenge": "10",
+    "alignment": "LE"
+  },
+  "Meenlock": {
+    "xp": "450",
+    "type": "Fey",
+    "page": "vgm 170",
+    "environment": { "Forest": "yes", "Swamp": "yes", "Urban": "yes" },
+    "alignment": "NE",
+    "challenge": "2",
+    "size": "Small",
+    "name": "Meenlock"
+  },
+  "Peryton": {
+    "size": "Medium",
+    "name": "Peryton",
+    "alignment": "CE",
+    "challenge": "2",
+    "page": "mm 251",
+    "environment": { "Mountain": "yes", "Hill": "yes" },
+    "xp": "450",
+    "type": "Monstrosity"
+  },
+  "Mummy Lord (in lair)": {
+    "page": "mm 229",
+    "size": "Medium",
+    "name": "Mummy Lord",
+    "xp": "15000",
+    "alignment": "LE",
+    "type": "Undead",
+    "challenge": "16"
+  },
+  "Ancient Brass Dragon": {
+    "alignment": "CG",
+    "challenge": "20",
+    "size": "Gargantuan",
+    "name": "Ancient Brass Dragon",
+    "type": "Dragon",
+    "xp": "25000",
+    "environment": { "Desert": "yes" },
+    "page": "mm 104"
+  },
+  "Cave Bear": {
+    "size": "Large",
+    "page": "mm 334",
+    "name": "Cave Bear",
+    "alignment": "Unaligned",
+    "xp": "450",
+    "type": "Beast",
+    "challenge": "2"
+  },
+  "Chimera": {
+    "alignment": "CE",
+    "challenge": "6",
+    "size": "Large",
+    "name": "Chimera",
+    "type": "Monstrosity",
+    "xp": "2300",
+    "environment": {
+      "Underdark": "yes",
+      "Mountain": "yes",
+      "Grassland": "yes",
+      "Hill": "yes"
+    },
+    "page": "mm 39"
+  },
+  "Duodrone": {
+    "alignment": "LN",
+    "xp": "50",
+    "type": "Construct",
+    "challenge": "1/4",
+    "size": "Medium",
+    "page": "mm 225",
+    "name": "Duodrone"
+  },
+  "Blue Abishai": {
+    "environment": { "Coastal": "yes", "Urban": "yes" },
+    "page": "mtf 161",
+    "type": "Fiend",
+    "xp": "18000",
+    "size": "Medium",
+    "name": "Blue Abishai",
+    "alignment": "LE",
+    "tags": "devil",
+    "challenge": "17"
+  },
+  "Badger": {
+    "alignment": "Unaligned",
+    "challenge": 0,
+    "size": "Tiny",
+    "name": "Badger",
+    "type": "Beast",
+    "xp": "10",
+    "page": "mm 318",
+    "environment": { "Forest": "yes" }
+  },
+  "Sahuagin": {
+    "xp": "100",
+    "type": "Humanoid",
+    "environment": { "Underwater": "yes", "Coastal": "yes" },
+    "page": "mm 263",
+    "alignment": "LE",
+    "tags": "sahuagin",
+    "challenge": "1/2",
+    "size": "Medium",
+    "name": "Sahuagin"
+  },
+  "White Dragon Wyrmling": {
+    "page": "mm 102",
+    "size": "Medium",
+    "name": "White Dragon Wyrmling",
+    "alignment": "CE",
+    "xp": "450",
+    "type": "Dragon",
+    "challenge": "2"
+  },
+  "Spawn of Kyuss": {
+    "name": "Spawn of Kyuss",
+    "size": "Medium",
+    "challenge": "5",
+    "alignment": "CE",
+    "page": "vgm 192",
+    "environment": { "Underdark": "yes", "Desert": "yes" },
+    "xp": "1800",
+    "type": "Undead"
+  },
+  "Drow": {
+    "name": "Drow",
+    "size": "Medium",
+    "tags": "elf",
+    "challenge": "1/4",
+    "alignment": "NE",
+    "environment": { "Underdark": "yes" },
+    "page": "mm 128",
+    "type": "Humanoid",
+    "xp": "50"
+  },
+  "Gorgon": {
+    "challenge": "5",
+    "alignment": "Unaligned",
+    "name": "Gorgon",
+    "size": "Large",
+    "type": "Monstrosity",
+    "xp": "1800",
+    "environment": { "Hill": "yes", "Forest": "yes", "Grassland": "yes" },
+    "page": "mm 171"
+  },
+  "Stench Kow": {
+    "page": "vgm 207",
+    "size": "Large",
+    "name": "Stench Kow",
+    "xp": "50",
+    "alignment": "Unaligned",
+    "type": "Beast",
+    "challenge": "1/4"
+  },
+  "Oblex Spawn": {
+    "environment": { "Urban": "yes", "Swamp": "yes", "Underdark": "yes" },
+    "page": "mtf 217",
+    "xp": "50",
+    "type": "Ooze",
+    "size": "Tiny",
+    "name": "Oblex Spawn",
+    "alignment": "LE",
+    "challenge": "1/4"
+  },
+  "Rug of Smothering": {
+    "xp": "450",
+    "alignment": "Unaligned",
+    "type": "Construct",
+    "challenge": "2",
+    "page": "mm 20",
+    "size": "Large",
+    "name": "Rug of Smothering"
+  },
+  "Mammoth": {
+    "alignment": "Unaligned",
+    "challenge": "6",
+    "size": "Huge",
+    "name": "Mammoth",
+    "xp": "2300",
+    "type": "Beast",
+    "environment": { "Arctic": "yes" },
+    "page": "mm 332"
+  },
+  "Maurezhi": {
+    "name": "Maurezhi",
+    "size": "Medium",
+    "challenge": "7",
+    "tags": "demon",
+    "alignment": "CE",
+    "page": "mtf 133",
+    "environment": { "Urban": "yes", "Swamp": "yes" },
+    "xp": "2900",
+    "type": "Fiend"
+  },
+  "Wereboar": {
+    "xp": "1100",
+    "type": "Humanoid",
+    "environment": { "Grassland": "yes", "Forest": "yes", "Hill": "yes" },
+    "page": "mm 209",
+    "tags": "human, shapechanger",
+    "challenge": "4",
+    "alignment": "NE",
+    "name": "Wereboar",
+    "size": "Medium"
+  },
+  "Manticore": {
+    "page": "mm 213",
+    "environment": {
+      "Hill": "yes",
+      "Coastal": "yes",
+      "Arctic": "yes",
+      "Grassland": "yes",
+      "Mountain": "yes"
+    },
+    "xp": "700",
+    "type": "Monstrosity",
+    "size": "Large",
+    "name": "Manticore",
+    "alignment": "LE",
+    "challenge": "3"
+  },
+  "Ulitharid": {
+    "page": "vgm 175",
+    "environment": { "Underdark": "yes" },
+    "xp": "5000",
+    "type": "Aberration",
+    "size": "Large",
+    "name": "Ulitharid",
+    "alignment": "LE",
+    "challenge": "9"
+  },
+  "Frog": {
+    "size": "Tiny",
+    "page": "mm 322",
+    "name": "Frog",
+    "xp": 0,
+    "alignment": "Unaligned",
+    "type": "Beast",
+    "challenge": 0
+  },
+  "Allip": {
+    "challenge": "5",
+    "alignment": "NE",
+    "name": "Allip",
+    "size": "Medium",
+    "xp": "1800",
+    "type": "Undead",
+    "environment": { "Swamp": "yes", "Urban": "yes" },
+    "page": "mtf 116"
+  },
+  "Death Kiss": {
+    "environment": { "Underdark": "yes" },
+    "page": "vgm 124",
+    "xp": "5900",
+    "type": "Aberration",
+    "size": "Large",
+    "name": "Death Kiss",
+    "alignment": "NE",
+    "challenge": "10"
+  },
+  "Basilisk": {
+    "xp": "700",
+    "type": "Monstrosity",
+    "page": "mm 24",
+    "environment": { "Mountain": "yes" },
+    "alignment": "Unaligned",
+    "challenge": "3",
+    "size": "Medium",
+    "name": "Basilisk"
+  },
+  "Giant Eagle": {
+    "xp": "200",
+    "type": "Beast",
+    "environment": {
+      "Mountain": "yes",
+      "Grassland": "yes",
+      "Hill": "yes",
+      "Coastal": "yes"
+    },
+    "page": "mm 324",
+    "challenge": "1",
+    "alignment": "NG",
+    "name": "Giant Eagle",
+    "size": "Large"
+  },
+  "Elk": {
+    "page": "mm 322",
+    "environment": { "Forest": "yes", "Grassland": "yes", "Hill": "yes" },
+    "type": "Beast",
+    "xp": "50",
+    "size": "Large",
+    "name": "Elk",
+    "alignment": "Unaligned",
+    "challenge": "1/4"
+  },
+  "Gold Dragon Wyrmling": {
+    "type": "Dragon",
+    "xp": "700",
+    "alignment": "LG",
+    "challenge": "3",
+    "size": "Medium",
+    "page": "mm 115",
+    "name": "Gold Dragon Wyrmling"
+  },
+  "Slithering Tracker": {
+    "page": "vgm 191",
+    "environment": { "Urban": "yes", "Underdark": "yes" },
+    "xp": "700",
+    "type": "Ooze",
+    "size": "Medium",
+    "name": "Slithering Tracker",
+    "alignment": "CE",
+    "challenge": "3"
+  },
+  "Neogi Master": {
+    "xp": "1100",
+    "type": "Aberration",
+    "environment": { "Underdark": "yes", "Hill": "yes" },
+    "page": "vgm 180",
+    "challenge": "4",
+    "alignment": "LE",
+    "name": "Neogi Master",
+    "size": "Medium"
+  },
+  "Sword Wraith Commander": {
+    "xp": "3900",
+    "type": "Undead",
+    "page": "mtf 241",
+    "environment": { "Swamp": "yes", "Grassland": "yes" },
+    "alignment": "LE",
+    "challenge": "8",
+    "size": "Medium",
+    "name": "Sword Wraith Commander"
+  },
+  "Cambion": {
+    "page": "mm 36",
+    "environment": { "Urban": "yes" },
+    "xp": "1800",
+    "type": "Fiend",
+    "size": "Medium",
+    "name": "Cambion",
+    "alignment": "Any evil",
+    "challenge": "5"
+  },
+  "Sahuagin Priestess": {
+    "xp": "450",
+    "type": "Humanoid",
+    "page": "mm 264",
+    "environment": { "Underwater": "yes", "Coastal": "yes" },
+    "alignment": "LE",
+    "challenge": "2",
+    "tags": "sahuagin",
+    "size": "Medium",
+    "name": "Sahuagin Priestess"
+  },
+  "Giant Crab": {
+    "environment": { "Coastal": "yes" },
+    "page": "mm 324",
+    "xp": "25",
+    "type": "Beast",
+    "size": "Medium",
+    "name": "Giant Crab",
+    "alignment": "Unaligned",
+    "challenge": "1/8"
+  },
+  "Rutterkin": {
+    "environment": {},
+    "page": "mtf 136",
+    "type": "Fiend",
+    "xp": "450",
+    "size": "Medium",
+    "name": "Rutterkin",
+    "alignment": "CE",
+    "tags": "demon",
+    "challenge": "2"
+  },
+  "Remorhaz": {
+    "alignment": "Unaligned",
+    "challenge": "11",
+    "size": "Huge",
+    "name": "Remorhaz",
+    "xp": "7200",
+    "type": "Monstrosity",
+    "environment": { "Arctic": "yes" },
+    "page": "mm 258"
+  },
+  "Yuan-ti Mind Whisperer": {
+    "xp": "1100",
+    "type": "Monstrosity",
+    "environment": { "Desert": "yes", "Underdark": "yes", "Forest": "yes" },
+    "page": "vgm 204",
+    "tags": "shapechanger, yuan-ti",
+    "challenge": "4",
+    "alignment": "NE",
+    "name": "Yuan-ti Mind Whisperer",
+    "size": "Medium"
+  },
+  "Quaggoth": {
+    "environment": { "Underdark": "yes" },
+    "page": "mm 256",
+    "type": "Humanoid",
+    "xp": "450",
+    "size": "Medium",
+    "name": "Quaggoth",
+    "alignment": "CN",
+    "tags": "quaggoth",
+    "challenge": "2"
+  },
+  "Vampiric Mist": {
+    "size": "Medium",
+    "name": "Vampiric Mist",
+    "alignment": "CE",
+    "challenge": "3",
+    "environment": {
+      "Underdark": "yes",
+      "Arctic": "yes",
+      "Urban": "yes",
+      "Mountain": "yes",
+      "Swamp": "yes",
+      "Grassland": "yes",
+      "Forest": "yes",
+      "Coastal": "yes"
+    },
+    "page": "mtf 246",
+    "xp": "700",
+    "type": "Undead"
+  },
+  "Leviathan": {
+    "page": "mtf 198",
+    "environment": { "Coastal": "yes", "Underwater": "yes" },
+    "xp": "25000",
+    "type": "Elemental",
+    "size": "Gargantuan",
+    "name": "Leviathan",
+    "alignment": "N",
+    "challenge": "20"
+  },
+  "Grick": {
+    "page": "mm 173",
+    "environment": { "Underdark": "yes", "Forest": "yes" },
+    "xp": "450",
+    "type": "Monstrosity",
+    "size": "Medium",
+    "name": "Grick",
+    "alignment": "N",
+    "challenge": "2"
+  },
+  "Dao": {
+    "size": "Large",
+    "name": "Dao",
+    "alignment": "NE",
+    "challenge": "11",
+    "page": "mm 143",
+    "environment": { "Underdark": "yes" },
+    "xp": "7200",
+    "type": "Elemental"
+  },
+  "Ghost": {
+    "environment": { "Underdark": "yes", "Urban": "yes" },
+    "page": "mm 147",
+    "xp": "1100",
+    "type": "Undead",
+    "name": "Ghost",
+    "size": "Medium",
+    "challenge": "4",
+    "alignment": "Any"
+  },
+  "Drow Arachnomancer": {
+    "alignment": "CE",
+    "tags": "elf",
+    "challenge": "13",
+    "size": "Medium",
+    "name": "Drow Arachnomancer",
+    "type": "Humanoid",
+    "xp": "10000",
+    "environment": { "Underdark": "yes" },
+    "page": "mtf 182"
+  },
+  "Hobgoblin Warlord": {
+    "name": "Hobgoblin Warlord",
+    "size": "Medium",
+    "challenge": "6",
+    "tags": "goblinoid",
+    "alignment": "LE",
+    "page": "mm 187",
+    "environment": {
+      "Hill": "yes",
+      "Desert": "yes",
+      "Grassland": "yes",
+      "Forest": "yes",
+      "Underdark": "yes"
+    },
+    "type": "Humanoid",
+    "xp": "2300"
+  },
+  "Duergar Mind Master": {
+    "page": "mtf 189",
+    "environment": { "Mountain": "yes", "Underdark": "yes" },
+    "xp": "450",
+    "type": "Humanoid",
+    "size": "Medium",
+    "name": "Duergar Mind Master",
+    "alignment": "LE",
+    "challenge": "2",
+    "tags": "dwarf"
+  },
+  "Homunculus": {
+    "page": "mm 188",
+    "size": "Tiny",
+    "name": "Homunculus",
+    "type": "Construct",
+    "xp": "10",
+    "alignment": "N",
+    "challenge": 0
+  },
+  "Cadaver Collector": {
+    "name": "Cadaver Collector",
+    "size": "Large",
+    "challenge": "14",
+    "alignment": "LE",
+    "environment": { "Grassland": "yes" },
+    "page": "mtf 122",
+    "xp": "11500",
+    "type": "Construct"
+  },
+  "Cloud Giant": {
+    "challenge": "9",
+    "alignment": "NG or NE",
+    "name": "Cloud Giant",
+    "size": "Huge",
+    "xp": "5000",
+    "type": "Giant",
+    "page": "mm 154",
+    "environment": { "Mountain": "yes" }
+  },
+  "Griffon": {
+    "size": "Large",
+    "name": "Griffon",
+    "alignment": "Unaligned",
+    "challenge": "2",
+    "page": "mm 174",
+    "environment": {
+      "Mountain": "yes",
+      "Grassland": "yes",
+      "Hill": "yes",
+      "Coastal": "yes",
+      "Arctic": "yes"
+    },
+    "xp": "450",
+    "type": "Monstrosity"
+  },
+  "Redcap": {
+    "challenge": "3",
+    "alignment": "CE",
+    "name": "Redcap",
+    "size": "Small",
+    "xp": "700",
+    "type": "Fey",
+    "page": "vgm 188",
+    "environment": { "Hill": "yes", "Swamp": "yes", "Forest": "yes" }
+  },
+  "Barbed Devil": {
+    "name": "Barbed Devil",
+    "size": "Medium",
+    "tags": "devil",
+    "challenge": "5",
+    "alignment": "LE",
+    "page": "mm 70",
+    "xp": "1800",
+    "type": "Fiend"
+  },
+  "Yochlol": {
+    "name": "Yochlol",
+    "size": "Medium",
+    "tags": "demon, shapechanger",
+    "challenge": "10",
+    "alignment": "CE",
+    "page": "mm 65",
+    "type": "Fiend",
+    "xp": "5900"
+  },
+  "Giant Strider": {
+    "name": "Giant Strider",
+    "size": "Large",
+    "challenge": "1",
+    "alignment": "NE",
+    "environment": { "Underdark": "yes", "Mountain": "yes", "Hill": "yes" },
+    "page": "vgm 143",
+    "xp": "200",
+    "type": "Monstrosity"
+  },
+  "Darkling": {
+    "page": "vgm 134",
+    "environment": {
+      "Urban": "yes",
+      "Forest": "yes",
+      "Swamp": "yes",
+      "Underdark": "yes"
+    },
+    "xp": "100",
+    "type": "Fey",
+    "size": "Small",
+    "name": "Darkling",
+    "alignment": "CN",
+    "challenge": "1/2"
+  },
+  "Werebear": {
+    "page": "mm 208",
+    "environment": { "Arctic": "yes", "Hill": "yes", "Forest": "yes" },
+    "xp": "1800",
+    "type": "Humanoid",
+    "name": "Werebear",
+    "size": "Medium",
+    "challenge": "5",
+    "tags": "human, shapechanger",
+    "alignment": "NG"
+  },
+  "Shadow": {
+    "size": "Medium",
+    "name": "Shadow",
+    "alignment": "CE",
+    "challenge": "1/2",
+    "environment": { "Urban": "yes", "Underdark": "yes" },
+    "page": "mm 269",
+    "xp": "100",
+    "type": "Undead"
+  },
+  "Nabassu": {
+    "challenge": "15",
+    "tags": "demon",
+    "alignment": "CE",
+    "name": "Nabassu",
+    "size": "Medium",
+    "type": "Fiend",
+    "xp": "13000",
+    "page": "mtf 135",
+    "environment": { "Underdark": "yes", "Swamp": "yes", "Urban": "yes" }
+  },
+  "Crawling Claw": {
+    "xp": "10",
+    "alignment": "NE",
+    "type": "Undead",
+    "challenge": 0,
+    "page": "mm 44",
+    "size": "Tiny",
+    "name": "Crawling Claw"
+  },
+  "Yeth Hound": {
+    "xp": "1100",
+    "type": "Fey",
+    "page": "vgm 201",
+    "environment": { "Hill": "yes", "Forest": "yes", "Grassland": "yes" },
+    "alignment": "NE",
+    "challenge": "4",
+    "size": "Large",
+    "name": "Yeth Hound"
+  },
+  "Vulture": {
+    "page": "mm 339",
+    "environment": { "Hill": "yes", "Desert": "yes", "Grassland": "yes" },
+    "xp": "10",
+    "type": "Beast",
+    "name": "Vulture",
+    "size": "Medium",
+    "challenge": 0,
+    "alignment": "Unaligned"
+  },
+  "Crab": {
+    "name": "Crab",
+    "size": "Tiny",
+    "challenge": 0,
+    "alignment": "Unaligned",
+    "page": "mm 320",
+    "environment": { "Coastal": "yes" },
+    "xp": "10",
+    "type": "Beast"
+  },
+  "Ancient Copper Dragon": {
+    "page": "mm 110",
+    "environment": { "Hill": "yes" },
+    "xp": "33000",
+    "type": "Dragon",
+    "size": "Gargantuan",
+    "name": "Ancient Copper Dragon",
+    "alignment": "CG",
+    "challenge": "21"
+  },
+  "Giant Sea Horse": {
+    "alignment": "Unaligned",
+    "challenge": "1/2",
+    "size": "Large",
+    "name": "Giant Sea Horse",
+    "xp": "100",
+    "type": "Beast",
+    "page": "mm 328",
+    "environment": { "Underwater": "yes" }
+  },
+  "Marilith": {
+    "alignment": "CE",
+    "challenge": "16",
+    "tags": "demon",
+    "size": "Large",
+    "name": "Marilith",
+    "xp": "15000",
+    "type": "Fiend",
+    "page": "mm 61"
+  },
+  "Glabrezu": {
+    "alignment": "CE",
+    "tags": "demon",
+    "challenge": "9",
+    "size": "Large",
+    "name": "Glabrezu",
+    "xp": "5000",
+    "type": "Fiend",
+    "page": "mm 58"
+  },
+  "Riding Horse": {
+    "type": "Beast",
+    "xp": "50",
+    "environment": { "Urban": "yes", "Grassland": "yes" },
+    "page": "mm 336",
+    "alignment": "Unaligned",
+    "challenge": "1/4",
+    "size": "Large",
+    "name": "Riding Horse"
+  },
+  "Mummy Lord": {
+    "challenge": "15",
+    "alignment": "LE",
+    "name": "Mummy Lord",
+    "size": "Medium",
+    "xp": "13000",
+    "type": "Undead",
+    "page": "mm 229",
+    "environment": { "Desert": "yes" }
+  },
+  "Brass Dragon Wyrmling": {
+    "page": "mm 106",
+    "size": "Medium",
+    "name": "Brass Dragon Wyrmling",
+    "alignment": "CG",
+    "xp": "200",
+    "type": "Dragon",
+    "challenge": "1"
+  },
+  "Hook Horror": {
+    "size": "Large",
+    "name": "Hook Horror",
+    "alignment": "N",
+    "challenge": "3",
+    "page": "mm 189",
+    "environment": { "Underdark": "yes" },
+    "xp": "700",
+    "type": "Monstrosity"
+  },
+  "Goristro": {
+    "name": "Goristro",
+    "size": "Huge",
+    "tags": "demon",
+    "challenge": "17",
+    "alignment": "CE",
+    "page": "mm 59",
+    "type": "Fiend",
+    "xp": "18000"
+  },
+  "Stone Golem": {
+    "size": "Large",
+    "page": "mm 170",
+    "name": "Stone Golem",
+    "xp": "5900",
+    "type": "Construct",
+    "alignment": "Unaligned",
+    "challenge": "10"
+  },
+  "Grung Elite Warrior": {
+    "tags": "grung",
+    "challenge": "2",
+    "alignment": "LE",
+    "name": "Grung Elite Warrior",
+    "size": "Small",
+    "xp": "450",
+    "type": "Humanoid",
+    "environment": { "Forest": "yes" },
+    "page": "vgm 157"
+  },
+  "Weasel": {
+    "challenge": 0,
+    "alignment": "Unaligned",
+    "xp": "10",
+    "type": "Beast",
+    "name": "Weasel",
+    "size": "Tiny",
+    "page": "mm 340"
+  },
+  "Mind Flayer Lich": {
+    "challenge": "22",
+    "alignment": "Any evil",
+    "name": "Mind Flayer Lich",
+    "size": "Medium",
+    "xp": "41000",
+    "type": "Undead",
+    "page": "vgm 172",
+    "environment": { "Underdark": "yes" }
+  },
+  "Pentadrone": {
+    "alignment": "LN",
+    "xp": "450",
+    "type": "Construct",
+    "challenge": "2",
+    "size": "Large",
+    "page": "mm 226",
+    "name": "Pentadrone"
+  },
+  "Adult Silver Dragon": {
+    "environment": { "Mountain": "yes", "Urban": "yes" },
+    "page": "mm 117",
+    "type": "Dragon",
+    "xp": "15000",
+    "size": "Huge",
+    "name": "Adult Silver Dragon",
+    "alignment": "LG",
+    "challenge": "16"
+  },
+  "Quickling": {
+    "environment": { "Forest": "yes" },
+    "page": "vgm 187",
+    "xp": "200",
+    "type": "Fey",
+    "size": "Tiny",
+    "name": "Quickling",
+    "alignment": "CE",
+    "challenge": "1"
+  },
+  "Aurochs": {
+    "type": "Beast",
+    "xp": "450",
+    "environment": { "Hill": "yes", "Grassland": "yes", "Mountain": "yes" },
+    "page": "vgm 207",
+    "challenge": "2",
+    "alignment": "Unaligned",
+    "name": "Aurochs",
+    "size": "Large"
+  },
+  "Guardian Naga": {
+    "page": "mm 234",
+    "environment": { "Desert": "yes", "Forest": "yes" },
+    "xp": "5900",
+    "type": "Monstrosity",
+    "size": "Large",
+    "name": "Guardian Naga",
+    "alignment": "LG",
+    "challenge": "10"
+  },
+  "Night Hag": {
+    "challenge": "5",
+    "xp": "1800",
+    "alignment": "NE",
+    "type": "Fiend",
+    "name": "Night Hag",
+    "size": "Medium",
+    "page": "mm 178"
+  },
+  "Vampire (spellcaster)": {
+    "name": "Vampire (spellcaster)",
+    "size": "Medium",
+    "challenge": "15",
+    "tags": "shapechanger",
+    "alignment": "LE",
+    "page": "mm 297",
+    "environment": { "Urban": "yes" },
+    "type": "Undead",
+    "xp": "13000"
+  },
+  "Giant Elk": {
+    "challenge": "2",
+    "alignment": "Unaligned",
+    "name": "Giant Elk",
+    "size": "Huge",
+    "xp": "450",
+    "type": "Beast",
+    "environment": {
+      "Mountain": "yes",
+      "Grassland": "yes",
+      "Forest": "yes",
+      "Hill": "yes"
+    },
+    "page": "mm 325"
+  },
+  "Carrion Crawler": {
+    "name": "Carrion Crawler",
+    "size": "Large",
+    "challenge": "2",
+    "alignment": "Unaligned",
+    "page": "mm 37",
+    "environment": { "Underdark": "yes" },
+    "xp": "450",
+    "type": "Monstrosity"
+  },
+  "Ki-rin": {
+    "xp": "8400",
+    "type": "Celestial",
+    "environment": {
+      "Mountain": "yes",
+      "Grassland": "yes",
+      "Desert": "yes",
+      "Coastal": "yes"
+    },
+    "page": "vgm 163",
+    "challenge": "12",
+    "alignment": "LG",
+    "name": "Ki-rin",
+    "size": "Huge"
+  },
+  "Gloom Weaver": {
+    "challenge": "9",
+    "tags": "elf",
+    "alignment": "N",
+    "name": "Gloom Weaver",
+    "size": "Medium",
+    "xp": "5000",
+    "type": "Humanoid",
+    "page": "mtf 224",
+    "environment": { "Urban": "yes", "Underdark": "yes" }
+  },
+  "Pegasus": {
+    "page": "mm 250",
+    "environment": { "Forest": "yes", "Grassland": "yes", "Hill": "yes" },
+    "xp": "450",
+    "type": "Celestial",
+    "size": "Large",
+    "name": "Pegasus",
+    "alignment": "CG",
+    "challenge": "2"
+  },
+  "Aarakocra": {
+    "environment": { "Mountain": "yes" },
+    "page": "mm 12",
+    "type": "Humanoid",
+    "xp": "50",
+    "name": "Aarakocra",
+    "size": "Medium",
+    "tags": "aarakocra",
+    "challenge": "1/4",
+    "alignment": "NG"
+  },
+  "Octopus": {
+    "size": "Small",
+    "page": "mm 333",
+    "name": "Octopus",
+    "xp": "10",
+    "alignment": "Unaligned",
+    "type": "Beast",
+    "challenge": 0
+  },
+  "Ancient Gold Dragon": {
+    "name": "Ancient Gold Dragon",
+    "size": "Gargantuan",
+    "challenge": "24",
+    "alignment": "LG",
+    "page": "mm 113",
+    "environment": { "Grassland": "yes", "Forest": "yes" },
+    "xp": "62000",
+    "type": "Dragon"
+  },
+  "Purple Worm": {
+    "xp": "13000",
+    "type": "Monstrosity",
+    "page": "mm 255",
+    "environment": { "Desert": "yes", "Underdark": "yes" },
+    "challenge": "15",
+    "alignment": "Unaligned",
+    "name": "Purple Worm",
+    "size": "Gargantuan"
+  },
+  "Giant Toad": {
+    "xp": "200",
+    "type": "Beast",
+    "page": "mm 329",
+    "environment": {
+      "Coastal": "yes",
+      "Desert": "yes",
+      "Swamp": "yes",
+      "Forest": "yes",
+      "Underdark": "yes"
+    },
+    "challenge": "1",
+    "alignment": "Unaligned",
+    "name": "Giant Toad",
+    "size": "Large"
+  },
+  "Slaad Tadpole": {
+    "name": "Slaad Tadpole",
+    "size": "Tiny",
+    "page": "mm 276",
+    "challenge": "1/8",
+    "type": "Aberration",
+    "xp": "25",
+    "alignment": "CN"
+  },
+  "Giant Hyena": {
+    "name": "Giant Hyena",
+    "size": "Large",
+    "challenge": "1",
+    "alignment": "Unaligned",
+    "page": "mm 326",
+    "environment": {
+      "Hill": "yes",
+      "Desert": "yes",
+      "Grassland": "yes",
+      "Forest": "yes"
+    },
+    "xp": "200",
+    "type": "Beast"
+  },
+  "Aboleth": {
+    "name": "Aboleth",
+    "size": "Large",
+    "challenge": "10",
+    "alignment": "LE",
+    "environment": { "Underdark": "yes" },
+    "page": "mm 13",
+    "xp": "5900",
+    "type": "Aberration"
+  },
+  "Eidolon": {
+    "alignment": "Any",
+    "challenge": "12",
+    "size": "Medium",
+    "name": "Eidolon",
+    "xp": "8400",
+    "type": "Undead",
+    "environment": {
+      "Mountain": "yes",
+      "Grassland": "yes",
+      "Forest": "yes",
+      "Coastal": "yes",
+      "Urban": "yes",
+      "Desert": "yes"
+    },
+    "page": "mtf 194"
+  },
+  "Giant Bat": {
+    "page": "mm 323",
+    "environment": { "Forest": "yes", "Underdark": "yes" },
+    "xp": "50",
+    "type": "Beast",
+    "name": "Giant Bat",
+    "size": "Large",
+    "challenge": "1/4",
+    "alignment": "Unaligned"
+  },
+  "Skulk": {
+    "name": "Skulk",
+    "size": "Medium",
+    "challenge": "1/2",
+    "alignment": "CN",
+    "environment": {
+      "Swamp": "yes",
+      "Forest": "yes",
+      "Underdark": "yes",
+      "Coastal": "yes",
+      "Urban": "yes"
+    },
+    "page": "mtf 227",
+    "xp": "100",
+    "type": "Humanoid"
+  },
+  "Darkling Elder": {
+    "challenge": "2",
+    "alignment": "CN",
+    "name": "Darkling Elder",
+    "size": "Medium",
+    "xp": "450",
+    "type": "Fey",
+    "page": "vgm 134",
+    "environment": {
+      "Urban": "yes",
+      "Underdark": "yes",
+      "Swamp": "yes",
+      "Forest": "yes"
+    }
+  },
+  "Duergar Despot": {
+    "alignment": "LE",
+    "tags": "dwarf",
+    "challenge": "12",
+    "size": "Medium",
+    "name": "Duergar Despot",
+    "type": "Humanoid",
+    "xp": "8400",
+    "environment": { "Underdark": "yes", "Mountain": "yes" },
+    "page": "mtf 188"
+  },
+  "Boggle": {
+    "environment": {
+      "Underdark": "yes",
+      "Forest": "yes",
+      "Urban": "yes",
+      "Hill": "yes"
+    },
+    "page": "vgm 128",
+    "xp": "25",
+    "type": "Fey",
+    "size": "Small",
+    "name": "Boggle",
+    "alignment": "CN",
+    "challenge": "1/8"
+  },
+  "Duergar Soulblade": {
+    "xp": "200",
+    "type": "Humanoid",
+    "page": "mtf 190",
+    "environment": { "Mountain": "yes", "Underdark": "yes" },
+    "alignment": "LE",
+    "challenge": "1",
+    "tags": "dwarf",
+    "size": "Medium",
+    "name": "Duergar Soulblade"
+  },
+  "Helmed Horror": {
+    "name": "Helmed Horror",
+    "size": "Medium",
+    "page": "mm 183",
+    "challenge": "4",
+    "alignment": "N",
+    "xp": "1100",
+    "type": "Construct"
+  },
+  "Black Abishai": {
+    "page": "mtf 160",
+    "environment": { "Urban": "yes" },
+    "type": "Fiend",
+    "xp": "2900",
+    "name": "Black Abishai",
+    "size": "Medium",
+    "challenge": "7",
+    "tags": "devil",
+    "alignment": "LE"
+  },
+  "Star Spawn Grue": {
+    "alignment": "NE",
+    "challenge": "1/4",
+    "size": "Small",
+    "name": "Star Spawn Grue",
+    "xp": "50",
+    "type": "Aberration",
+    "page": "mtf 234",
+    "environment": { "Swamp": "yes", "Mountain": "yes" }
+  },
+  "Ankheg": {
+    "xp": "450",
+    "type": "Monstrosity",
+    "environment": { "Forest": "yes", "Grassland": "yes" },
+    "page": "mm 21",
+    "challenge": "2",
+    "alignment": "Unaligned",
+    "name": "Ankheg",
+    "size": "Large"
+  },
+  "Winter Wolf": {
+    "challenge": "3",
+    "alignment": "NE",
+    "name": "Winter Wolf",
+    "size": "Large",
+    "xp": "700",
+    "type": "Monstrosity",
+    "page": "mm 340",
+    "environment": { "Arctic": "yes" }
+  },
+  "Amnizu": {
+    "name": "Amnizu",
+    "size": "Medium",
+    "challenge": "18",
+    "tags": "devil",
+    "alignment": "LE",
+    "page": "mtf 164",
+    "environment": {},
+    "type": "Fiend",
+    "xp": "20000"
+  },
+  "Hippogriff": {
+    "name": "Hippogriff",
+    "size": "Large",
+    "challenge": "1",
+    "alignment": "Unaligned",
+    "page": "mm 184",
+    "environment": { "Grassland": "yes", "Mountain": "yes", "Hill": "yes" },
+    "xp": "200",
+    "type": "Monstrosity"
+  },
+  "Scarecrow": {
+    "xp": "200",
+    "type": "Construct",
+    "page": "mm 268",
+    "environment": { "Grassland": "yes" },
+    "alignment": "CE",
+    "challenge": "1",
+    "size": "Medium",
+    "name": "Scarecrow"
+  },
+  "Choker": {
+    "environment": { "Underdark": "yes", "Forest": "yes", "Mountain": "yes" },
+    "page": "mtf 123",
+    "xp": "200",
+    "type": "Aberration",
+    "name": "Choker",
+    "size": "Small",
+    "challenge": "1",
+    "alignment": "CE"
+  },
+  "Githzerai Anarch": {
+    "xp": "15000",
+    "type": "Humanoid",
+    "environment": {},
+    "page": "mtf 207",
+    "tags": "gith",
+    "challenge": "16",
+    "alignment": "LN",
+    "name": "Githzerai Anarch",
+    "size": "Medium"
+  },
+  "Young Gold Dragon": {
+    "challenge": "10",
+    "alignment": "LG",
+    "name": "Young Gold Dragon",
+    "size": "Large",
+    "xp": "5900",
+    "type": "Dragon",
+    "environment": { "Grassland": "yes", "Forest": "yes" },
+    "page": "mm 115"
+  },
+  "Beholder": {
+    "type": "Aberration",
+    "xp": "10000",
+    "page": "mm 28",
+    "environment": { "Underdark": "yes" },
+    "challenge": "13",
+    "alignment": "LE",
+    "name": "Beholder",
+    "size": "Large"
+  },
+  "Spirit Naga": {
+    "name": "Spirit Naga",
+    "size": "Large",
+    "challenge": "8",
+    "alignment": "CE",
+    "page": "mm 234",
+    "environment": { "Underdark": "yes" },
+    "xp": "3900",
+    "type": "Monstrosity"
+  },
+  "Red Dragon Wyrmling": {
+    "challenge": "4",
+    "alignment": "CE",
+    "xp": "1100",
+    "type": "Dragon",
+    "name": "Red Dragon Wyrmling",
+    "page": "mm 98",
+    "size": "Medium"
+  },
+  "Cloaker": {
+    "page": "mm 41",
+    "environment": { "Underdark": "yes" },
+    "xp": "3900",
+    "type": "Aberration",
+    "name": "Cloaker",
+    "size": "Large",
+    "challenge": "8",
+    "alignment": "CN"
+  },
+  "Camel": {
+    "challenge": "1/8",
+    "alignment": "Unaligned",
+    "name": "Camel",
+    "size": "Large",
+    "type": "Beast",
+    "xp": "25",
+    "page": "mm 320",
+    "environment": { "Desert": "yes" }
+  },
+  "Darkmantle": {
+    "xp": "100",
+    "type": "Monstrosity",
+    "environment": { "Underdark": "yes" },
+    "page": "mm 46",
+    "alignment": "Unaligned",
+    "challenge": "1/2",
+    "size": "Small",
+    "name": "Darkmantle"
+  },
+  "Boar": {
+    "type": "Beast",
+    "xp": "50",
+    "page": "mm 319",
+    "environment": { "Grassland": "yes", "Forest": "yes", "Hill": "yes" },
+    "challenge": "1/4",
+    "alignment": "Unaligned",
+    "name": "Boar",
+    "size": "Medium"
+  },
+  "Yuan-ti Nightmare Speaker": {
+    "page": "vgm 205",
+    "environment": { "Desert": "yes", "Underdark": "yes", "Forest": "yes" },
+    "xp": "1100",
+    "type": "Monstrosity",
+    "size": "Medium",
+    "name": "Yuan-ti Nightmare Speaker",
+    "alignment": "NE",
+    "challenge": "4",
+    "tags": "shapechanger, yuan-ti"
+  },
+  "Grimlock": {
+    "size": "Medium",
+    "name": "Grimlock",
+    "alignment": "NE",
+    "challenge": "1/4",
+    "tags": "grimlock",
+    "page": "mm 175",
+    "environment": { "Underdark": "yes" },
+    "xp": "50",
+    "type": "Humanoid"
+  },
+  "Red Abishai": {
+    "environment": { "Urban": "yes", "Mountain": "yes" },
+    "page": "mtf 162",
+    "xp": "22000",
+    "type": "Fiend",
+    "size": "Medium",
+    "name": "Red Abishai",
+    "alignment": "LE",
+    "tags": "devil",
+    "challenge": "19"
+  },
+  "Revenant": {
+    "page": "mm 259",
+    "environment": {
+      "Desert": "yes",
+      "Urban": "yes",
+      "Hill": "yes",
+      "Arctic": "yes",
+      "Swamp": "yes",
+      "Forest": "yes"
+    },
+    "xp": "1800",
+    "type": "Undead",
+    "size": "Medium",
+    "name": "Revenant",
+    "alignment": "N",
+    "challenge": "5"
+  },
+  "Lizardfolk Shaman": {
+    "alignment": "N",
+    "tags": "lizardfolk",
+    "challenge": "2",
+    "size": "Medium",
+    "name": "Lizardfolk Shaman",
+    "xp": "450",
+    "type": "Humanoid",
+    "environment": { "Forest": "yes", "Swamp": "yes" },
+    "page": "mm 205"
+  },
+  "Giant Wolf Spider": {
+    "challenge": "1/4",
+    "alignment": "Unaligned",
+    "name": "Giant Wolf Spider",
+    "size": "Medium",
+    "xp": "50",
+    "type": "Beast",
+    "environment": {
+      "Coastal": "yes",
+      "Hill": "yes",
+      "Desert": "yes",
+      "Forest": "yes",
+      "Grassland": "yes"
+    },
+    "page": "mm 330"
+  },
+  "Black Pudding": {
+    "name": "Black Pudding",
+    "size": "Large",
+    "challenge": "4",
+    "alignment": "Unaligned",
+    "environment": { "Underdark": "yes" },
+    "page": "mm 241",
+    "xp": "1100",
+    "type": "Ooze"
+  },
+  "Sea Hag": {
+    "size": "Medium",
+    "name": "Sea Hag",
+    "alignment": "CE",
+    "challenge": "2",
+    "page": "mm 179",
+    "environment": { "Underwater": "yes", "Coastal": "yes" },
+    "xp": "450",
+    "type": "Fey"
+  },
+  "Duergar Hammerer": {
+    "challenge": "2",
+    "alignment": "LE",
+    "name": "Duergar Hammerer",
+    "size": "Medium",
+    "xp": "450",
+    "type": "Construct",
+    "page": "mtf 188",
+    "environment": { "Underdark": "yes", "Mountain": "yes" }
+  },
+  "Azer": {
+    "challenge": "2",
+    "xp": "450",
+    "alignment": "LN",
+    "type": "Elemental",
+    "name": "Azer",
+    "page": "mm 22",
+    "size": "Medium"
+  },
+  "Giant Centipede": {
+    "xp": "50",
+    "type": "Beast",
+    "page": "mm 323",
+    "environment": { "Urban": "yes", "Underdark": "yes" },
+    "alignment": "Unaligned",
+    "challenge": "1/4",
+    "size": "Small",
+    "name": "Giant Centipede"
+  },
+  "White Abishai": {
+    "size": "Medium",
+    "name": "White Abishai",
+    "alignment": "LE",
+    "challenge": "6",
+    "tags": "devil",
+    "page": "mtf 163",
+    "environment": { "Urban": "yes" },
+    "type": "Fiend",
+    "xp": "2300"
+  },
+  "Ice Mephit": {
+    "size": "Small",
+    "name": "Ice Mephit",
+    "alignment": "NE",
+    "challenge": "1/2",
+    "environment": { "Arctic": "yes" },
+    "page": "mm 215",
+    "xp": "100",
+    "type": "Elemental"
+  },
+  "Kobold": {
+    "page": "mm 195",
+    "environment": {
+      "Coastal": "yes",
+      "Forest": "yes",
+      "Swamp": "yes",
+      "Mountain": "yes",
+      "Arctic": "yes",
+      "Hill": "yes",
+      "Desert": "yes",
+      "Urban": "yes",
+      "Underdark": "yes"
+    },
+    "type": "Humanoid",
+    "xp": "25",
+    "name": "Kobold",
+    "size": "Small",
+    "challenge": "1/8",
+    "tags": "kobold",
+    "alignment": "LE"
+  },
+  "Nagpa": {
+    "type": "Humanoid",
+    "xp": "18000",
+    "environment": {
+      "Coastal": "yes",
+      "Desert": "yes",
+      "Urban": "yes",
+      "Swamp": "yes",
+      "Forest": "yes",
+      "Underdark": "yes"
+    },
+    "page": "mtf 215",
+    "alignment": "NE",
+    "tags": "nagpa",
+    "challenge": "17",
+    "size": "Medium",
+    "name": "Nagpa"
+  },
+  "Earth Elemental": {
+    "challenge": "5",
+    "alignment": "N",
+    "name": "Earth Elemental",
+    "size": "Large",
+    "xp": "1800",
+    "type": "Elemental",
+    "environment": { "Underdark": "yes" },
+    "page": "mm 124"
+  },
+  "Star Spawn Larva Mage": {
+    "xp": "15000",
+    "type": "Aberration",
+    "environment": { "Mountain": "yes" },
+    "page": "mtf 235",
+    "challenge": "16",
+    "alignment": "CE",
+    "name": "Star Spawn Larva Mage",
+    "size": "Medium"
+  },
+  "Ogre Zombie": {
+    "name": "Ogre Zombie",
+    "size": "Large",
+    "page": "mm 316",
+    "challenge": "2",
+    "xp": "450",
+    "alignment": "NE",
+    "type": "Undead"
+  },
+  "Pixie": {
+    "challenge": "1/4",
+    "alignment": "NG",
+    "name": "Pixie",
+    "size": "Tiny",
+    "xp": "50",
+    "type": "Fey",
+    "page": "mm 253",
+    "environment": { "Forest": "yes" }
+  },
+  "Dolphin": {
+    "environment": { "Underwater": "yes", "Coastal": "yes" },
+    "page": "vgm 208",
+    "xp": "25",
+    "type": "Beast",
+    "size": "Medium",
+    "name": "Dolphin",
+    "alignment": "Unaligned",
+    "challenge": "1/8"
+  },
+  "Gazer": {
+    "challenge": "1/2",
+    "alignment": "NE",
+    "name": "Gazer",
+    "size": "Tiny",
+    "type": "Aberration",
+    "xp": "100",
+    "page": "vgm 126",
+    "environment": { "Underdark": "yes" }
+  },
+  "Wood Woad": {
+    "name": "Wood Woad",
+    "size": "Medium",
+    "challenge": "5",
+    "alignment": "LN",
+    "page": "vgm 198",
+    "environment": { "Forest": "yes" },
+    "xp": "1800",
+    "type": "Plant"
+  },
+  "Duergar": {
+    "alignment": "LE",
+    "tags": "dwarf",
+    "challenge": "1",
+    "size": "Medium",
+    "name": "Duergar",
+    "type": "Humanoid",
+    "xp": "200",
+    "environment": { "Underdark": "yes" },
+    "page": "mm 122"
+  },
+  "Myconid Sovereign": {
+    "name": "Myconid Sovereign",
+    "size": "Large",
+    "page": "mm 232",
+    "challenge": "2",
+    "alignment": "LN",
+    "xp": "450",
+    "type": "Plant"
+  },
+  "Svirfneblin": {
+    "alignment": "NG",
+    "challenge": "1/2",
+    "tags": "gnome",
+    "size": "Small",
+    "name": "Svirfneblin",
+    "type": "Humanoid",
+    "xp": "100",
+    "page": "mm 164",
+    "environment": { "Underdark": "yes" }
+  },
+  "Swarm of Rot Grubs": {
+    "name": "Swarm of Rot Grubs",
+    "size": "Medium",
+    "challenge": "1/2",
+    "alignment": "Unaligned",
+    "environment": { "Swamp": "yes", "Underdark": "yes" },
+    "page": "vgm 208",
+    "type": "Beast",
+    "xp": "100"
+  },
+  "Monodrone": {
+    "xp": "25",
+    "type": "Construct",
+    "alignment": "LN",
+    "challenge": "1/8",
+    "size": "Medium",
+    "page": "mm 224",
+    "name": "Monodrone"
+  },
+  "Ochre Jelly": {
+    "page": "mm 243",
+    "environment": { "Underdark": "yes" },
+    "type": "Ooze",
+    "xp": "450",
+    "name": "Ochre Jelly",
+    "size": "Large",
+    "challenge": "2",
+    "alignment": "Unaligned"
+  },
+  "Nalfeshnee": {
+    "alignment": "CE",
+    "tags": "demon",
+    "challenge": "13",
+    "size": "Large",
+    "name": "Nalfeshnee",
+    "xp": "10000",
+    "type": "Fiend",
+    "page": "mm 62"
+  },
+  "Minotaur": {
+    "alignment": "CE",
+    "challenge": "3",
+    "size": "Large",
+    "name": "Minotaur",
+    "xp": "700",
+    "type": "Monstrosity",
+    "page": "mm 223",
+    "environment": { "Underdark": "yes" }
+  },
+  "Githzerai Zerth": {
+    "page": "mm 161",
+    "xp": "2300",
+    "type": "Humanoid",
+    "name": "Githzerai Zerth",
+    "size": "Medium",
+    "tags": "gith",
+    "challenge": "6",
+    "alignment": "LN"
+  },
+  "Mimic": {
+    "name": "Mimic",
+    "size": "Medium",
+    "challenge": "2",
+    "tags": "shapechanger",
+    "alignment": "N",
+    "page": "mm 220",
+    "environment": { "Underdark": "yes", "Urban": "yes" },
+    "xp": "450",
+    "type": "Monstrosity"
+  },
+  "Autumn Eladrin": {
+    "alignment": "CN",
+    "tags": "elf",
+    "challenge": "10",
+    "size": "Medium",
+    "name": "Autumn Eladrin",
+    "xp": "5900",
+    "type": "Fey",
+    "environment": { "Forest": "yes" },
+    "page": "mtf 195"
+  },
+  "Death Dog": {
+    "size": "Medium",
+    "name": "Death Dog",
+    "alignment": "NE",
+    "challenge": "1",
+    "page": "mm 321",
+    "environment": { "Desert": "yes" },
+    "xp": "200",
+    "type": "Monstrosity"
+  },
+  "Specter": {
+    "name": "Specter",
+    "size": "Medium",
+    "challenge": "1",
+    "alignment": "CE",
+    "environment": { "Underdark": "yes", "Urban": "yes" },
+    "page": "mm 279",
+    "xp": "200",
+    "type": "Undead"
+  },
+  "Rust Monster": {
+    "name": "Rust Monster",
+    "size": "Medium",
+    "challenge": "1/2",
+    "alignment": "Unaligned",
+    "page": "mm 262",
+    "environment": { "Underdark": "yes" },
+    "type": "Monstrosity",
+    "xp": "100"
+  },
+  "Cranium Rat": {
+    "environment": { "Underdark": "yes", "Urban": "yes" },
+    "page": "vgm 133",
+    "xp": "10",
+    "type": "Beast",
+    "size": "Tiny",
+    "name": "Cranium Rat",
+    "alignment": "LE",
+    "challenge": 0
+  },
+  "Giant Ape": {
+    "alignment": "Unaligned",
+    "challenge": "7",
+    "size": "Huge",
+    "name": "Giant Ape",
+    "xp": "2900",
+    "type": "Beast",
+    "environment": { "Forest": "yes" },
+    "page": "mm 323"
+  },
+  "Water Elemental": {
+    "environment": { "Swamp": "yes", "Underwater": "yes", "Coastal": "yes" },
+    "page": "mm 125",
+    "xp": "1800",
+    "type": "Elemental",
+    "size": "Large",
+    "name": "Water Elemental",
+    "alignment": "N",
+    "challenge": "5"
+  },
+  "Drow Matron Mother": {
+    "size": "Medium",
+    "name": "Drow Matron Mother",
+    "alignment": "NE",
+    "tags": "elf",
+    "challenge": "20",
+    "environment": { "Underdark": "yes" },
+    "page": "mtf 186",
+    "type": "Humanoid",
+    "xp": "25000"
+  },
+  "Giant Lizard": {
+    "name": "Giant Lizard",
+    "size": "Large",
+    "challenge": "1/4",
+    "alignment": "Unaligned",
+    "environment": {
+      "Desert": "yes",
+      "Coastal": "yes",
+      "Underdark": "yes",
+      "Swamp": "yes",
+      "Forest": "yes"
+    },
+    "page": "mm 326",
+    "type": "Beast",
+    "xp": "50"
+  },
+  "Hellfire Engine": {
+    "size": "Huge",
+    "name": "Hellfire Engine",
+    "alignment": "LE",
+    "challenge": "16",
+    "environment": {},
+    "page": "mtf 165",
+    "xp": "15000",
+    "type": "Construct"
+  },
+  "Roc": {
+    "size": "Gargantuan",
+    "name": "Roc",
+    "alignment": "Unaligned",
+    "challenge": "11",
+    "page": "mm 260",
+    "environment": {
+      "Hill": "yes",
+      "Arctic": "yes",
+      "Coastal": "yes",
+      "Desert": "yes",
+      "Mountain": "yes"
+    },
+    "xp": "7200",
+    "type": "Monstrosity"
+  },
+  "Swarm of Cranium Rats": {
+    "challenge": "5",
+    "alignment": "LE",
+    "name": "Swarm of Cranium Rats",
+    "size": "Medium",
+    "type": "Beast",
+    "xp": "1800",
+    "page": "vgm 133",
+    "environment": { "Urban": "yes", "Underdark": "yes" }
+  },
+  "Stone Giant": {
+    "size": "Huge",
+    "name": "Stone Giant",
+    "alignment": "N",
+    "challenge": "7",
+    "page": "mm 156",
+    "environment": { "Mountain": "yes", "Underdark": "yes", "Hill": "yes" },
+    "type": "Giant",
+    "xp": "2900"
+  },
+  "Swarm of Insects": {
+    "environment": {
+      "Hill": "yes",
+      "Desert": "yes",
+      "Urban": "yes",
+      "Grassland": "yes",
+      "Swamp": "yes",
+      "Forest": "yes",
+      "Underdark": "yes"
+    },
+    "page": "mm 338",
+    "xp": "100",
+    "type": "Beast",
+    "size": "Medium",
+    "name": "Swarm of Insects",
+    "alignment": "Unaligned",
+    "challenge": "1/2"
+  },
+  "Merrow": {
+    "environment": { "Coastal": "yes", "Underwater": "yes" },
+    "page": "mm 219",
+    "xp": "450",
+    "type": "Monstrosity",
+    "size": "Large",
+    "name": "Merrow",
+    "alignment": "CE",
+    "challenge": "2"
+  },
+  "Animated Armor": {
+    "challenge": "1",
+    "xp": "200",
+    "alignment": "Unaligned",
+    "type": "Construct",
+    "name": "Animated Armor",
+    "size": "Medium",
+    "page": "mm 19"
+  },
+  "Soul Monger": {
+    "type": "Humanoid",
+    "xp": "7200",
+    "page": "mtf 226",
+    "environment": { "Urban": "yes", "Underdark": "yes" },
+    "challenge": "11",
+    "tags": "elf",
+    "alignment": "N",
+    "name": "Soul Monger",
+    "size": "Medium"
+  },
+  "Arcanaloth": {
+    "challenge": "12",
+    "tags": "yugoloth",
+    "alignment": "NE",
+    "name": "Arcanaloth",
+    "size": "Medium",
+    "xp": "8400",
+    "type": "Fiend",
+    "page": "mm 313"
+  },
+  "Pit Fiend": {
+    "page": "mm 77",
+    "type": "Fiend",
+    "xp": "25000",
+    "name": "Pit Fiend",
+    "size": "Large",
+    "challenge": "20",
+    "tags": "devil",
+    "alignment": "LE"
+  },
+  "Berbalang": {
+    "alignment": "NE",
+    "challenge": "2",
+    "size": "Medium",
+    "name": "Berbalang",
+    "xp": "450",
+    "type": "Aberration",
+    "page": "mtf 120",
+    "environment": { "Desert": "yes" }
+  },
+  "Firenewt Warlock of Imix": {
+    "size": "Medium",
+    "name": "Firenewt Warlock of Imix",
+    "alignment": "NE",
+    "tags": "firenewt",
+    "challenge": "1",
+    "environment": {
+      "Desert": "yes",
+      "Hill": "yes",
+      "Underdark": "yes",
+      "Mountain": "yes"
+    },
+    "page": "vgm 143",
+    "type": "Humanoid",
+    "xp": "200"
+  },
+  "Nightmare": {
+    "challenge": "3",
+    "alignment": "NE",
+    "xp": "700",
+    "type": "Fiend",
+    "name": "Nightmare",
+    "size": "Large",
+    "page": "mm 235"
+  },
+  "Iron Cobra": {
+    "type": "Construct",
+    "xp": "1100",
+    "page": "mtf 125",
+    "environment": {
+      "Hill": "yes",
+      "Forest": "yes",
+      "Mountain": "yes",
+      "Grassland": "yes"
+    },
+    "challenge": "4",
+    "alignment": "Unaligned",
+    "name": "Iron Cobra",
+    "size": "Medium"
+  },
+  "Githyanki Supreme Commander": {
+    "page": "mtf 206",
+    "environment": { "Desert": "yes", "Urban": "yes", "Mountain": "yes" },
+    "type": "Humanoid",
+    "xp": "11500",
+    "size": "Medium",
+    "name": "Githyanki Supreme Commander",
+    "alignment": "LE",
+    "challenge": "14",
+    "tags": "gith"
+  },
+  "Orc Eye of Gruumsh": {
+    "type": "Humanoid",
+    "xp": "450",
+    "page": "mm 247",
+    "environment": {
+      "Underdark": "yes",
+      "Grassland": "yes",
+      "Swamp": "yes",
+      "Mountain": "yes",
+      "Forest": "yes",
+      "Hill": "yes",
+      "Arctic": "yes"
+    },
+    "alignment": "CE",
+    "challenge": "2",
+    "tags": "orc",
+    "size": "Medium",
+    "name": "Orc Eye of Gruumsh"
+  },
+  "Phoenix": {
+    "page": "mtf 199",
+    "environment": { "Mountain": "yes", "Desert": "yes" },
+    "xp": "15000",
+    "type": "Elemental",
+    "name": "Phoenix",
+    "size": "Gargantuan",
+    "challenge": "16",
+    "alignment": "N"
+  },
+  "Giant Wasp": {
+    "type": "Beast",
+    "xp": "100",
+    "environment": { "Grassland": "yes", "Forest": "yes", "Urban": "yes" },
+    "page": "mm 329",
+    "alignment": "Unaligned",
+    "challenge": "1/2",
+    "size": "Medium",
+    "name": "Giant Wasp"
+  },
+  "Swarm of Rats": {
+    "xp": "50",
+    "type": "Beast",
+    "environment": { "Urban": "yes", "Swamp": "yes" },
+    "page": "mm 339",
+    "challenge": "1/4",
+    "alignment": "Unaligned",
+    "name": "Swarm of Rats",
+    "size": "Medium"
+  },
+  "Dust Mephit": {
+    "environment": { "Desert": "yes" },
+    "page": "mm 215",
+    "type": "Elemental",
+    "xp": "100",
+    "size": "Small",
+    "name": "Dust Mephit",
+    "alignment": "NE",
+    "challenge": "1/2"
+  },
+  "Grick Alpha": {
+    "name": "Grick Alpha",
+    "size": "Large",
+    "challenge": "7",
+    "alignment": "N",
+    "environment": { "Underdark": "yes", "Forest": "yes" },
+    "page": "mm 173",
+    "xp": "2900",
+    "type": "Monstrosity"
+  },
+  "Dragon Turtle": {
+    "environment": { "Underwater": "yes", "Coastal": "yes" },
+    "page": "mm 119",
+    "type": "Dragon",
+    "xp": "18000",
+    "name": "Dragon Turtle",
+    "size": "Gargantuan",
+    "challenge": "17",
+    "alignment": "N"
+  },
+  "Needle Blight": {
+    "type": "Plant",
+    "xp": "50",
+    "page": "mm 32",
+    "environment": { "Forest": "yes" },
+    "alignment": "NE",
+    "challenge": "1/4",
+    "size": "Medium",
+    "name": "Needle Blight"
+  },
+  "Yuan-ti Pit Master": {
+    "alignment": "NE",
+    "tags": "shapechanger, yuan-ti",
+    "challenge": "5",
+    "size": "Medium",
+    "name": "Yuan-ti Pit Master",
+    "xp": "1800",
+    "type": "Monstrosity",
+    "environment": { "Forest": "yes", "Underdark": "yes", "Desert": "yes" },
+    "page": "vgm 206"
+  },
+  "Giant Goat": {
+    "size": "Large",
+    "name": "Giant Goat",
+    "alignment": "Unaligned",
+    "challenge": "1/2",
+    "page": "mm 326",
+    "environment": { "Hill": "yes", "Mountain": "yes", "Grassland": "yes" },
+    "xp": "100",
+    "type": "Beast"
+  },
+  "Cloud Giant Smiling One": {
+    "page": "vgm 146",
+    "environment": { "Mountain": "yes" },
+    "xp": "7200",
+    "type": "Giant",
+    "size": "Huge",
+    "name": "Cloud Giant Smiling One",
+    "alignment": "CN",
+    "challenge": "11",
+    "tags": "cloud giant"
+  },
+  "Killer Whale": {
+    "name": "Killer Whale",
+    "size": "Huge",
+    "challenge": "3",
+    "alignment": "Unaligned",
+    "page": "mm 331",
+    "environment": { "Underwater": "yes" },
+    "type": "Beast",
+    "xp": "700"
+  },
+  "Adult Red Dragon": {
+    "environment": { "Mountain": "yes", "Hill": "yes" },
+    "page": "mm 98",
+    "xp": "18000",
+    "type": "Dragon",
+    "name": "Adult Red Dragon",
+    "size": "Huge",
+    "challenge": "17",
+    "alignment": "CE"
+  },
+  "Tortle Druid": {
+    "xp": "450",
+    "type": "Humanoid",
+    "page": "mtf 242",
+    "environment": { "Coastal": "yes" },
+    "challenge": "2",
+    "tags": "tortle",
+    "alignment": "LN",
+    "name": "Tortle Druid",
+    "size": "Medium"
+  },
+  "Gray Ooze": {
+    "name": "Gray Ooze",
+    "size": "Medium",
+    "challenge": "1/2",
+    "alignment": "Unaligned",
+    "page": "mm 243",
+    "environment": { "Underdark": "yes" },
+    "xp": "100",
+    "type": "Ooze"
+  },
+  "Mindwitness": {
+    "xp": "1800",
+    "type": "Aberration",
+    "page": "vgm 176",
+    "environment": { "Underdark": "yes" },
+    "alignment": "LE",
+    "challenge": "5",
+    "size": "Large",
+    "name": "Mindwitness"
+  },
+  "Cave Fisher": {
+    "alignment": "Unaligned",
+    "challenge": "3",
+    "size": "Medium",
+    "name": "Cave Fisher",
+    "type": "Monstrosity",
+    "xp": "700",
+    "environment": { "Underdark": "yes" },
+    "page": "vgm 130"
+  },
+  "Chasme": {
+    "name": "Chasme",
+    "size": "Large",
+    "tags": "demon",
+    "challenge": "6",
+    "alignment": "CE",
+    "page": "mm 57",
+    "xp": "2300",
+    "type": "Fiend"
+  },
+  "Sea Spawn": {
+    "xp": "200",
+    "type": "Humanoid",
+    "page": "vgm 189",
+    "environment": { "Coastal": "yes", "Underwater": "yes" },
+    "challenge": "1",
+    "alignment": "NE",
+    "name": "Sea Spawn",
+    "size": "Medium"
+  },
+  "Roper": {
+    "xp": "1800",
+    "type": "Monstrosity",
+    "page": "mm 261",
+    "environment": { "Underdark": "yes" },
+    "alignment": "NE",
+    "challenge": "5",
+    "size": "Large",
+    "name": "Roper"
+  },
+  "Shadow Mastiff": {
+    "xp": "450",
+    "type": "Monstrosity",
+    "page": "vgm 190",
+    "environment": { "Hill": "yes", "Swamp": "yes", "Forest": "yes" },
+    "challenge": "2",
+    "tags": "NE",
+    "alignment": "NE",
+    "name": "Shadow Mastiff",
+    "size": "Medium"
+  },
+  "Stone Defender": {
+    "challenge": "4",
+    "alignment": "Unaligned",
+    "name": "Stone Defender",
+    "size": "Medium",
+    "xp": "1100",
+    "type": "Construct",
+    "environment": {
+      "Hill": "yes",
+      "Grassland": "yes",
+      "Mountain": "yes",
+      "Forest": "yes"
+    },
+    "page": "mtf 126"
+  },
+  "Adult Kruthik": {
+    "size": "Medium",
+    "name": "Adult Kruthik",
+    "alignment": "Unaligned",
+    "challenge": "2",
+    "page": "mtf 212",
+    "environment": { "Underdark": "yes", "Mountain": "yes", "Desert": "yes" },
+    "type": "Monstrosity",
+    "xp": "450"
+  },
+  "Shadow Dancer": {
+    "size": "Medium",
+    "name": "Shadow Dancer",
+    "alignment": "N",
+    "tags": "elf",
+    "challenge": "7",
+    "environment": { "Urban": "yes", "Forest": "yes", "Underdark": "yes" },
+    "page": "mtf 225",
+    "type": "Humanoid",
+    "xp": "2900"
+  },
+  "Githyanki Warrior": {
+    "xp": "700",
+    "type": "Humanoid",
+    "page": "mm 160",
+    "challenge": "3",
+    "tags": "gith",
+    "alignment": "LE",
+    "name": "Githyanki Warrior",
+    "size": "Medium"
+  },
+  "Sprite": {
+    "xp": "50",
+    "type": "Fey",
+    "environment": { "Forest": "yes" },
+    "page": "mm 283",
+    "alignment": "NG",
+    "challenge": "1/4",
+    "size": "Tiny",
+    "name": "Sprite"
+  },
+  "Draegloth": {
+    "alignment": "CE",
+    "tags": "demon",
+    "challenge": "7",
+    "size": "Large",
+    "name": "Draegloth",
+    "xp": "2900",
+    "type": "Fiend",
+    "environment": { "Underdark": "yes" },
+    "page": "vgm 141"
+  },
+  "Wretched Sorrowsworn": {
+    "page": "mtf 233",
+    "environment": { "Underdark": "yes", "Swamp": "yes", "Urban": "yes" },
+    "xp": "50",
+    "type": "Monstrosity",
+    "size": "Small",
+    "name": "Wretched Sorrowsworn",
+    "alignment": "NE",
+    "challenge": "1/4"
+  },
+  "Allosaurus": {
+    "name": "Allosaurus",
+    "size": "Large",
+    "challenge": "2",
+    "alignment": "Unaligned",
+    "environment": { "Grassland": "yes" },
+    "page": "mm 79",
+    "xp": "450",
+    "type": "Beast"
+  },
+  "Gnoll Pack Lord": {
+    "page": "mm 163",
+    "environment": {
+      "Hill": "yes",
+      "Desert": "yes",
+      "Forest": "yes",
+      "Grassland": "yes"
+    },
+    "type": "Humanoid",
+    "xp": "450",
+    "size": "Medium",
+    "name": "Gnoll Pack Lord",
+    "alignment": "CE",
+    "challenge": "2",
+    "tags": "gnoll"
+  },
+  "Mummy": {
+    "page": "mm 228",
+    "environment": { "Desert": "yes" },
+    "xp": "700",
+    "type": "Undead",
+    "name": "Mummy",
+    "size": "Medium",
+    "challenge": "3",
+    "alignment": "LE"
+  },
+  "Sea Horse": {
+    "challenge": 0,
+    "xp": 0,
+    "alignment": "Unaligned",
+    "type": "Beast",
+    "name": "Sea Horse",
+    "page": "mm 337",
+    "size": "Tiny"
+  },
+  "Air Elemental Myrmidon": {
+    "xp": "2900",
+    "type": "Elemental",
+    "page": "mtf 202",
+    "environment": {},
+    "challenge": "7",
+    "alignment": "N",
+    "name": "Air Elemental Myrmidon",
+    "size": "Medium"
+  },
+  "Zaratan": {
+    "xp": "41000",
+    "type": "Elemental",
+    "environment": {
+      "Desert": "yes",
+      "Hill": "yes",
+      "Underdark": "yes",
+      "Forest": "yes",
+      "Mountain": "yes",
+      "Grassland": "yes"
+    },
+    "page": "mtf 201",
+    "challenge": "22",
+    "alignment": "N",
+    "name": "Zaratan",
+    "size": "Gargantuan"
+  },
+  "Solar": {
+    "name": "Solar",
+    "size": "Large",
+    "page": "mm 18",
+    "challenge": "21",
+    "type": "Celestial",
+    "xp": "33000",
+    "alignment": "LG"
+  },
+  "Rothe": {
+    "size": "Large",
+    "name": "Rothe",
+    "alignment": "Unaligned",
+    "challenge": "1/4",
+    "page": "vgm 207",
+    "environment": { "Grassland": "yes" },
+    "xp": "50",
+    "type": "Beast"
+  },
+  "Water Elemental Myrmidon": {
+    "page": "mtf 203",
+    "environment": {},
+    "xp": "2900",
+    "type": "Elemental",
+    "size": "Medium",
+    "name": "Water Elemental Myrmidon",
+    "alignment": "N",
+    "challenge": "7"
+  },
+  "Goblin": {
+    "page": "mm 166",
+    "environment": {
+      "Hill": "yes",
+      "Underdark": "yes",
+      "Forest": "yes",
+      "Grassland": "yes"
+    },
+    "xp": "50",
+    "type": "Humanoid",
+    "size": "Small",
+    "name": "Goblin",
+    "alignment": "NE",
+    "challenge": "1/4",
+    "tags": "goblinoid"
+  },
+  "Water Weird": {
+    "xp": "700",
+    "type": "Elemental",
+    "environment": { "Underdark": "yes", "Urban": "yes" },
+    "page": "mm 299",
+    "alignment": "N",
+    "challenge": "3",
+    "size": "Large",
+    "name": "Water Weird"
+  },
+  "Tiger": {
+    "alignment": "Unaligned",
+    "challenge": "1",
+    "size": "Large",
+    "name": "Tiger",
+    "xp": "200",
+    "type": "Beast",
+    "page": "mm 339",
+    "environment": { "Grassland": "yes", "Forest": "yes" }
+  },
+  "Dhergoloth": {
+    "alignment": "NE",
+    "challenge": "7",
+    "tags": "yugoloth",
+    "size": "Medium",
+    "name": "Dhergoloth",
+    "type": "Fiend",
+    "xp": "2900",
+    "page": "mtf 248",
+    "environment": { "Underdark": "yes" }
+  },
+  "Adult White Dragon": {
+    "name": "Adult White Dragon",
+    "size": "Huge",
+    "challenge": "13",
+    "alignment": "CE",
+    "page": "mm 101",
+    "environment": { "Arctic": "yes" },
+    "xp": "10000",
+    "type": "Dragon"
+  },
+  "Green Abishai": {
+    "environment": { "Urban": "yes" },
+    "page": "mtf 162",
+    "type": "Fiend",
+    "xp": "13000",
+    "name": "Green Abishai",
+    "size": "Medium",
+    "tags": "devil",
+    "challenge": "15",
+    "alignment": "LE"
+  },
+  "Myconid Adult": {
+    "alignment": "LN",
+    "challenge": "1/2",
+    "size": "Medium",
+    "name": "Myconid Adult",
+    "type": "Plant",
+    "xp": "100",
+    "page": "mm 232",
+    "environment": { "Underdark": "yes" }
+  },
+  "Trapper": {
+    "challenge": "3",
+    "alignment": "Unaligned",
+    "name": "Trapper",
+    "size": "Large",
+    "xp": "700",
+    "type": "Monstrosity",
+    "environment": { "Underdark": "yes" },
+    "page": "vgm 194"
+  },
+  "Invisible Stalker": {
+    "alignment": "N",
+    "challenge": "6",
+    "size": "Medium",
+    "name": "Invisible Stalker",
+    "xp": "2300",
+    "type": "Elemental",
+    "page": "mm 192",
+    "environment": { "Urban": "yes" }
+  },
+  "Silver Dragon Wyrmling": {
+    "name": "Silver Dragon Wyrmling",
+    "size": "Medium",
+    "page": "mm 118",
+    "challenge": "2",
+    "xp": "450",
+    "alignment": "LG",
+    "type": "Dragon"
+  },
+  "Succubus": {
+    "type": "Fiend",
+    "xp": "1100",
+    "environment": { "Urban": "yes" },
+    "page": "mm 285",
+    "alignment": "NE",
+    "tags": "shapechanger",
+    "challenge": "4",
+    "size": "Medium",
+    "name": "Succubus"
+  },
+  "Ancient Blue Dragon": {
+    "challenge": "23",
+    "alignment": "LE",
+    "name": "Ancient Blue Dragon",
+    "size": "Gargantuan",
+    "xp": "50000",
+    "type": "Dragon",
+    "environment": { "Coastal": "yes", "Desert": "yes" },
+    "page": "mm 90"
+  },
+  "Hobgoblin Devastator": {
+    "type": "Humanoid",
+    "xp": "1100",
+    "environment": { "Hill": "yes", "Forest": "yes", "Grassland": "yes" },
+    "page": "vgm 161",
+    "tags": "goblinoid",
+    "challenge": "4",
+    "alignment": "LE",
+    "name": "Hobgoblin Devastator",
+    "size": "Medium"
+  },
+  "Thorny": {
+    "size": "Medium",
+    "name": "Thorny",
+    "alignment": "N",
+    "challenge": "1",
+    "page": "vgm 197",
+    "environment": { "Forest": "yes", "Swamp": "yes" },
+    "xp": "200",
+    "type": "Plant"
+  },
+  "Ogre Howdah": {
+    "alignment": "CE",
+    "challenge": "2",
+    "size": "Large",
+    "name": "Ogre Howdah",
+    "type": "Giant",
+    "xp": "450",
+    "page": "mtf 221",
+    "environment": { "Mountain": "yes", "Grassland": "yes", "Hill": "yes" }
+  },
+  "Balor": {
+    "xp": "22000",
+    "type": "Fiend",
+    "page": "mm 55",
+    "tags": "demon",
+    "challenge": "19",
+    "alignment": "CE",
+    "name": "Balor",
+    "size": "Huge"
+  },
+  "Elephant": {
+    "challenge": "4",
+    "alignment": "Unaligned",
+    "name": "Elephant",
+    "size": "Huge",
+    "xp": "1100",
+    "type": "Beast",
+    "page": "mm 322",
+    "environment": { "Grassland": "yes" }
+  },
+  "Death Slaad": {
+    "challenge": "10",
+    "tags": "shapechanger",
+    "alignment": "CE",
+    "name": "Death Slaad",
+    "size": "Medium",
+    "xp": "5900",
+    "type": "Aberration",
+    "page": "mm 278"
+  },
+  "Storm Giant": {
+    "page": "mm 156",
+    "environment": { "Coastal": "yes" },
+    "xp": "10000",
+    "type": "Giant",
+    "name": "Storm Giant",
+    "size": "Huge",
+    "challenge": "13",
+    "alignment": "CG"
+  },
+  "Death Knight": {
+    "challenge": "17",
+    "xp": "18000",
+    "alignment": "CE",
+    "type": "Undead",
+    "name": "Death Knight",
+    "page": "mm 47",
+    "size": "Medium"
+  },
+  "Giant Fire Beetle": {
+    "challenge": 0,
+    "alignment": "Unaligned",
+    "name": "Giant Fire Beetle",
+    "size": "Small",
+    "xp": "10",
+    "type": "Beast",
+    "environment": { "Underdark": "yes" },
+    "page": "mm 325"
+  },
+  "Korred": {
+    "type": "Fey",
+    "xp": "2900",
+    "environment": { "Forest": "yes" },
+    "page": "vgm 168",
+    "alignment": "CN",
+    "challenge": "7",
+    "size": "Small",
+    "name": "Korred"
+  },
+  "Cow": {
+    "size": "Large",
+    "page": "vgm 207",
+    "name": "Cow",
+    "xp": "50",
+    "type": "Beast",
+    "alignment": "Unaligned",
+    "challenge": "1/4"
+  },
+  "Deathlock": {
+    "challenge": "4",
+    "alignment": "NE",
+    "name": "Deathlock",
+    "size": "Medium",
+    "xp": "1100",
+    "type": "Undead",
+    "environment": { "Urban": "yes" },
+    "page": "mtf 128"
+  },
+  "Bugbear": {
+    "xp": "200",
+    "type": "Humanoid",
+    "page": "mm 33",
+    "environment": { "Grassland": "yes", "Forest": "yes", "Underdark": "yes" },
+    "alignment": "CE",
+    "challenge": "1",
+    "tags": "goblinoid",
+    "size": "Medium",
+    "name": "Bugbear"
+  },
+  "Ice Devil": {
+    "challenge": "14",
+    "tags": "devil",
+    "alignment": "LE",
+    "name": "Ice Devil",
+    "size": "Large",
+    "xp": "11500",
+    "type": "Fiend",
+    "page": "mm 75"
+  },
+  "Giant Badger": {
+    "name": "Giant Badger",
+    "size": "Medium",
+    "challenge": "1/4",
+    "alignment": "Unaligned",
+    "page": "mm 323",
+    "environment": { "Forest": "yes" },
+    "xp": "50",
+    "type": "Beast"
+  },
+  "Kenku": {
+    "page": "mm 194",
+    "environment": { "Forest": "yes", "Urban": "yes" },
+    "type": "Humanoid",
+    "xp": "50",
+    "name": "Kenku",
+    "size": "Medium",
+    "challenge": "1/4",
+    "tags": "kenku",
+    "alignment": "CN"
+  },
+  "Orthon": {
+    "size": "Large",
+    "name": "Orthon",
+    "alignment": "LE",
+    "tags": "devil",
+    "challenge": "10",
+    "environment": { "Underdark": "yes", "Urban": "yes", "Desert": "yes" },
+    "page": "mtf 169",
+    "xp": "5900",
+    "type": "Fiend"
+  }
+}

@@ -1,3 +1,6 @@
 node_modules/
 lib/
 *.swp
+config/dev.json
+config/prod.json
+config/test.json
