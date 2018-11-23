@@ -5,8 +5,8 @@ import { ObjectScalarType } from "./helpers"
 
 const resolverMap = {
   Query: {
-    encounter(obj, args, context, info) {
-      const encounter = generateEncounter(args)
+    encounter(obj, { props }, context, info) {
+      const encounter = generateEncounter(props)
       return encounter
     },
     exchangeRate(obj, args, context, info) {

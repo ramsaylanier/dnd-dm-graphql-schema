@@ -1,4 +1,10 @@
-import { levelToDifficultMap } from "../util/encounterUtil"
+import {
+  levelToDifficultMap,
+  getMultiplier,
+  createRandomEncounterTemplate,
+  getChallengeRatingFromXp
+} from "../util/encounterUtil"
+import Monster from "../db/models/Monster"
 
 const determineXpBudget = (playerLevels, difficulty) => {
   const threshold = playerLevels.reduce((thresh, level) => {
@@ -8,43 +14,44 @@ const determineXpBudget = (playerLevels, difficulty) => {
   return threshold
 }
 
-const determineXPMultiplier = n => {
-  if (n === 1) {
-    return 1
-  } else if (n === 2) {
-    return 1.5
-  } else if (n >= 3 && n <= 6) {
-    return 2
-  } else if (n >= 7 && n <= 10) {
-    return 2.5
-  } else if (n >= 11 && n <= 14) {
-    return 3
-  } else {
-    return 4
+const generateEncounter = async ({ playerLevels, difficulty }) => {
+  let monsterGroups = []
+  let xpSpent = 0
+  const xpBudget = determineXpBudget(playerLevels, difficulty)
+  const encounterTemplate = createRandomEncounterTemplate()
+  const multiplier = getMultiplier(playerLevels.length, encounterTemplate.total)
+  const availableXp = xpBudget / multiplier
+
+  while (encounterTemplate.groups[0]) {
+    let targetExp = availableXp / encounterTemplate.groups.length
+    let currentGroup = encounterTemplate.groups.shift()
+    targetExp /= currentGroup
+    let cr = getChallengeRatingFromXp(targetExp)
+
+    const [monster] = await Monster.aggregate([
+      {
+        $match: {
+          challengeXp: { $lte: targetExp },
+          challenge: { $eq: cr }
+        }
+      },
+      { $sample: { size: 1 } }
+    ])
+
+    xpSpent += monster.challengeXp * currentGroup
+
+    monsterGroups.push({
+      monster: monster,
+      count: currentGroup
+    })
   }
-}
 
-const generateMonstersForEncounter = ({
-  xpThreshold,
-  environment,
-  maxMonsters
-}) => {}
-
-const generateEncounter = ({
-  playerLevels,
-  difficulty,
-  environment,
-  maxMonsters
-}) => {
-  const xpThreshold = determineXpBudget(playerLevels, difficulty)
-  const monsters = generateMonstersForEncounter({
-    xpThreshold,
-    environment,
-    maxMonsters
-  })
   return {
-    xpThreshold,
-    monsters
+    xpThreshold: xpBudget,
+    baseXp: xpSpent,
+    totalXp: (xpSpent *= multiplier),
+    multiplier: multiplier,
+    groups: monsterGroups
   }
 }
 

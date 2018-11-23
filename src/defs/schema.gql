@@ -113,7 +113,15 @@ type Armor implements Item{
 
 type Encounter{
   xpThreshold: Int!
-  monsters: [Monster]!
+  baseXp: Int
+  multiplier: Int!
+  totalXp: Int!
+  groups: [MonsterGroup]
+}
+
+type MonsterGroup{
+  monster: Monster
+  count: Int
 }
 
 type Conversion{
@@ -205,8 +213,16 @@ enum OperationType {
   NIN
 }
 
+input EncounterInput{
+  playerLevels: [Int!]
+  difficulty: encounterDifficulty!
+  maxMonsters: Int
+  minMonsters: Int
+  numMonsters: Int
+}
+
 type Query{
-  encounter(playerLevels: [Int!], difficulty: encounterDifficulty!, environment: environment, maxMonsters: Int ): Encounter
   searchMonsters(filter: ObjectScalarType, sort: ObjectScalarType): [Monster]
+  encounter(props: EncounterInput): Encounter
   exchangeRate(amount: Int!, currency: currency!): Conversion
 }
