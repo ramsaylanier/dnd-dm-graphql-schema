@@ -1,10 +1,11 @@
 // config used if seeding data
 const envs = {
-  dev: "dev",
+  development: "dev",
   production: "prod",
   test: "test"
 }
+
 const env = envs[process.env.NODE_ENV || "dev"]
 const envConfig = require(`./${env}.json`)
 
-module.exports = envConfig
+export default envConfig

@@ -12,5 +12,6 @@ export function connectDb({ host, dbName }) {
     console.log(`connected database ${dbName} at ${host}`)
   })
   db.on("error", console.error.bind(console, "connection error:"))
+
   return db
 }

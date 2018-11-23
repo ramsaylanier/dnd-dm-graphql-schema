@@ -18,18 +18,10 @@ export const monsterSchema = new mongoose.Schema({
   challengeXp: Number,
   traits: String,
   actions: String,
-  locations: [String]
+  environments: [String]
 })
 
 const Monster = mongoose.model("Monster", monsterSchema)
-
-export function createMonster(monsterProps) {
-  return Monster.create(monsterProps, (err, res) => {
-    if (err) console.log(err)
-    console.log(res)
-    return res
-  })
-}
 
 export function seedMonsters(monsters) {
   return Monster.insertMany(monsters)

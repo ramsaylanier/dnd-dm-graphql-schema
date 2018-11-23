@@ -41,7 +41,7 @@ type Monster{
   challengeXp: Int
   traits: String
   actions: String
-  locations: [String]
+  environments: [String]
 }
 
 type Npc implements Character{
@@ -169,6 +169,7 @@ enum environment{
   AQUATIC
   UNDERDARK
   ABYSS
+  COASTAL
 }
 
 enum handedness{

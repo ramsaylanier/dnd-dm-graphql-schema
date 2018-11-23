@@ -1,9 +1,14 @@
 import monsterData from "../data/monsters.json"
+import monstersWitEnvironments from "../data/monstersWithEnvironment"
 import camelcaseKeys from "camelcase-keys"
-import connectDatabase from "./db/db"
+import { connectDb } from "./db/db.js"
 import { seedMonsters } from "./db/models/Monster"
+import config from "../config"
 
-connectDatabase()
+const db = connectDb({
+  host: config.db.host,
+  dbName: config.db.dbName
+})
 
 const fractionStrToDecimal = str => str.split("/").reduce((p, c) => p / c)
 const monsters = camelcaseKeys(monsterData).map(monster => {
@@ -54,6 +59,8 @@ const monsters = camelcaseKeys(monsterData).map(monster => {
   let challengeMatch = challengeRe.exec(monster.challenge)
   const challenge = fractionStrToDecimal(challengeMatch[1])
   const challengeXp = parseInt(challengeMatch[4].replace(",", ""))
+  const { environment } = monstersWitEnvironments[monster.name] || {}
+  const environmentKeys = environment ? Object.keys(environment) : []
 
   return {
     name,
@@ -73,12 +80,14 @@ const monsters = camelcaseKeys(monsterData).map(monster => {
     challengeXp,
     traits,
     actions,
-    locations: ["any"]
+    environments: environmentKeys
   }
 })
 
 async function seedDatabase() {
   await db.dropCollection("monsters")
+  console.log("monsters collection dropped")
+
   const seededMonsters = await seedMonsters(monsters)
   console.log(`${seededMonsters.length} monsters created`)
 
