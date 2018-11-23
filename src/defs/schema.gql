@@ -206,11 +206,7 @@ enum OperationType {
 }
 
 type Query{
-<<<<<<< HEAD
   encounter(playerLevels: [Int!], difficulty: encounterDifficulty!, environment: environment, maxMonsters: Int ): Encounter
-=======
   searchMonsters(filter: ObjectScalarType, sort: ObjectScalarType): [Monster]
-  encounter(playerLevels: [Int!], difficulty: encounterDifficulty!): Encounter
->>>>>>> update-monster-schema
   exchangeRate(amount: Int!, currency: currency!): Conversion
 }
