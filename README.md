@@ -4,7 +4,7 @@ A graphql schema for Dungeons & Dragons DMs.
 
 ## Config
 
-Copy `config/sample.json` into `config/dev.json`. This currently holds config settings for the mongo databse. 
+Copy `config/sample.json` into `config/dev.json`. This currently holds config settings for the mongo database. 
 
 ## Seed Data into Mongo from JSON
 
